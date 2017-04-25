@@ -32,18 +32,28 @@
 					</li>
 				</ul>		
 			</div>	<!--footer_menu 끝~ -->
+			<div class="footer_select">
+				<select	class="footer_selects">
+					<option value="">패밀리 사이트</option>
+					<option value="http://www.naver.com">네이버</option>
+					<option value="http://www.elancer.co.kr/">이랜서</option>
+				</select>
+			</div>
 		</div>	<!--footer_box 끝 -->
-		<div class="footer_content">
-			<ul class = "footer_contents">
-				<li>서울특별시 금천구 가산디지털 1로 151 2층 대표:남광식</li>
-				<li>사업자 번호 : 209-81-25311 직업소개사업 등록번호 제2004-320081-11-500078</li>
-				<li>TEL : 02-999-1111  FAX : 02-666-6666 개인정보보호정책 책임자 : 강지원</li>
-				<li>COPYRIGHT© 2017 ELANCER ALL RIGHTS RESERVED.</li>
-			</ul>
-		</div>	<!--footer_content 끝 -->
-		<div class="footer_icon">
-			<img alt="footer_icon" src="images/footer_icon.jpg">
-		</div>
+		
+			<div class="footer_content">
+				<ul class = "footer_contents">
+					<li>서울특별시 금천구 가산디지털 1로 151 2층 대표: 남광식</li>
+					<li>사업자 번호 : 209-81-25311 직업소개사업 등록번호 제2004-320081-11-500078</li>
+					<li>TEL : 02-999-1111  FAX : 02-666-6666 개인정보보호정책 책임자 : 강지원</li>
+					<li>COPYRIGHT© 2017 ELANCER ALL RIGHTS RESERVED.</li>
+				</ul>
+				<div class="footer_icon">
+					<img alt="footer_icon" src="images/footer_icon.jpg">
+				</div>
+			</div>	<!--footer_content 끝 -->
+			
+		
 	</div>	<!--footer_wrap 끝 -->
 </body>
 </html>
