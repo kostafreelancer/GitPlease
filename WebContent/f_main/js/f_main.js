@@ -113,4 +113,21 @@ $(function(){
 
 });
 
+function news(){
+	$('.left_news li:first').slideUp(function(){
+		$(this).appendTo($('.left_news')).slideDown()
+	})
+}
+
+
+function news() { 
+	$('.left_news li:first').slideUp(function() {
+		$(this).appendTo($('.left_news ul')).slideDown();
+
+	});
+}
+
+setInterval(function() {
+	news();
+}, 2000)  
 

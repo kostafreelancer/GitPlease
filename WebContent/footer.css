@@ -4,17 +4,29 @@
 	border-top: 1px solid #0080ff;
 }
 .footer_box{
-	margin-left: 100px;
-	margin-right: 100px; 
-	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative; 
+}
+.footer_menus{
+	padding-left: 0px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.footer_select{
+	padding-top: 5px;
+	margin-bottom: 5px;
+	text-align: right;
 }
 .footer_menus li{
 	list-style: none;
 	float: left;
 	padding-right: 25px;
 	padding-left: 25px;
-	margin-bottom: 15px;
+
 	border-right: 1px solid #0080ff;
+	font-size: 13px;
 }
 
 .footer_menus li a{
@@ -24,17 +36,18 @@
 .footer_content{
 	border-top : 1px solid #f1f1f1;
 	clear: both;
+	width: 1100px;
 }
 .footer_content li{
 	list-style: none;
 	color: #808080;
 }
 .footer_contents{
-	margin-left: 100px;
+	float:left;
 	margin-top: 5px;
-	float: left;
 }
 .footer_icon{
 	text-align: right;
-	margin-right: 100px;
+	padding-top: 20px;
 }
+
