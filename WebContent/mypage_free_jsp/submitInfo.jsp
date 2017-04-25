@@ -4,15 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="../header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../footer.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 
 <title>Insert title here</title>
 
 </head>
 <body>
-<%@include file="../header.jsp" %>
+<%@include file="../common/header.jsp" %>
 
-<%@include file="../footer.jsp" %>
+<%@include file="../common/footer.jsp" %>
 </body>
 </html>
