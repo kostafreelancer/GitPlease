@@ -24,7 +24,9 @@
 					
 				</ul>			
 			</div>
-			<img class="header_log" src = "images/log.png" alt="header_log">
+			<div class = "header_log">
+				<img  src = "images/log.png" alt="header_log">
+			</div>
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
