@@ -5,8 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="MainCss/main.css">
-<link rel="stylesheet" href="../header.css">
-<link rel="stylesheet" href="../footer.css">
+<link rel="stylesheet" href="../common/header.css">
+<link rel="stylesheet" href="../common/footer.css">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	
@@ -20,7 +20,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:include page="../header.jsp"></jsp:include>
+	<jsp:include page="../common/header.jsp"></jsp:include>
 	<section id="slides">
 	<div class="main_slide">
 		<div class="slideshow_images">			
@@ -81,7 +81,7 @@
 	
 	</div>
 	</section>
-	<jsp:include page="../footer.jsp"></jsp:include>
+	<jsp:include page="../common/footer.jsp"></jsp:include>
 
 </body>
 </html>

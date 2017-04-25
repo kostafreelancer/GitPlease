@@ -6,11 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="e_mypage.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../footer.css" type="text/css" media="screen" />
- <%@include file="../header.jsp" %>
+<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
+ <%@include file="../common/header.jsp" %>
 
-
+   
 
 </head>
 <body>
@@ -311,6 +311,6 @@
 
 </section>
 
-<%@include file="../footer.jsp" %>
+<%@include file="../common/footer.jsp" %>
 </body>
 </html>
