@@ -12,20 +12,19 @@
 		<div class="header_top_menu">
 				<ul	class="header_top_menus">
 					<li>
-						<img alt="center_img" src="./images/header_center_icon.jpg">
-						
+						<img alt="center_img" src="/GitPlease/images/header_center_icon.jpg">
 						<a href="">고객 센터</a>
 					</li>
 					<li>
-						<img alt="join_img" src="./images/header_join_icon.jpg">
+						<img alt="join_img" src="/GitPlease/images/header_join_icon.jpg">
 						<a href="">회원가입</a>
 					</li>
 					<li>
-						<img alt="log_img" src="./images/header_log_icon01.jpg">
+						<img alt="log_img" src="/GitPlease/images/header_log_icon01.jpg">
 						<a href="">로그인</a>
 					</li>
 					<li>
-						<img alt="home_img" src="./images/header_home_icon01.jpg">
+						<img alt="home_img" src="/GitPlease/images/header_home_icon01.jpg">
 						<a href="">홈</a>
 					</li>
 				</ul>			
