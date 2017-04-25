@@ -42,7 +42,7 @@
 			</ul>
 		</div>	<!--footer_content 끝 -->
 		<div class="footer_icon">
-			<img alt="footer_icon" src="images/footer_icon.jpg">
+			<img alt="footer_icon" src="../images/footer_icon.jpg">
 		</div>
 	</div>	<!--footer_wrap 끝 -->
 </body>

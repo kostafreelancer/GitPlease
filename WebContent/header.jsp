@@ -24,7 +24,7 @@
 				</ul>			
 			</div>	<!--헤더 상단 메뉴 -->
 			<div class = "header_log">
-				<img  src = "images/log.png" alt="header_log">
+				<img  src = "../images/log.png" alt="header_log">
 			</div>	<!--헤더의 로그 -->
 			<div class="header_menu">
 				<ul class="header_menus">
