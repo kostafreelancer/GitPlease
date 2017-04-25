@@ -31,12 +31,14 @@ body{
 }
 
 .header_box{
-	margin-left: 100px;
-	margin-right: 100px; 
-	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
 }
 .header_log{
+	padding-left : 380px;  
 	padding-top: 24px;
+	
 }
 .header_menu{
 	border-top: 1px solid #f1f1f1;;
@@ -49,6 +51,7 @@ body{
 	float: left;
 	border-right: 1px solid #f1f1f1;
 	width: 200px;
+	text-align: center;
 }
 .header_menus>li>a{
 	text-decoration: none;
