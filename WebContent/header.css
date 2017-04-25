@@ -3,7 +3,6 @@
 body{
 	margin: 0px;
 }
-
 .header{
 	background: url('images/headerBg.gif') repeat-x;
 	margin: 0px;
@@ -48,10 +47,56 @@ body{
 }
 .header_menus>li{
 	float: left;
-	border-right: 1px solid #f1f1f1;;
+	border-right: 1px solid #f1f1f1;
 	width: 200px;
 }
 .header_menus>li>a{
 	text-decoration: none;
 	color: #0080ff;
 }
+/* 여기까지 헤더 */
+.body{
+	height: 500px;
+	width: 100%;
+}
+
+/* 여기서 부터 footer */
+.footer_wrap{
+	border-top: 1px solid #0080ff;
+}
+.footer_box{
+	margin-left: 100px;
+	margin-right: 100px; 
+	text-align: center;
+}
+.footer_menus li{
+	list-style: none;
+	float: left;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-bottom: 15px;
+	border-right: 1px solid #0080ff;
+}
+
+.footer_menus li a{
+	text-decoration: none;
+	color: #666;
+}
+.footer_content{
+	border-top : 1px solid #f1f1f1;
+	clear: both;
+}
+.footer_content li{
+	list-style: none;
+	color: #808080;
+}
+.footer_contents{
+	margin-left: 100px;
+	margin-top: 5px;
+	float: left;
+}
+.footer_icon{
+	text-align: right;
+	margin-right: 100px;
+}
+

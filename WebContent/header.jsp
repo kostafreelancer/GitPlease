@@ -21,12 +21,11 @@
 					<li>
 						<a href="">로그인</a>
 					</li>
-					
 				</ul>			
-			</div>
+			</div>	<!--헤더 상단 메뉴 -->
 			<div class = "header_log">
 				<img  src = "images/log.png" alt="header_log">
-			</div>
+			</div>	<!--헤더의 로그 -->
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
@@ -43,9 +42,54 @@
 					</li>
 					
 				</ul>
-			</div>
-		</div>
+			</div>	<!--헤드 메뉴 -->
+		</div>	<!--헤더 양옆 자른 전체 부분 -->
 		
+	</div>	<!--헤더전체 -->
+	
+	
+	<div class = "body">
+	
+		
+	
+	
 	</div>
+	<div class="footer_wrap">
+		<div class="footer_box">
+			<div class="footer_menu">
+				<ul class="footer_menus">
+					<li>
+						<a href="">회사소개</a>
+					</li>
+					<li>
+						<a href="">이용약관</a>
+					</li>
+					<li>
+						<a href="">개인정보취급방침</a>
+					</li>
+					<li>
+						<a href="">이메일추출방지</a>
+					</li>
+					<li>
+						<a href="">광호 및 제휴문의(이메일 문의)</a>
+					</li>
+					<li>
+						<a href="">고객센터</a>
+					</li>
+				</ul>		
+			</div>	<!--footer_menu 끝~ -->
+		</div>	<!--footer_box 끝 -->
+		<div class="footer_content">
+			<ul class = "footer_contents">
+				<li>서울특별시 금천구 가산디지털 1로 151 2층 대표:남광식</li>
+				<li>사업자 번호 : 209-81-25311 직업소개사업 등록번호 제2004-320081-11-500078</li>
+				<li>TEL : 02-999-1111  FAX : 02-666-6666 개인정보보호정책 책임자 : 강지원</li>
+				<li>COPYRIGHT© 2017 ELANCER ALL RIGHTS RESERVED.</li>
+			</ul>
+		</div>	<!--footer_content 끝 -->
+		<div class="footer_icon">
+			<img alt="footer_icon" src="images/footer_icon.jpg">
+		</div>
+	</div>	<!--footer_wrap 끝 -->
 </body>
 </html>
