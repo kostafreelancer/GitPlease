@@ -4,17 +4,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="../header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../footer.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 
 <title>Insert title here</title>
 
 </head>
 <body>
-<%@include file="../header.jsp" %>
+<%@include file="../common/header.jsp" %>
 
+<<<<<<< HEAD
 
 
 <%@include file="../footer.jsp" %>
+=======
+<%@include file="../common/footer.jsp" %>
+>>>>>>> bf6ab3b8b7e158c2c8c55eae969110d20018a40c
 </body>
 </html>
