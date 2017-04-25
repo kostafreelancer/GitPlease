@@ -9,23 +9,26 @@
 </head>
 <body>
 	<div class="header">
-		<div class="header_box">
-			<div class="header_top_menu">
+		<div class="header_top_menu">
 				<ul	class="header_top_menus">
 					<li>
+						<img alt="center_img" src="./images/header_center_icon.jpg">
 						<a href="">고객 센터</a>
 					</li>
 					<li>
+						<img alt="join_img" src="./images/header_join_icon.jpg">
 						<a href="">회원가입</a>
 					</li>
 					<li>
+						<img alt="log_img" src="./images/header_log_icon01.jpg">
 						<a href="">로그인</a>
+					</li>
+					<li>
+						<img alt="home_img" src="./images/header_home_icon01.jpg">
+						<a href="">홈</a>
 					</li>
 				</ul>			
 			</div>	<!--헤더 상단 메뉴 -->
-			<div class = "header_log">
-				<img  src = "images/log.png" alt="header_log">
-			</div>	<!--헤더의 로그 -->
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
@@ -43,9 +46,7 @@
 					
 				</ul>
 			</div>	<!--헤드 메뉴 -->
-		</div>	<!--헤더 양옆 자른 전체 부분 -->
-		
-	</div>	<!--헤더전체 -->
+	</div>
 	
 </body>
 </html>
