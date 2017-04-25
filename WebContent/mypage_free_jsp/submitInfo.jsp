@@ -13,12 +13,8 @@
 <body>
 <%@include file="../common/header.jsp" %>
 
-<<<<<<< HEAD
 
-
-<%@include file="../footer.jsp" %>
-=======
 <%@include file="../common/footer.jsp" %>
->>>>>>> bf6ab3b8b7e158c2c8c55eae969110d20018a40c
+
 </body>
 </html>

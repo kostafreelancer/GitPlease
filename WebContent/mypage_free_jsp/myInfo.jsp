@@ -12,14 +12,12 @@
 
 </head>
 <body>
-<<<<<<< HEAD
 
-<%@include file="../header.jsp" %>
 
 <section id="firstsection">
-=======
+
 <%@include file="../common/header.jsp" %>
->>>>>>> bf6ab3b8b7e158c2c8c55eae969110d20018a40c
+
 <div class="tb_box">
         <div class="ct overf">
            <h4 class="fl">개인정보</h4>
@@ -404,11 +402,10 @@
                 	<a href="javascript:MemberModifyIt();" ><!-- class="btn_check06" -->수정하기</a>
                 	<a href="javascript:MemberModifyFm.reset();" class="btn_check02">초기화</a>
 	      </div>
-<<<<<<< HEAD
+
 	    </section>
-            <%@include file="../footer.jsp" %> 
-=======
+            
             <%@include file="../common/footer.jsp" %> 
->>>>>>> bf6ab3b8b7e158c2c8c55eae969110d20018a40c
+
 </body>
 </html>
