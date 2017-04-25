@@ -11,6 +11,7 @@
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	
 <script src="js/f_main.js"></script>
+
 <!-- <script src="js/vendor/modernizr.custom.min.js"></script>
 <script src="js/vendor/jquery-1.10.2.min.js"></script>
 <script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
@@ -29,11 +30,11 @@
 			<a href = "#" class="slide"><img src="lancer_imgs/bg_visual04.jpg" alt="" width="1911" height="432"></a>
 		</div>
 	</div>
-	<section id="news">	
+	
 	<div class="main_news">
 		<!-- <h1>뉴스 영역 or 프리랜서/기업소개 영역((추후 h1영역 삭제))</h1> -->
 		<div class="left_news">
-			
+		
 			<ul>
 				<li><a href="#"><h3>[자바] 자바경력 10년</h3><br>프로젝트 다수</a></li>
 				<li><a href="http://www.daum.net"><h3>[Daum뉴스] 웹 개발자 선풍적인 인기~</h3><br>ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ<br><br><br></a></li>
@@ -41,7 +42,7 @@
 				<li>d</li>
 			</ul>
 		</div>
-		<div class="right_news">
+		<div class="right_news">	
 			<h3>오른쪽 영역(탭 or 한줄뉴스)</h3>
 			<ul>
 				<li></li>
@@ -51,8 +52,8 @@
 			</ul>
 		</div>
 	</div>
-	</section>	
-	<section id="active_inf">
+
+	<div id="active_inf">
 	<ul id="tabs">
     <li><a href="#" title="tab1">프리랜서</a></li>
     <li><a href="#" title="tab2">프로젝트</a></li>
@@ -78,7 +79,7 @@
     
 </div>
 	
-	</section>
+	</div>
 	</section>
 	<jsp:include page="../footer.jsp"></jsp:include>
 
