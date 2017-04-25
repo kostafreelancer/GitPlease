@@ -16,8 +16,8 @@ body{
 	float: right;
 	text-align: right;
 	width: 100px;
-	
-}
+	border-left: 1px solid #fffff;
+} 
 .header_top_menus>li>a{
 	text-decoration: none;
 	color: #ffffff;
