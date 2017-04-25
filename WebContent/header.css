@@ -9,7 +9,7 @@ body{
 	margin: 0px;
 	position: relative;
 	height : 170px;
-	border-bottom: 1px solid #0080ff;
+	border-bottom: 1px solid #f1f1f1;;
 }
 .header_top_menus{
 	float: right;
@@ -21,7 +21,7 @@ body{
 	float : right;
 	text-align: center;
 	width: 100px;
-	border-left: 1px solid #0000ff;
+	border-left: 1px solid #f1f1f1;;
 } 
 .header_top_menus li:LAST-CHILD{
 	border-left: none;	
@@ -38,11 +38,9 @@ body{
 }
 .header_log{
 	padding-top: 24px;
-	
 }
 .header_menu{
-	border-top: 1px solid #0080ff;
-	
+	border-top: 1px solid #f1f1f1;;
 }
 .header_menus{
 	list-style: none;
@@ -50,8 +48,7 @@ body{
 }
 .header_menus>li{
 	float: left;
-	border-right: 1px solid #0080ff;
-	
+	border-right: 1px solid #f1f1f1;;
 	width: 200px;
 }
 .header_menus>li>a{
