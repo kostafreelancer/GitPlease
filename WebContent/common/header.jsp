@@ -9,22 +9,32 @@
 </head>
 <body>
 	<div class="header">
-		<div class="header_box">
-			<div class="header_top_menu">
+		<div class="header_top_menu">
 				<ul	class="header_top_menus">
 					<li>
+						<img alt="center_img" src="/GitPlease/images/header_center_icon.jpg">
 						<a href="">고객 센터</a>
 					</li>
 					<li>
+						<img alt="join_img" src="/GitPlease/images/header_join_icon.jpg">
 						<a href="">회원가입</a>
 					</li>
 					<li>
+						<img alt="log_img" src="/GitPlease/images/header_log_icon01.jpg">
 						<a href="">로그인</a>
 					</li>
+					<li>
+						<img alt="home_img" src="/GitPlease/images/header_home_icon01.jpg">
+						<a href="/GitPlease/f_main/f_main.jsp">홈</a>
+					</li>
+				</ul>
 					
-				</ul>			
-			</div>
-			<img class="header_log" src = "images/log.png" alt="header_log">
+			</div>	<!--헤더 상단 메뉴 -->
+			<div class="header_sns">
+				<a href="https://www.facebook.com/produce101" target="_blank" class="header_btn_f">fa</a>
+				<a href="https://www.twitter.com/mnetkr" target="_blank" class="header_btn_t">tw</a>
+				<a href="https://www.instagram.com/produce101_official" target="_blank" class="header_btn_i">in</a>
+			</div>		
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
@@ -41,9 +51,8 @@
 					</li>
 					
 				</ul>
-			</div>
-		</div>
-		
+			</div>	<!--헤드 메뉴 -->
 	</div>
+	
 </body>
 </html>
