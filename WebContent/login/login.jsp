@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../join/reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<title>Insert title here</title>
+<title>로그인</title>
 </head>
 
 <body onload = 'document.MemberLoginFm.fm_id.focus();'>

@@ -14,13 +14,13 @@
  
  
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="js/e_project.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
 
 </head>
 <body>
 
 
-	 <%@include file="../common/header.jsp" %>
+	 <%@include file="../common/header_enterprise.jsp" %>
 
 	<nav class="left_menu">
 		<div class="left_menu_title">
@@ -28,8 +28,8 @@
 		</div>
 		<div class="left_menu_content">
 			<ul class="left_menu_contents">
-				<li><a href="">기업 정보</a></li>
-				<li><a href="">프로젝트 관리</a></li>
+				<li><a href="e_info.jsp">기업 정보</a></li>
+				<li><a href="e_project.jsp">프로젝트 관리</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -41,7 +41,7 @@
 			<li><a href="#" title="tab3">완료</a></li>
 		</ul>
 	
-		<div id="content">
+		<div id="tcontent">
 			<div id="tab1">
 				<div class="tb_box">
 	                <table class="tb_st01 tb_st03">
