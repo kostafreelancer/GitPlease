@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="css/e_mypage.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/e_info.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/e_leftmenu.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
@@ -13,7 +13,7 @@
 </head>
 <body>
 
- <%@include file="../common/header.jsp" %>
+ <%@include file="../common/header_enterprise.jsp" %>
 
 <nav class="left_menu">
 	<div class="left_menu_title">
@@ -21,20 +21,20 @@
 	</div>
 	<div class="left_menu_content">
 		<ul class="left_menu_contents">
-			<li><a href="">기업 정보</a></li>
-			<li><a href="">프로젝트 관리</a></li>
+			<li><a href="e_info.jsp">기업 정보</a></li>
+			<li><a href="e_project.jsp">프로젝트 관리</a></li>
 		</ul>
 	</div>
 </nav>
 
 <section>
-<div class="e_mypage_top">
+<div class="e_info_top">
 	<h3>회원정보 입력</h3>
 </div>
 
 
 
-<div class="e_mypage_table1">
+<div class="e_info_table1">
 	<h4>아이디 및 비밀번호</h4>
 	<form action="" method="post">
 		<table class="tb_st01">
@@ -95,7 +95,7 @@
 
 
 
-<div class="e_mypage_table2">
+<div class="e_info_table2">
 	<h4>기업정보</h4>
 	<table class="tb_st01">
 		<colgroup>
