@@ -6,9 +6,8 @@
 	border-radius: 25px;
 	background-color: #0080ff;
 }
-.iframe_wrapper{
-	border-radius: 25px;
-	border: 1px solid;
+.chat_top{
+	height: 54px;
 }
 .chat_menu{
 	padding-left: 10px;

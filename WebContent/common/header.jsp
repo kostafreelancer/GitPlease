@@ -10,7 +10,7 @@
 <script type="text/javascript">
 	$(function(){
 		$('.header_top_menus img').click(function(){
-			alert("asdads");
+			
 		})
 	})
 </script>

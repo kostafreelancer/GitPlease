@@ -18,7 +18,7 @@ $(document).ready(function() {
     
 });
 $(function(){
-	
+		
 	    var defaultTop=parseInt($("#sibal").css("top"));
 		$(window).on("scroll",function(){
 			var scv=$(window).scrollTop();
