@@ -1,37 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="side_menu.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="footer.css" type="text/css" media="screen" />
-<script type="text/javascript">
 
-$(document).ready(function() {
-	$("#content div#tab1").hide(); // Initially hide all content
-	$("#content div#tab2").hide(); // Initially hide all content
-	$("#content div#tab3").hide(); // Initially hide all content
-	$("#tabs li:first").attr("id","current"); // Activate first tab
-	$("#content div:first").fadeIn(); // Show first tab content
-    
-    $('#tabs a').click(function(e) {
-        e.preventDefault();        
-        $("#content div#tab1").hide(); //Hide all content
-        $("#content div#tab2").hide(); //Hide all content
-        $("#content div#tab3").hide(); //Hide all content
-        $("#tabs li").attr("id",""); //Reset id's
-        $(this).parent().attr("id","current"); // Activate this
-        $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
-    });
-})();
+<link rel="stylesheet" href="e_project.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
+ <%@include file="../common/header.jsp" %>
+ 
+ 
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="e_project.js"></script>
 
-</script>
 </head>
 <body>
-	<%@include file="../common/header.jsp" %>
+
 	<div class="left_menu">
 		<div class="left_menu_title">
 			<h2>마이 페이지</h2>
@@ -43,7 +29,10 @@ $(document).ready(function() {
 			</ul>
 		</div>
 	</div>
-	
+
+
+
+
 	<section>
 		<ul id="tabs">
 			<li><a href="#" title="tab1">진행 중</a></li>
@@ -214,6 +203,6 @@ $(document).ready(function() {
 
 	</section>
 	
-	
+	<%@include file="../common/footer.jsp" %>
 </body>
 </html>

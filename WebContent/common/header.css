@@ -42,6 +42,7 @@ body{
 .header_menus{
 	list-style: none;
 	margin-top: 5px;
+	width: 900px;
 }
 .header_menus>li{
 	float: left;
