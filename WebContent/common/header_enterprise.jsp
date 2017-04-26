@@ -21,7 +21,7 @@
 					</li>
 					<li>
 						<img alt="join_img" src="/GitPlease/images/header_join_icon.jpg">
-						<a href="">마이페이지</a>
+						<a href="/GitPlease/e_mypage/e_mypage.jsp">마이페이지</a>
 					</li>
 					<li>
 						<img alt="log_img" src="/GitPlease/images/header_log_icon01.jpg">
@@ -42,7 +42,7 @@
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
-						<a href="">프로젝트 등록</a>
+						<a href="/GitPlease/insert_project/real.jsp">프로젝트 등록</a>
 					</li>
 					<li>
 						<a href="">프로젝트 찾기</a>
