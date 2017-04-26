@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="../common/footer.css">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-	
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script src="js/f_main.js"></script>
 
 <!-- <script src="js/vendor/modernizr.custom.min.js"></script>
@@ -18,9 +18,39 @@
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script> -->
 
 <title>Insert title here</title>
+ <script type="text/javascript">
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawMultSeries);
+ 
+function drawMultSeries() {
+      var data = google.visualization.arrayToDataTable([
+        ['주제', '주제', '주제'],
+        ['Java', 1234, 0], /* DB통계? */
+        ['C', 1958, 0],
+        ['3', 0, 0],
+        ['4', 0, 0],
+        ['5', 1237, 88]
+      ]);
+ 
+      var options = {
+        title: '차트주제',
+        chartArea: {width: '50%'},
+        hAxis: {
+          title: '인기도?',
+          minValue: 0
+        },
+        vAxis: {
+          title: '차트주제'
+        }
+      };
+ 
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+   </script>
 </head>
 <body>
-	<jsp:include page="../common/header.jsp"></jsp:include>
+	<%@ include file="../common/header.jsp" %>
 	<section id="slides">
 	<div class="main_slide">
 		<div class="slideshow_images">			
@@ -42,15 +72,7 @@
 				<li>d</li>
 			</ul>
 		</div>
-		<div class="right_news">	
-			<h3>오른쪽 영역(탭 or 한줄뉴스)</h3>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
+		<div id="chart_div"></div>
 	</div>
 
 	<div id="active_inf">
@@ -67,21 +89,41 @@
        	<img alt="" src="lancer_imgs/icon02_off.png">
        	<img alt="" src="lancer_imgs/icon03_off.png">
        	<img alt="" src="lancer_imgs/icon04_off.png">
-       	
+       	<form action="" method="post">
+       	<table class="active_p">
+       	<tr>
+       	<th>
+       	<td>1 프리랜서DB</td>
+      	<td>2 프리랜서DB</td>
+      	<td>3 프리랜서DB</td>
+       	<td>4 프리랜서DB</td>
+       	</tr>
+       	</table>
+       	</form>
     </div>
     <div id="tab2">
-        <h2>프로젝트 정보</h2>
+       	<h2>프로젝트 정보</h2>
+        
         <img alt="" src="lancer_imgs/icon01_off.png">
        	<img alt="" src="lancer_imgs/icon02_off.png">
        	<img alt="" src="lancer_imgs/icon03_off.png">
        	<img alt="" src="lancer_imgs/icon04_off.png">
+       	<tr>
+       	<td>1 프로젝트DB</td>
+       	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      	<td>2 프로젝트DB</td>
+      	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       	<td>3 프로젝트DB</td>
+       	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       	<td>4 프로젝트DB</td>
+       	</tr>
     </div>
-    
+  
 </div>
 	
 	</div>
 	</section>
-	<jsp:include page="../common/footer.jsp"></jsp:include>
+	<%@ include file="../common/footer.jsp" %>
 
 </body>
 </html>

@@ -70,13 +70,14 @@
 		
 }
 
-.right_news{
+#chart_div{ /* 차트 */
 		/* border: 1px solid; */
-		height: 200px;
-		width: 735px;
+		height: 300px;
+		width: 760px;
 		overflow: hidden;
 		position: relative;
 		margin-left: 500px;
+		
 		
 }
 
@@ -261,4 +262,7 @@
 	background-image: url(../lancer_imgs/bg_cont05.jpg);
 	
 }
+
+
+
  

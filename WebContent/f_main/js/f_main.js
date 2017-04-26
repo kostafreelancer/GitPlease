@@ -131,3 +131,4 @@ setInterval(function() {
 	news();
 }, 2000)  
 
+
