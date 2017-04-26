@@ -6,10 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
-<link rel="stylesheet" href="e_project.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/e_project.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/e_leftmenu.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
- <%@include file="../common/header.jsp" %>
+
  
  
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
@@ -17,6 +18,22 @@
 
 </head>
 <body>
+
+
+	 <%@include file="../common/header.jsp" %>
+
+	<nav class="left_menu">
+		<div class="left_menu_title">
+			<h2>마이 페이지</h2>
+		</div>
+		<div class="left_menu_content">
+			<ul class="left_menu_contents">
+				<li><a href="">기업 정보</a></li>
+				<li><a href="">프로젝트 관리</a></li>
+			</ul>
+		</div>
+	</nav>
+
 	<section>
 		<ul id="tabs">
 			<li><a href="#" title="tab1">진행 중</a></li>

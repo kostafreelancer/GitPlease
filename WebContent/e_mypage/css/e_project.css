@@ -1,11 +1,11 @@
 section
 {
-    width: 100%;
-    margin: 100px auto 0 auto;
+    margin-top: 50px;
+    margin-left: 300px;
     font-family: Arial, Helvetica;
     font-size: small;
     border: 1px solid #d6d6d6;
-	border-width: 2px 1px 1px 1px;
+	border-width: 2px 0 1px 0;
     border-top: solid #d6d6d6;
 }
 
@@ -50,7 +50,7 @@ section a{
 #tabs a:hover::after,
 #tabs a:focus,
 #tabs a:focus::after{
-  background: #fff;
+  background: #f5f9fe;
 }
 
 #tabs a:focus{
@@ -83,7 +83,7 @@ section a{
 
 #tabs #current a,
 #tabs #current a::after{
-  background: #fff;
+  background: #f5f9fe;
   z-index: 3;
 }
 
@@ -189,7 +189,7 @@ section td{
 }
 
 .first {
-    background: #fff url(img/bg_first.jpg) center 10px no-repeat;
+    background: #fff url(../img/bg_first.jpg) center 10px no-repeat;
     text-indent: -9999px;
     overflow: hidden;
     border: 1px solid #999;
@@ -197,7 +197,7 @@ section td{
 }
 
 .num_box .last {
-    background: #fff url(img/bg_last.jpg) center 10px no-repeat;
+    background: #fff url(../img/bg_last.jpg) center 10px no-repeat;
     text-indent: -9999px;
     overflow: hidden;
     border: 1px solid #999;

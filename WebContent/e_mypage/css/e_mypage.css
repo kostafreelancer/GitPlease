@@ -1,6 +1,5 @@
 .e_mypage_top{
 	padding: 30px 0 10px 0;
-	clear: both;
 	font-size: 14px;
 	border-bottom: 1px solid #d6d6d6;
 	overflow: hidden;
@@ -16,6 +15,11 @@ h4{
 	color: #333;
 	font-size: 15px;
 	margin-bottom: 15px;
+}
+
+section{
+	margin-top: 50px;
+	margin-left: 300px;
 }
 
 section div{
@@ -169,7 +173,6 @@ img, fieldset {
 }
 
 .btn_box {
-    clear: both;
     text-align: center;
 }
 
@@ -178,7 +181,7 @@ img, fieldset {
 }
 
 .btn_check02 {
-    background: url(img/bg_btn_ck02.jpg) no-repeat;
+    background: url(../img/bg_btn_ck02.jpg) no-repeat;
     color: #666;
     width: 95px;
     padding: 17px 0 20px 60px;
@@ -190,7 +193,7 @@ img, fieldset {
 }
 
 .btn_check06 {
-    background: url(img/btn_modify.jpg) no-repeat;
+    background: url(../img/btn_modify.jpg) no-repeat;
     color: #fff;
     width: 95px;
     padding: 17px 0 20px 50px;

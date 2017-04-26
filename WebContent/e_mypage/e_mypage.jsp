@@ -5,15 +5,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="e_mypage.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/e_mypage.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/e_leftmenu.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
- <%@include file="../common/header.jsp" %>
-
-
 
 </head>
 <body>
+
+ <%@include file="../common/header.jsp" %>
+
+<nav class="left_menu">
+	<div class="left_menu_title">
+		<h2>마이 페이지</h2>
+	</div>
+	<div class="left_menu_content">
+		<ul class="left_menu_contents">
+			<li><a href="">기업 정보</a></li>
+			<li><a href="">프로젝트 관리</a></li>
+		</ul>
+	</div>
+</nav>
+
 <section>
 <div class="e_mypage_top">
 	<h3>회원정보 입력</h3>
@@ -305,9 +318,6 @@
 	<a href="javascript:MemberModifyIt();" class="btn_check06">수정하기</a>
 	<a href="javascript:MemberModifyFm.reset();" class="btn_check02">초기화</a>
 </div>
-
-
-
 
 </section>
 
