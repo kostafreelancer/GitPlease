@@ -25,10 +25,16 @@
 					</li>
 					<li>
 						<img alt="home_img" src="/GitPlease/images/header_home_icon01.jpg">
-						<a href="">홈</a>
+						<a href="/GitPlease/f_main/f_main.jsp">홈</a>
 					</li>
-				</ul>			
+				</ul>
+					
 			</div>	<!--헤더 상단 메뉴 -->
+			<div class="header_sns">
+				<a href="https://www.facebook.com/produce101" target="_blank" class="header_btn_f">fa</a>
+				<a href="https://www.twitter.com/mnetkr" target="_blank" class="header_btn_t">tw</a>
+				<a href="https://www.instagram.com/produce101_official" target="_blank" class="header_btn_i">in</a>
+			</div>		
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>

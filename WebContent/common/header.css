@@ -41,7 +41,8 @@ body{
 }
 .header_menus{
 	list-style: none;
-	margin-top: 5px;
+	margin-top: 5px; 
+	width: 1000px;
 }
 .header_menus>li{
 	float: left;
@@ -55,6 +56,27 @@ body{
 	font-size: 20px;
 	font-family: 'NanumGothic_b';
 }
-
-
+.header_sns{
+	position: absolute;
+    top: 75px;
+    right: 150px;
+}
+.header_sns a{
+	display: block;
+    float: left;
+    width: 19px;
+    height: 19px;
+    margin-left: 33px;
+    text-indent: -9999px;
+    background: url("/GitPlease/images/img_sns.png") no-repeat;
+}
+.header_sns .header_btn_f{
+	background-position: 2px 0px;
+}
+.header_sns .header_btn_t{
+	background-position: -48px 0;
+}
+.header_sns .header_btn_i{
+	background-position: -102px 0;	
+}
 
