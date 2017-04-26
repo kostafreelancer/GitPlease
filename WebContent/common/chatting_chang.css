@@ -11,11 +11,12 @@
 }
 .chat_menu{
 	padding-left: 10px;
-	float: left;
+	
 }
 .exit_menu{
-	padding-left: 150px;
-}
+	position: absolute;
+	padding-left: 160px
+} 
 .chat_text_area{
 	height: 354px;
 	background-color: #ffffff;
@@ -49,7 +50,7 @@
 .chat_send{
 	background-color: #ffffff;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 7px;
 	padding-bottom: 12px;
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;

@@ -23,7 +23,7 @@
 <body>
 	<div class="chatting">
 		<div class="chatting_Detail">
-			<img alt="catting_open" src="/GitPlease/images/chatting.PNG">
+			<img class ="chatting_img" alt="catting_open" src="/GitPlease/images/chatting.PNG">
 			<p>채팅 문의</p>
 		</div>
 	</div>
