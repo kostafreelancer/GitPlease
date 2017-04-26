@@ -10,24 +10,40 @@
 
 <title>Insert title here</title>
 
-
-<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="js.myInfo.js"></script>
+<!-- <script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script> 
+<script src="js/myInfo.js"></script>
 </head>
 <body>
 
 
 <%@include file="../common/header.jsp" %>
 
+<div class="left_menu">
+	<div class="left_menu_title">
+		<h2>마이 페이지</h2>
+	</div>
+	<div class="left_menu_content">
+		<ul class="left_menu_contents">
+			<li><a href="">일정 관리</a></li>
+			<li><a href="">회계 관리</a></li>
+			<li><a href="">내 정보</a></li>
+		</ul>
+	</div>
+</div>
+
 <section id="firstsection">
+
+
 
 <ul id="tabs">
     <li><a href="#" title="tab1">내 정보</a></li>
     <li><a href="#" title="tab2">이력 정보</a></li>
-    <li><a href="#" title="tab3">히스토리</a></li>
-    <li><a href="#" title="tab4">Four</a></li>    
+    <li><a href="#" title="tab3">지원내역</a></li>
+    <li><a href="#" title="tab4">히스토리</a></li> 
+    <li><a href="#" title="tab5">내가 받은 평가</a></li> 
 </ul>
-
 
 <div id="content">
 <div id="tab1">
@@ -335,11 +351,187 @@
 </div>
 
 <div id="tab2">
+<div class="tb_box">
+		<div class="ct overf">
+			<h4 class="fl">경력사항</h4>
 
+		</div>
+		<table class="tb_st01 tb_st03">
+			<caption></caption>
+			<colgroup>
+				<col style="width: 20%">
+				<col style="width: 14%">
+				<col style="width: 14%">
+				<col style="width: *">
+				<col style="width: 15%">
+				<col style="width: 15%">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col" class="ac">회사명</th>
+					<th scope="col" class="ac">근무부서</th>
+					<th scope="col" class="ac">직위</th>
+					<th scope="col" class="ac">근무기간</th>
+					<th scope="col" class="ac">소재지</th>
+					<th scope="col" class="last ac">관리</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td class="ac" colspan="6">등록된 경력사항 정보가 없습니다.</td>
+				</tr>
+
+			</tbody>
+		</table>
+					<button id="add" class="career_add">추가하기</button><br>
+		<div id="ResumePANNEL3"
+			style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; background: url(../../images/popup/bg_popup.png) repeat; text-align: center; z-index: 5; display: none;">
+			<form method="post" name="ResumeFrame3" style="display: inline;"
+				onsubmit="return false;">
+				<input type="hidden" name="seluno" value="">
+				<iframe id="ResumeiFrame3" name="ResumeiFrame3" frameborder="0"
+					scrolling="no"
+					style="height: 631px; width: 804px; position: absolute; top: 20%; left: 50%; margin: 0 -420px"></iframe>
+			</form>
+		</div>
+	</div>
+	<div class="tb_box">
+		<div class="ct overf">
+			<h4 class="fl">학력사항</h4>
+
+		</div>
+		<table class="tb_st01 tb_st03">
+			<caption></caption>
+			<colgroup>
+				<col style="width: 15%">
+				<col style="width: 15%">
+				<col style="width: 15%">
+				<col style="width: *%">
+				<col style="width: 15%">
+				<col style="width: 15%">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col" class="ac">학교명</th>
+					<th scope="col" class="ac">전공계열</th>
+					<th scope="col" class="ac">전공</th>
+					<th scope="col" class="ac">기간</th>
+					<th scope="col" class="ac">소재지</th>
+					<th scope="col" class="last ac">관리</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td class="ac" colspan="6">등록된 학력사항 정보가 없습니다.</td>
+				</tr>
+
+			</tbody>
+		</table>
+					<button id="add" class="school_add">추가하기</button><br>
+		<div id="ResumePANNEL1"
+			style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; background: url(../../images/popup/bg_popup.png) repeat; text-align: center; z-index: 5; display: none;">
+			<form method="post" name="ResumeFrame1" onsubmit="return false;">
+				<input type="hidden" name="seluno" value="">
+				<iframe id="ResumeiFrame1" name="ResumeiFrame1" frameborder="0"
+					scrolling="no"
+					style="height: 498px; width: 804px; position: absolute; top: 20%; left: 50%; margin: 0 -420px"></iframe>
+			</form>
+		</div>
+	</div>
+
+	<div class="tb_box">
+		<div class="ct overf">
+			<h4 class="fl">자격증</h4>
+			
+		</div>
+		<table class="tb_st01 tb_st03">
+			<caption></caption>
+			<colgroup>
+				<col style="width: 40%">
+				<col style="width: 20%">
+				<col style="width: *">
+				<col style="width: 15%">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col" class="ac">자격증명</th>
+					<th scope="col" class="ac">발행처</th>
+					<th scope="col" class="ac">취득일자</th>
+					<th scope="col" class="last ac">관리</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td class="ac" colspan="4">등록된 자격증현황 정보가 없습니다.</td>
+				</tr>
+
+			</tbody>
+		</table>
+		<button id="add" class="right_add">추가하기</button><br>
+
+		<div id="ResumePANNEL5"
+			style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; background: url(../../images/popup/bg_popup.png) repeat; text-align: center; z-index: 5; display: none;">
+			<form method="post" name="ResumeFrame5" style="display: inline;"
+				onsubmit="return false;">
+				<input type="hidden" name="seluno" value="">
+				<iframe id="ResumeiFrame5" name="ResumeiFrame5" frameborder="0"
+					scrolling="no"
+					style="height: 602px; width: 804px; position: absolute; top: 20%; left: 50%; margin: 0 -420px"></iframe>
+			</form>
+		</div>
+		<div>
+			<h3>포트폴리오</h3>
+			<form>
+				내용 입력<br>
+				<textarea rows="10" cols="60"></textarea><br>
+				첨부파일: <input type="file" name="addFile"><br>
+				<input type="submit" value="저장">
+				<input type="reset" value="초기화">
+			</form>
+		</div>
+	</div>
 </div>
 
 <div id="tab3">
+	<h4>내가 지원한 프로젝트</h4>
+	<p>공고를 가져와서 쓴다.</p>
+	<p>공고를 가져와서 쓴다.</p>
+	<p>공고를 가져와서 쓴다.</p>
+</div>
 
+<div id="tab4">
+	<h4>내가 완료한 프로젝트</h4>
+		<table class="tb_st01 tb_st03">
+			<caption></caption>
+		<!-- 	<colgroup>
+				<col style="width: 20%">
+				<col style="width: 14%">
+				<col style="width: 14%">
+				<col style="width: *">
+				<col style="width: 15%">
+				<col style="width: 15%">
+			</colgroup> -->
+			<thead>
+				<tr>
+					<th scope="col" class="ac">프로젝트명</th>
+					<th scope="col" class="ac">프로젝트 기간</th>
+					<th scope="col" class="ac">예산</th>
+					<th scope="col" class="ac">관련기술</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td class="ac" colspan="6">등록된 히스토리 정보가 없습니다.</td>
+				</tr>
+
+			</tbody>
+		</table>
+		
+		
 </div>
 </div>
 

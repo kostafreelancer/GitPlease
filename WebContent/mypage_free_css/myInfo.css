@@ -6,6 +6,7 @@
 .skip_n{position:absolute; top:0; left:0;z-index:90000001; width:100%;overflow:hidden; margin:0; height:1px; margin-top:-1px; line-height:30px; text-align:center; font-weight:bold; font-size:14px; background-color:#666;color:#fff !important;; text-decoration:none !important; display:block;font-family: 'NanumGothic_eb';}
 .skip_n:focus,.skip_n:active,.skip_n:hover{height:30px;margin:0;}
 
+
 #tabs{
   overflow: hidden;
   width: 100%;
@@ -464,7 +465,7 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .table_tit h3{ font-size:18px;color:#f05922; float:left; font-family: 'NanumGothic_b'; line-height:20px}
 .table_tit p{color:#999}
 .btn_sam{ background:url(../../images/common/bg/bg_sam.jpg) no-repeat;color:#fff;padding:8px 15px 8px 40px;margin-left:20px;line-height:14px; font-size:14px; display:inline-block; font-family: 'NanumGothic_b';}
-.tb_box{margin-top:100px; margin-bottom:30px}
+.tb_box{margin-bottom:30px}
 .tb_box h4{color:#333;font-size:15px;font-family: 'NanumGothic_b';margin-bottom:15px}
 
 .tb_st01{border-top:2px solid #d6d6d6; width:100%}
@@ -1057,6 +1058,37 @@ th.th_bor0{border-bottom:0}
 .id_guide_txt{line-height: 20px;font-size:14px}
 .mail_fine{font-size:14px;color:#f05922;text-decoration: underline;font-weight: bold;} */
  
+
+
+.left_menu{
+	width: 200px;
+	margin: 50px;
+	margin-right:0;
+	float: left;
+}
+.left_menu_title{
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.left_menu_contents{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.left_menu_contents>li{
+	list-style: none;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c0c0c0;
+	padding-top: 8px;
+}
+.left_menu_contents>li>a{
+	text-decoration: none;
+}
+
 #firstsection{
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-left: 300px;
 }
