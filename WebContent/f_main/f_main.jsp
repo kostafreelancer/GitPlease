@@ -122,6 +122,17 @@ function drawMultSeries() {
 </div>
 	
 	</div>
+	<div id="introduce_site">
+		<h2>드림랜서 시스템 장점</h2><br><br>
+		<div id="introduce_img">
+		
+		<img alt="" src="lancer_imgs/cont04_icon01.png">
+		<img alt="" src="lancer_imgs/cont04_icon02.png">
+		<img alt="" src="lancer_imgs/cont04_icon03.png">
+		<img alt="" src="lancer_imgs/cont04_icon04.png">
+		
+		</div>
+	</div>
 	</section>
 	<%@ include file="../common/footer.jsp" %>
 
