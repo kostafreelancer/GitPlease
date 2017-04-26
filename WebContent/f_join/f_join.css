@@ -521,7 +521,7 @@ th.bg_gy{background-color:#666}
 .pro_01_2{ background:url(../../images/sub/register/bg_pro01.jpg) no-repeat; margin:0 110px 0 150px}
 .pro_02_2{ background:url(../../images/sub/register/bg_pro02.jpg) no-repeat;}
 .pro_txt{ font-size:18px;line-height:30px; margin-bottom:50px; text-align:center}
-.color_or{color:#f05922}
+.color_or{color:#143468}
 .e_infor{border:3px solid #d6d6d6; overflow:hidden; clear:both; margin-bottom:30px}
 .e_infor li{width:294px; border-right:1px solid #d6d6d6;padding:15px 0; float:left; font-size:16px; text-align:center}
 .e_infor li.last{ border-right:0}
@@ -768,15 +768,15 @@ th.th_bor0{border-bottom:0}
 .list02{background:url(../../images/sub/etc/bg_card_list02.jpg) no-repeat;margin-right:70px;}
 .list03{background:url(../../images/sub/etc/bg_card_list03.jpg) no-repeat;}
 /* íšŒì›ê°€ìž… */
-.step_cont01{ background:url(../../images/sub/etc/bg_step01.jpg) no-repeat; padding:10px 0 20px; clear:both; overflow:hidden; margin-bottom:40px}
+.step_cont01{ background:url(../images/bg/bg_step01.jpg) no-repeat; padding:10px 0 20px; clear:both; overflow:hidden; margin-bottom:40px}
 .step_cont01 li{float:left; font-size:20px; color:#666; line-height:18px; text-align:left}
 .step_cont01 li span{display:block; font-size:12px;color:#666}
 .step_cont01 li.step01{color:#fff;padding-left:112px; padding-right:143px}
 .step_cont01 li.step01 span{color:#fff}
 .step_cont01 .step02{padding-right:115px;}
 .step_cont01 .step03{padding-right:150px}
-.elan_box01{background:url(../../images/sub/etc/bg_join_guide01.jpg) no-repeat;width:460px;float:left}
-.elan_box02{background:url(../../images/sub/etc/bg_join_guide02.jpg) no-repeat;}
+.elan_box01{background:url(../images/bg/bg_join_guide01.jpg) no-repeat;width:460px;float:left}
+.elan_box02{background:url(../images/bg/bg_join_guide02.jpg) no-repeat;}
 .elan_box01 h3{font-size:28px; padding:18px 0 20px 0; text-align:center;}
 .elan_box01 ul{margin:150px 0 30px;padding:0 30px 20px 30px; clear:both; overflow:hidden}
 .elan_box02 ul{margin:165px 0 82px;}
@@ -785,17 +785,17 @@ th.th_bor0{border-bottom:0}
 .elan_box01 li h4{ font-size:16px; font-weight:bold; text-align:center; margin-bottom:10px}
 .elan_box01 li p{ font-size:13px;line-height:20px; text-align:left}
 .btn_join01,.btn_join02,.btn_join03{width:95px; color:#fff; font-size:20px;padding:20px 0 20px 0;float:left}
-.btn_join01{background:url(../../images/sub/etc/btn_join01.jpg) no-repeat; margin-right:12px;padding-left:50px}
-.btn_join02{background:url(../../images/sub/etc/btn_join02.jpg) no-repeat; margin-right:10px;padding-left:65px;width:80px}
+.btn_join01{background:url(../images/bg/btn_join01.jpg) no-repeat; margin-right:12px;padding-left:50px}
+.btn_join02{background:url(../images/bg/btn_join02.jpg) no-repeat; margin-right:10px;padding-left:65px;width:80px}
 .btn_join03{background:url(../../images/sub/etc/btn_join03.jpg) no-repeat;padding-left:50px ;}
 .elan_box_lef{ margin-left:40px}
 .elan_box_lef ul{margin-left:130px}
-.btn_box02_lef{ margin-left:80px}
-.step_cont02{ background:url(../../images/sub/etc/bg_step02.jpg) no-repeat; padding:10px 0 20px; clear:both; overflow:hidden; margin-bottom:40px}
+.btn_box02_lef{ margin-left:150px}
+.step_cont02{ background:url(../images/bg/bg_step02.jpg) no-repeat; padding:10px 0 20px; clear:both; overflow:hidden; margin-bottom:40px}
 .step_cont02 li{float:left; font-size:20px; color:#666; line-height:18px; text-align:left}
 .step_cont02 li span{display:block; font-size:12px;color:#666}
-.step_cont02 li.step01{color:#f05922;padding-left:112px; padding-right:143px}
-.step_cont02 li.step01 span{color:#f05922}
+.step_cont02 li.step01{color:#2257ad;padding-left:112px; padding-right:143px}
+.step_cont02 li.step01 span{color:#2257ad}
 .step_cont02 li.step02{color:#fff}
 .step_cont02 li.step02 span{color:#fff}
 .step_cont02 .step02{color:#f05922}
@@ -814,11 +814,11 @@ th.th_bor0{border-bottom:0}
 .step_cont03 .step03 span{color:#fff}
 .btn_overlap{color:#fff; padding:8px 25px; background-color:#2257ad; display:inline-block; font-size:14px; vertical-align:middle; margin:0 10px 0 5px}
 .star_txt{color:#999;float:right; font-size:14px;}
-			.step_cont04{ background:url(../../images/sub/etc/bg_step04.jpg) no-repeat; padding:10px 0 20px; clear:both; overflow:hidden; margin-bottom:40px}
+			.step_cont04{ background:url(../images/bg/bg_step04.jpg) no-repeat; padding:10px 0 20px; clear:both; overflow:hidden; margin-bottom:40px}
 .step_cont04 li{float:left; font-size:20px;line-height:18px; text-align:left}
 .step_cont04 li span{display:block; font-size:12px;color:#666}
 .step_cont04 li.step01{padding-left:112px; padding-right:143px}
-.step_cont04 li.step01,.step_cont04 li.step01 span,.step_cont04 li.step02,.step_cont04 li.step02 span,.step_cont04 .step02,.step_cont04 .step03,.step_cont04 li.step03 span{color:#f05922}
+.step_cont04 li.step01,.step_cont04 li.step01 span,.step_cont04 li.step02,.step_cont04 li.step02 span,.step_cont04 .step02,.step_cont04 .step03,.step_cont04 li.step03 span{color:#2257ad}
 .step_cont04 .step02{padding-right:115px;}
 .step_cont04 .step03{padding-right:150px;}
 .step_cont04 .step04 span,.step_cont04 .step04{color:#fff}
@@ -886,7 +886,7 @@ th.th_bor0{border-bottom:0}
 .prog_txt01{font-size:20px;color:; margin-bottom:20px; line-height:35px;font-weight:bold}
 .prog_txt01 span{ font-size:14px;color:#666;}
 .prog_txt02{font-size:14px;color:#999;line-height:23px;}
-.btn_box02{clear:both}
+.btn_box02{clear:both; margin-left: 150px}
 .btn_box02 p a:first-child{margin-right:-3px}
 .pro_title{ border-bottom:1px solid #333; clear:both; overflow:hidden; padding-bottom:15px}
 .pro_title .fl{color:#f05922; font-size:16px}

@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -14,14 +13,13 @@
 <body>
 <%@include file="../common/header.jsp" %>
 
-
     <div  id="conainer">
     	<div id="nav">
         	<div class="nav_txt">
             	<p>
                 	<a href="/index.php">Home</a>
                     <span class="padd">&gt;</span> 
-                	<span>마이페이지</span>
+                	<span>회원가입</span>
             	</p>
             </div>
         </div>
