@@ -9,12 +9,8 @@
 <link rel="stylesheet" href="../common/footer.css">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript"
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="center_js/center_js.js"></script>
-<script type="text/javascript">
 
-</script>
 <title>Insert title here</title>
 </head>
 <body>
@@ -26,7 +22,7 @@
 		<div id=member_nav>
 			<div class="nav_txt">
 				<p>
-					<a href="#">Home</a> <span class="padd">></span> <span>고객센터</span>
+					<a href="#">Home</a> <span class="padd">></span> <span id="aaa">고객센터</span>
 				</p>
 			</div>
 		</div>
@@ -96,31 +92,6 @@
 						</div>
 
 
-						<h2 class="tit">
-							<a href="#tab_03">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이랜서 바이어와의 계약
-								날인 시점 언제 하나요?</a>
-						</h2>
-						<div id="tab_03" class="tab_con"><br><br>(주)이랜서 매니저들이 바이어에게 개발자를
-							추천하고, 인터뷰를 진행하여 함께 일을 하기로 결정했다면, 그 다음에 진행되어야 할 것은 바로 계약서에 날인하는
-							것입니다. 양 당사자와 매니저가 대면하여 계약을 완료함으로써 법적 효력이 발생하기 때문이죠. 즉, '프로젝트 투입
-							전'에 날인을 하고 해당 프로젝트에 참여하는 것을 정석으로 하고 있습니다. 계약서를 기준으로 바이어와 개발자 모두
-							성실히 이행 되어야 하는 부분이 있기 때문에 투입 전에 그 부분에 대해서 삼자 모두 동의하여야 하기 때문입니다.
-							계약서는 프로젝트에 성공적인 완료를 위한 약속이라 할 수 있습니다. 물론 프로젝트 일정 때문에 급하게 투입이 되고 그
-							후에 계약날인을 하는 경우도 종종 발생하게 되지만, 그럴 경우에는 매니저들이 보다 빠르게 대처하여 계약서를 확인하고
-							날인을 받게 됩니다. 하지만 위에서 언급했듯이 실제 진행되는 프로세스는 '투입 전 계약 완료'입니다.</div>
-
-
-						<h2 class="tit">
-							<a href="#tab_03">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;프리랜서의 작업 결과물에
-								대한 저작권은 누구에게 있는 것인가요?</a>
-						</h2>
-						<div id="tab_03" class="tab_con"><br><br>프로젝트를 받아서 하는 프리랜서의 작업물은
-							누구에게 저작권이 있는 것인가에 대한 궁금증이 많으실 텐데요. 원천적으로 자유로운 관계인 프리랜서들의 제작 결과물은
-							프리랜서에게 속합니다만, 고용되어 지시 감독 하에 진행 될 때는 법인에게 속하게 됩니다. 하지만 일반적으로 애매모호한
-							경우가 많기 때문에 계약서를 쓸 때 별도의 조항을 달거나 하는 방법으로 소유권을 주장할 수 있을 것입니다. 특히
-							디자인이나 일러스트 같은 부분에서 많이 일어나는 문제인데, 이는 저작권을 계속 프리랜서가 가지고 사용권을 허락하는
-							조건으로 갈지 또는 전부를 넘기는 계약으로 갈지를 명확하게 정리해야 할 것입니다. 사용조건이나 만기시기, 배포여부
-							등에 대해서도 정해 놓는다면 보다 수월하게 해결할 수 있겠지요.</div>
 					</div>
 				</div>
 			</div>

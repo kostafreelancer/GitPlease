@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 	$("#content div").hide(); // Initially hide all content
 	$("#tabs li:first").attr("id","current"); // Activate first tab
@@ -70,7 +71,7 @@ $.fn.extend({
 
 $(document).ready(function () {
 	$(".tab").accordion({
-		showTab: 99,
+		showTab: 2,
 		slideType: 1
 	});
 });
