@@ -10,18 +10,31 @@
 
 <title>Insert title here</title>
 
+
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="js.myInfo.js"></script>
 </head>
 <body>
 
 
-<section id="firstsection">
-
 <%@include file="../common/header.jsp" %>
 
+<section id="firstsection">
+
+<ul id="tabs">
+    <li><a href="#" title="tab1">내 정보</a></li>
+    <li><a href="#" title="tab2">이력 정보</a></li>
+    <li><a href="#" title="tab3">히스토리</a></li>
+    <li><a href="#" title="tab4">Four</a></li>    
+</ul>
+
+
+<div id="content">
+<div id="tab1">
 <div class="tb_box">
-        <div class="ct overf">
-           <h4 class="fl">개인정보</h4>
-		</div>
+             	<div class="ct overf">
+                    <h4 class="fl">개인정보</h4>
+                </div>
                 <table class="tb_st01">
                     <caption></caption>
                     <colgroup>
@@ -34,9 +47,13 @@
                     <tbody>
                         <tr>
                             <td rowspan="4">
-                              	<img name="IMG1" id="IMG1" src="../img/item_noimage.gif">								
-                              	
-                                <span class="pho_txt">최적 해상도:132x176 pixel</span>
+                              	<!-- <img name="IMG1" id="IMG1" src="../img/item_noimage.gif">								<div class="file">
+									<div class="filebox"></div>
+									<div class="filebutton"><span>사진업로드</span><input type="file" name="fm_file1" onchange="PreView(this.value, 'IMG1', '132', '176');" class="searchfile" title="파일 찾기" style="width:820px;"></div>
+									<div class="filebutton"><span>사진업로드</span><input type="file" name="fm_file1" onchange="readURL(this);" class="searchfile" title="파일 찾기" style="width:820px;"></div>
+								</div>
+                                <span class="pho_txt">최적 해상도:132x176 pixel</span> -->
+                                	사진업로드
                             </td>
                             <th scope="row"><label for="fm_korname"><span class="txt_or">*</span> 성명</label></th>
                             <td colspan="3">
@@ -164,10 +181,9 @@
                         </tr>
                     </tbody>
                 </table>
-			 </div>
-</div>
-
-<div class="tb_box">
+            </div>
+            
+            <div class="tb_box">
             	<h4>현황정보</h4>
             	<table class="tb_st01">
                 	<caption></caption>
@@ -307,103 +323,28 @@
 						<!--img src="../img/sb_category.gif" width="87" height="18" align="absmiddle"-->
 						</td>
 					</tr>
-						<tr class="line_bottom">
-                        	<th scope="row" colspan="2" class="ac"><span class="txt_or">*</span> 전문분야/특별경험</th>
- 						<td colspan="5" style="border-bottom: solid 1px #dadada" bgcolor="#ffffff">
 
-						<table width="100%">
-							<colgroup>
-									<col width="20%">
-									<col width="21%">
-									<col width="20%">
-									<col width="20%">
-									<col width="20%">
-								</colgroup>
-													<tbody><tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="AJAX" checked=""> AJAX</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="BI"> BI</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="BPM"> BPM</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="BUILDER"> BUILDER</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="CODEIGNITER"> CODEIGNITER</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="DDK"> DDK</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="DJANGO"> DJANGO</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="DW"> DW</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="EJB"> EJB</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="ERP"> ERP</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="GAUCE"> GAUCE</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="GIT"> GIT</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="HADOOP"> HADOOP</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="IBSHEET"> IBSHEET</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="JEUS"> JEUS</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="JSTL"> JSTL</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="LabVIEW"> LabVIEW</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="LAFJ"> LAFJ</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="MFC"> MFC</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="MIPLATFORM"> MIPLATFORM</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="MSTR"> MSTR</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="MVC"> MVC</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="OPENGL"> OPENGL</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="OZREPORT"> OZREPORT</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="PLM"> PLM</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="SCM"> SCM</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="SITEMESH"> SITEMESH</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="SOAP"> SOAP</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="STRUTS"> STRUTS</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="SWING"> SWING</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="TRUSTFORM"> TRUSTFORM</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="TUXEDO"> TUXEDO</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="UNITY3D"> UNITY3D</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="WDK"> WDK</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="WEBLOGIC"> WEBLOGIC</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="WEBSPHERE"> WEBSPHERE</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="WEBSQURE"> WEBSQURE</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="XPLATFORM"> XPLATFORM</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="반응형웹"> 반응형웹</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="보안진단"> 보안진단</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="빅데이터"> 빅데이터</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="수신"> 수신</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="여신"> 여신</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="외환"> 외환</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="워드프레스"> 워드프레스</td>
-													</tr>
-													<tr class="che_list011">
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="웹접근성"> 웹접근성</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="전자정부프레임워크"> 전자정부프레임워크</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="카드"> 카드</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="하이브리드앱"> 하이브리드앱</td>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="프레젠테이션"> 프레젠테이션</td>
-													</tr>
-						</tbody></table>
-						<!--img src="../img/sb_category.gif" width="87" height="18" align="absmiddle"-->
-						</td>
-					</tr>
-                                               
                     </tbody>
                </table>
-                 
             </div>
-         <div class="btn_box mb30">
-                	<a href="javascript:MemberModifyIt();" ><!-- class="btn_check06" -->수정하기</a>
-                	<a href="javascript:MemberModifyFm.reset();" class="btn_check02">초기화</a>
-	      </div>
+            <div class="btn_box mb30">
+                <a href="javascript:MemberModifyIt();">수정하기</a>
+                <a href="javascript:MemberModifyFm.reset();" class="btn_check02">초기화</a>
+				
+            </div>
+</div>
 
-	    </section>
+<div id="tab2">
+
+</div>
+
+<div id="tab3">
+
+</div>
+</div>
+
+
+</section>
             
             <%@include file="../common/footer.jsp" %> 
 
