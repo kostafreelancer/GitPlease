@@ -10,9 +10,14 @@
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/chatting.css" type="text/css" media="screen" /> 
+<<<<<<< HEAD
 
 
  
+=======
+<link rel="stylesheet" href="../common/chatting_chang.css" type="text/css" media="screen" /> 
+
+>>>>>>> 03fa0b4a99b17570187c966a6d67befbb2913575
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="e_project.js"></script>
 <script type="text/javascript" src="exam.js"></script>
@@ -20,8 +25,12 @@
  -->
 </head>
 <body>
+<<<<<<< HEAD
 
 
+=======
+ 	
+>>>>>>> 03fa0b4a99b17570187c966a6d67befbb2913575
  	<%@include file="../common/header.jsp" %>
 	<%@include file="../common/chatting.jsp" %> 
 

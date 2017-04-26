@@ -14,9 +14,17 @@ $(document).ready(function() {
         $(this).parent().attr("id","current"); // Activate this
         $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
     });
+<<<<<<< HEAD
     $('.chatting').click(function(){
 		$(this).load('../common/chatting_chang.html');
 	});
+=======
+    $(function(){
+		$('.chatting').click(function(){
+		$(this).load('../common/chatting_chang.html');
+	});
+});
+>>>>>>> 03fa0b4a99b17570187c966a6d67befbb2913575
     
 });
 $(function(){

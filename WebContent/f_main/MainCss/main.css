@@ -263,6 +263,14 @@
 	
 }
 
+#introduce_site > h2{
+	text-align: center;
+}
 
+#introduce_img > img{
+	margin-right: 50px;
+}
 
- 
+#introduce_img{
+	margin-left: 27%;
+}
