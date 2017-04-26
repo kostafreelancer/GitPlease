@@ -21,15 +21,15 @@
 				<ul	class="header_top_menus">
 					<li>
 						<img alt="center_img" src="/GitPlease/images/header_center_icon.jpg">
-						<a href="">고객 센터</a>
+						<a href="/GitPlease/member_center/member_centerMain.jsp">고객 센터</a>
 					</li>
 					<li>
 						<img alt="join_img" src="/GitPlease/images/header_join_icon.jpg">
-						<a href="">회원가입</a>
+						<a href="/GitPlease/join/join_step1.jsp">회원가입</a>
 					</li>
 					<li>
 						<img alt="log_img" src="/GitPlease/images/header_log_icon01.jpg">
-						<a href="">로그인</a>
+						<a href="/GitPlease/login/login.jsp">로그인</a>
 					</li>
 					<li>
 						<img alt="home_img" src="/GitPlease/images/header_home_icon01.jpg">
@@ -52,10 +52,10 @@
 						<a href="">프리랜서 목록</a>
 					</li>
 					<li>
-						<a href="">마이페이지</a>
+						<a href="/GitPlease/mypage_free_jsp/myInfo.jsp">마이페이지</a>
 					</li>
 					<li>
-						<a href="">이용 방법</a>
+						<a href="/GitPlease/using_method/f_service.jsp">이용 방법</a>
 					</li>
 					
 				</ul>
