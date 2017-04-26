@@ -4,6 +4,13 @@ body{
 	margin: 0px;
 }
 .header{
+<<<<<<< HEAD:WebContent/header.css
+	background: url('images/headerBg.gif') repeat-x;
+	margin: 0px;
+	position: relative;
+	height : 170px;
+	border-bottom: 1px solid #0080ff;
+=======
 	position:relative;
 	width:100%;
 	min-width:980px;
@@ -17,12 +24,33 @@ body{
 	margin: 0px;
 	text-align: right;
 	margin-top: 10px;
+>>>>>>> f7c790f1282dfad1d62c634369cdd3c48c005197:WebContent/common/header.css
 }
 .header_top_menus>li{
 	list-style: none;
-	float : right;
-	text-align: center;
+	float: right;
+	text-align: right;
 	width: 100px;
+<<<<<<< HEAD:WebContent/header.css
+	
+}
+.header_top_menus>li>a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header_box{
+	margin-left: 100px;
+	margin-right: 100px; 
+	text-align: center;
+	
+}
+.header_log{
+	margin-top: 24px;
+}
+.header_menu{
+	border-top: 1px solid #0080ff;
+=======
 	border-left: 1px solid #999;
 } 
 .header_top_menus li:LAST-CHILD{
@@ -38,6 +66,7 @@ body{
 	border-top: 1px solid #f1f1f1;
 	padding-top: 290px;
 	padding-left: 220px;
+>>>>>>> f7c790f1282dfad1d62c634369cdd3c48c005197:WebContent/common/header.css
 }
 .header_menus{
 	list-style: none;
@@ -46,7 +75,12 @@ body{
 }
 .header_menus>li{
 	float: left;
+<<<<<<< HEAD:WebContent/header.css
+	border-right: 1px solid #0080ff;
+	
+=======
 	border-right: 1px solid #0000ff;
+>>>>>>> f7c790f1282dfad1d62c634369cdd3c48c005197:WebContent/common/header.css
 	width: 200px;
 	text-align: center;
 }
