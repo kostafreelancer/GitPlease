@@ -10,36 +10,21 @@
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/chatting.css" type="text/css" media="screen" /> 
-<<<<<<< HEAD
-
- <%@include file="../common/header.jsp" %>
-<%@include file="../common/chatting.jsp" %> 
-=======
 
 
->>>>>>> ed0da4a050e88d93ecffa13c8192ea761b8a8a62
  
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="e_project.js"></script>
 <script type="text/javascript" src="exam.js"></script>
-<!-- <script type="text/javascript" src="../common/chatting.js"></script> -->
-
+<!-- <script type="text/javascript" src="../common/chatting.js"></script>
+ -->
 </head>
 <body>
-<<<<<<< HEAD
- 	<!-- 
-		<div id="sibal" class="chatting_Detail">
-			<img alt="catting_open" src="/GitPlease/images/chatting.PNG">
-		 	<span id="sibal2">채팅 문의</span> 
-		</div> -->
-	
 
 
-
-=======
  	<%@include file="../common/header.jsp" %>
 	<%@include file="../common/chatting.jsp" %> 
->>>>>>> ed0da4a050e88d93ecffa13c8192ea761b8a8a62
+
 	<div class="left_menu">
 		<div class="left_menu_title">
 			<h2>마이 페이지</h2>

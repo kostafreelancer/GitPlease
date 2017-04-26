@@ -1,6 +1,6 @@
 
 $(function(){
 		$('.chatting').click(function(){
-		$(this).load('chatting_chang.html');
+		$(this).load('../common/chatting_chang.html');
 	});
 });

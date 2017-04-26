@@ -14,7 +14,9 @@ $(document).ready(function() {
         $(this).parent().attr("id","current"); // Activate this
         $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
     });
-   
+    $('.chatting').click(function(){
+		$(this).load('../common/chatting_chang.html');
+	});
     
 });
 $(function(){
@@ -26,4 +28,10 @@ $(function(){
 		});
 });
 
+/*
+$(function(){
+		$('.chatting').click(function(){
+		$(this).load('../common/chatting_chang.html');
+	});
+});*/
 
