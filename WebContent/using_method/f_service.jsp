@@ -209,7 +209,7 @@
                   <h5 class="p5-clientUsage-step-title">
                   <img src="../images/service/intro_five.png">
                   <span class="p5-clientUsage-step-title-text" style="margin-left:11px;">프로젝트 완료</span>
-                  <img src="/../images/slash_blue.png">
+                  <img src="../images/slash_blue.png">
                   </h5>
                   <div class="p5-clientUsage-step-content">
                     <div class="p5-clientUsage-step-mainText">클라이언트와 파트너의 승인 후에 프로젝트가 완료되며, 상호 간의 만족도 평가를 합니다.</div>
