@@ -27,6 +27,17 @@
 }
 
 
+/* .chatting_Detail{
+	left: 90%;
+	margin-left: 424px;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    font-family: dotum, AppleGothic, sans-serif;
+    font-size: 12px; 
+	
+}
+ */
 
 /* .chatting_Detail{
 	border: 1px solid rgb(77, 136, 229);
@@ -42,7 +53,11 @@
 .chatting_Detail img{
 	padding-left: 15px;
 	float: left;
+<<<<<<< HEAD
 } */
+=======
+}  */
+>>>>>>> ed0da4a050e88d93ecffa13c8192ea761b8a8a62
 /*
 .chatting p{
 	color: #ffffff;

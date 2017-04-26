@@ -305,18 +305,18 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .padd{padding:0 3px}
 /* ë¡œê·¸ì¸ */
 .login_cont{width:880px; margin:0 auto;padding-top:80px;clear:both; overflow:hidden}
-.login_cont h2{ background:url(../../images/common/bg/bg_login_tit.jpg) 0 3px no-repeat;padding-left:45px;font-size:40px;color:#333;line-height:40px;margin-bottom:10px;}
+.login_cont h2{ background:url(../images/bg/bg_login_tit.jpg) 0 3px no-repeat;padding-left:45px;font-size:40px;color:#333;line-height:40px;margin-bottom:10px;}
 .login_cont h2 span{color:#666; font-size:16px;padding-left:20px}
 .log_box{border:1px solid #d6d6d6;overflow:hidden; height:323px}
-.log_lef{padding:45px 40px 35px}
+.log_lef{padding:60px 250px 35px}
 .log_lef{width:412px;padding-right:40px; float:left;}
 .log_lef p{color:#666; font-size:16px; margin-bottom:20px}
 .login_check{clear:both; overflow:hidden}
 .log_inp01,.log_inp02{ border:1px solid #ccc;padding:9px 35px;width:98%;margin-bottom:10px; text-indent:30px !important}
 .log_inp01{background:url(../../images/common/bg/bg_id.jpg) 10px 8px no-repeat}
 .log_inp02{background:url(../../images/common/bg/bg_pass.jpg) 10px 8px no-repeat}
-.btn_login{width:160px;height:;background:url(../../images/common/bg/btn_login.jpg) no-repeat; padding:15px 0; text-align:center; font-size:20px; color:#fff; display:block;float:left}
-.pass_find{float:right; color:#f05922; font-size:14px; text-decoration:underline;font-family: 'NanumGothic_b';}
+.btn_login{width:160px;height:;background:url(../images/bg/btn_login.jpg) no-repeat; padding:15px 0; text-align:center; font-size:20px; color:#fff; display:block;float:left}
+.pass_find{float:right; color:#2257ad; font-size:14px; text-decoration:underline;font-family: 'NanumGothic_b';}
 .log_rit{float:left;width:346px;height:323px;background-color:#f4f4f4;padding:45px 0 0 40px}
 .log_rit h3{font-size:16px;color:#666;margin-bottom:20px; background:url(../../images/sub/etc/bg_star.jpg) left 0 no-repeat;padding-left:25px;}
 .log_rit h3 strong{color:#f05922}
@@ -324,7 +324,7 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .log_rit .log_txt01{font-size:16px;display:block}
 .log_rit .log_txt02{font-size:20px;color:#f05922}
 .log_rit ul li{line-height:20px}
-.btn_join{width:160px;background:url(../../images/common/bg/bg_join.jpg) no-repeat; padding:15px 0; text-align:center; font-size:20px; color:#fff; display:block;float:right}
+.btn_join{width:160px;background:url(../images/bg/bg_join.jpg) no-repeat; padding:15px 0; text-align:center; font-size:20px; color:#fff; display:block;float:right}
 
 /* ì„œë¸Œ ì œëª© */
 .tit_box{padding:50px 0 40px 0; clear:both;overflow:hidden; border-bottom:1px solid #2257ad; margin-bottom:50px}
