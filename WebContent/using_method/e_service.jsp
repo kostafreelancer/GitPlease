@@ -87,7 +87,7 @@
                       <h5 class="p5-clientUsage-step-title">
                       <img src="../images/service/intro_one.png">
                       <span class="p5-clientUsage-step-title-text" style="margin-left:23px;">프로젝트 등록</span>
-                      <img src="../images/service/slash_blue.png">
+                      <img src="../images/slash_blue.png">
                       </h5>
                         <div class="p5-clientUsage-step-content">
                           <div class="p5-clientUsage-step-mainText">
@@ -98,8 +98,8 @@
                           · 24시간 안에 평균 5개의 견적을 받아볼 수 있습니다.
                           </div>
                           <div class="p5-clientUsage-step-img">
-                          <!-- 여기에 우리 사진 들어가야함! -->
-                          <img src="../images/service/intro_client_screenshot_one.png">
+                            <!-- 여기에 우리 사진 들어가야함! -->
+                              <img src="../images/intro_usecase_one.PNG">
                           </div>
                           <div class="p5-clientUsage-step-info">
                             <div class="p5-clientUsage-step-info-line">- 프로젝트는 내부 검수 후에 등록되며, 최대 24시간이 소요됩니다. (영업시간 기준)</div>
