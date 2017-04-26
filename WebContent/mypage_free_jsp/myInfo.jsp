@@ -497,9 +497,10 @@
 
 <div id="tab3">
 	<h4>내가 지원한 프로젝트</h4>
-	<p>공고를 가져와서 쓴다.</p>
-	<p>공고를 가져와서 쓴다.</p>
-	<p>공고를 가져와서 쓴다.</p>
+	<table border="1px solid" width="800px" height="200px" cellpadding="0" cellspacing="0"><tr><td>첫번째 지원한 프로젝트의 공고</td></tr></table><br><br><br>
+	<table border="1px solid" width="800px" height="200px" cellpadding="0" cellspacing="0"><tr><td>두번째 지원한 프로젝트의 공고</td></tr></table><br><br><br>
+	<table border="1px solid" width="800px" height="200px" cellpadding="0" cellspacing="0"><tr><td>세번째 지원한 프로젝트의 공고</td></tr></table><br><br><br>
+	
 </div>
 
 <div id="tab4">
