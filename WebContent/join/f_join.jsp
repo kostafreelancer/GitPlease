@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="f_join.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="join.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
