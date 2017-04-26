@@ -7,13 +7,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="chatting.css" type="text/css" media="screen" />
+
 </head>
 <body>
-	<div class="body">
-		<ul>
-			<li>으아아</li>
-		</ul>
-	</div>
 	<div class="chatting">
 		<div class="chatting_Detail">
 			<img alt="catting_open" src="/GitPlease/images/chatting.PNG">

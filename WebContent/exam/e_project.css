@@ -28,6 +28,42 @@
 
 
 
+.chatting_Detail{
+	border: 1px solid rgb(77, 136, 229);
+    border-radius: 24px;
+    background-color: rgb(86, 152, 255); 
+    width: 140px;
+    height: 38px;
+  	left : 90%;
+  	position: absolute; 
+  	top: 500px;
+  	
+}
+.chatting_Detail img{
+	padding-left: 15px;
+	float: left;
+}
+/*
+.chatting p{
+	color: #ffffff;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section
 {

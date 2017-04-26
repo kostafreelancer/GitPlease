@@ -6,6 +6,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="header.css" type="text/css" media="screen" />
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.header_top_menus img').click(function(){
+			alert("asdads");
+		})
+	})
+</script>
 </head>
 <body>
 	<div class="header">
