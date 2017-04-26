@@ -28,7 +28,7 @@
         <div id="content">
         	<div class="tit_box">
             	<h2>회원가입</h2>
-                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>36만명의 검증된 IT 인재가 대기중입니다.</span></p>
+                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span></p>
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="/common/js/weather.js" type="text/javascript"></script>
 <script src="/common/js/common.js" type="text/javascript"></script>
@@ -62,13 +62,13 @@ $(function(){
                 <li class="step04"><span>Step04</span>가입완료</li>
             </ul>
             <div class="market">
-            	<p class="market_txt01"><span class="txt_or02">이랜서</span>가 열어가는 IT전문가 세상! </p>
+            	<p class="market_txt01"><span class="txt_or02">DreamLancer 1TO1</span>이 열어가는 IT전문가 세상! </p>
                 <p class="market_txt03"><span class="txt_bu">가입</span>하실 회원종류를 <span class="txt_gr">선택</span>해주세요.</p>
             </div>
             <!-- market : e -->
             <div class="ct overf">
                 <div class="elan_box01">
-                    <h3>이랜서</h3>
+                    <h3>DreamLancer 1TO1</h3>
                         <p class="ac">재택/상주를 희망하는 프리랜서,<br />
     헤드헌팅을 희망하는 정규직 구직자</p>
                     <ul>

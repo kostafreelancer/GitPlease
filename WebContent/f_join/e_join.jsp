@@ -26,7 +26,7 @@
         <div id="content">
         	<div class="tit_box">
             	<h2>회원가입</h2>
-                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>36만명의 검증된 IT 인재가 대기중입니다.</span></p>
+                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span></p>
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="/common/js/weather.js" type="text/javascript"></script>
 <script src="/common/js/common.js" type="text/javascript"></script>

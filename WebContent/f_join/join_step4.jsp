@@ -27,7 +27,7 @@
         <div id="content">
         	<div class="tit_box">
             	<h2>회원가입</h2>
-                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>36만명의 검증된 IT 인재가 대기중입니다.</span></p>
+                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span></p>
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="/common/js/weather.js" type="text/javascript"></script>
 <script src="/common/js/common.js" type="text/javascript"></script>
@@ -62,7 +62,7 @@ $(function(){
             </ul>
  			<div class="completion">
             	<p class="comple01">님은 회원이 되었습니다.</p>
-                <p class="comple02"><span class="color_or">반갑습니다!</span> IT프로젝트 중계분야 <span class="color_or">1위</span>! 프로젝트 / 프리랜서 등록수 <span class="color_or">1위!</span></p>
+                <p class="comple02"><span class="color_or">반갑습니다!</span> IT프로젝트 중계분야 <span class="color_or">으뜸</span>! 프로젝트 / 프리랜서 등록수 <span class="color_or">최고!</span></p>
                 <p class="comple03 color_or">회원이 되신것을 진심으로 환영합니다.</p>
             </div>
             <!-- //completion : e -->

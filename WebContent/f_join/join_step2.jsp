@@ -26,7 +26,7 @@
         <div id="content">
         	<div class="tit_box">
             	<h2>회원가입</h2>
-                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>36만명의 검증된 IT 인재가 대기중입니다.</span></p>
+                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span></p>
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="/common/js/weather.js" type="text/javascript"></script>
 <script src="/common/js/common.js" type="text/javascript"></script>
@@ -70,7 +70,7 @@ $(function(){
 
 제1조(목적)
 
-이 약관은 주식회사 이랜서(이하“회사”라고 합니다)가 인터넷 사이트(http://www.elancer.co.
+이 약관은 주식회사 드림랜서(이하“회사”라고 합니다)가 인터넷 사이트(http://www.dreamlancer1TO1.co.
 kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고 합니다)의 이용과 관련하여 회사와 회원간의 권리와 의무, 책임사항 및 회원의 서비스 이용조건 및 절차, 기타 필요한 사항을 『전자거래기본법』 및 『정보통신망 이용촉진 및 정보보호 등에 관한 법률』 등 관련 법령에 의하여 규정함을 목적으로 합니다.
 
 
@@ -78,9 +78,9 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 
 제2조(약관의 효력 및 개정)
 
-① 회사는 이 약관의 내용을 서비스를 이용하고자 하는 자와 회원이 쉽게 알 수 있도록 서비스가 제공되는 인터넷사이트(http://www.elancer.co.kr) 초기 화면에 게시합니다.
+① 회사는 이 약관의 내용을 서비스를 이용하고자 하는 자와 회원이 쉽게 알 수 있도록 서비스가 제공되는 인터넷사이트(http://www.dreamlancer1TO1.co.kr) 초기 화면에 게시합니다.
 
-② 이 약관은 회사가 회원에게 회사 홈페이지(http://www.elancer.co.kr), 전자우편 혹은 기타의 방법으로 공지함으로써 그 효력이 발생합니다.
+② 이 약관은 회사가 회원에게 회사 홈페이지(http://www.dreamlancer1TO1.co.kr), 전자우편 혹은 기타의 방법으로 공지함으로써 그 효력이 발생합니다.
 
 ③ 회사는 『약관의 규제에 관한 법률』, 『정보통신망 이용촉진 및 정보보호 등에 관한 법률』 등 관련법을 위배하지 않는 범위에 한하여 이 약관을 개정할 수 있습니다.
 
@@ -110,7 +110,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 
 ① 이 약관에서 사용하는 용어의 정의는 다음과 같습니다.
 
-1. 서비스 : 회사가 인터넷사이트(http://www.elancer.co.kr)를 통하여 회원들에게 제공하는 회원간의 e-marketplace서비스 및 관련 부가서비스 일체를 말합니다.
+1. 서비스 : 회사가 인터넷사이트(http://www.dreamlancer1TO1.co.kr)를 통하여 회원들에게 제공하는 회원간의 e-marketplace서비스 및 관련 부가서비스 일체를 말합니다.
 
 2. 회원 : 회사와 서비스이용계약을 체결한 자를 말합니다. 회원은 바이어와 이랜서, 개인회원과 사업자회원, 정회원과 준회원으로 구분됩니다.
 
@@ -492,13 +492,13 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 
 ③ 회사소개
 
-1. 주식회사 (주)이랜서
+1. 주식회사 (주)드림랜서1TO1
 
 2. 사업자 등록번호 : 209-81-25311
 
 3. 소재지 : 서울특별시 강남구 봉은사로 413 2층
 
-4. 대표이사 : 박우진
+4. 대표이사 : 남광식
 
 
 
@@ -528,7 +528,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 
 ② 본 약관의 시행일은 2009년 03월 25일이며, 7일 동안 회사 홈페이지
 
-(http://www.elancer.co.kr)에서 공지한 후에 2009년 04월 01일부터 그 효력이 발생됩니다.
+(http://www.dreamlancer1TO1.co.kr)에서 공지한 후에 2009년 04월 01일부터 그 효력이 발생됩니다.
 
 
 부 칙
@@ -542,7 +542,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 
 ② 본 약관의 시행일은 2014년 05월 2일이며, 7일 동안 회사 홈페이지
 
-(http://www.elancer.co.kr)에서 공지한 후에 2014년 05월 09일부터 그 효력이 발생됩니다.</textarea>
+(http://www.dreamlancer1TO1.co.kr)에서 공지한 후에 2014년 05월 09일부터 그 효력이 발생됩니다.</textarea>
                 </div>
                 <p>
                 	<input type="checkbox" id="chk_law" name="chk_law" value="y" class="ab"/>
@@ -551,9 +551,9 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
            </div>
            <!-- //form :e  -->
            <div class="form">
-           		<h4>이랜서 개인정보 보호정책</h4>
+           		<h4>드림랜서 개인정보 보호정책</h4>
                 <div class="inp_text">
-                	<textarea  class="txt_area03" readonly>(주)이랜서(www.elancer.co.kr / 이하 “회사“라 한다)는 통신비밀보호법, 전기통신사업법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 등 정보통신서비스제공자가 준수하여야 할 관련 법령상의 개인정보보호 규정을 준수하며, 관련 법령에 의거한 개인정보취급방침을 정하여 이용자 권익 보호에 최선을 다하고 있습니다.
+                	<textarea  class="txt_area03" readonly>(주)드림랜서(www.dreamlancer1TO1.co.kr / 이하 “회사“라 한다)는 통신비밀보호법, 전기통신사업법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 등 정보통신서비스제공자가 준수하여야 할 관련 법령상의 개인정보보호 규정을 준수하며, 관련 법령에 의거한 개인정보취급방침을 정하여 이용자 권익 보호에 최선을 다하고 있습니다.
 
 회사는 개인취급 방침을 홈페이지 하단 메뉴에 공개함으로써 이용자들이 언제나 용이하게 보실 수 있도록 조치하고 있습니다.
 
@@ -773,9 +773,9 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 직위 : 과장
 이메일 : elancer.privacy@elancer.co.kr
 
-타. 이랜서 고객센터 안내
+타. 드림랜서 고객센터 안내
 
-현재 ㈜이랜서는 고객의 민원사항의 처리를 위한 고객센터를 운영하고 있습니다.
+현재 ㈜드림랜서는 고객의 민원사항의 처리를 위한 고객센터를 운영하고 있습니다.
 
 - 근무시간 : 평일 09:00~18:00
 - 전화번호 : 02-545-0042
@@ -803,7 +803,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
            </div>
            <!-- //form :e  -->
            <div class="form">
-           		<h4>이랜서 개인정보 수집동의</h4>
+           		<h4>드림랜서 개인정보 수집동의</h4>
                 <div class="inp_text">
                 	<textarea class="txt_area03" readonly>1. 수집하는 개인정보의 항목
 가. 회사는 회원가입, 원활한 고객상담, 각종 서비스의 제공을 위해 최초 회원가입 당시 아래와 같은 개인정보를 수집하고 있습니다.
@@ -884,7 +884,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 		   <form name="form_ipin" method="post">
 			<input type="hidden" name="m" value="pubmain">
 			<input type="hidden" name="enc_data" value="">
-			<input type="hidden" name="param_r1" value="이랜서">
+			<input type="hidden" name="param_r1" value="드림랜서">
 			<input type="hidden" name="param_r2" value="개인">
             <div class="btn_box">
             	<a href="javascript:jsSubmit();" class="btn_check04">회원가입</a>
@@ -893,7 +893,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 			</form>
 			<form name="vnoform" method="post">
 				<input type="hidden" name="enc_data">
-				<input type="hidden" name="fm_type" value="이랜서">
+				<input type="hidden" name="fm_type" value="드림랜서">
 				<input type="hidden" name="fm_format" value="">
 				<input type="hidden" name="fm_str" value="">
 			</form>
@@ -909,7 +909,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 			<input type="hidden" name="fm_format" value="">
 		</form>
 		<form name="form1" action="hs_cnfrm_popup2.php" method="post">
-            <input type="hidden" name="fm_type" value="이랜서">
+            <input type="hidden" name="fm_type" value="드림랜서">
 			<input type="hidden" name="fm_format" value="개인">
 		</form>
 		<!-- 본인확인 처리결과 정보 -->
@@ -929,7 +929,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 			<input type="hidden" name="tel_com_cd" 				value="" 	/>
 			<input type="hidden" name="tel_no" 					value="" 	/>
 			<input type="hidden" name="return_msg" 				value="" 	/>
-			<input type="hidden" name="fm_type" value="이랜서">
+			<input type="hidden" name="fm_type" value="드림랜서">
 			<input type="hidden" name="fm_format" value="개인">
 		</form>
         <!-- footer02 : e -->
