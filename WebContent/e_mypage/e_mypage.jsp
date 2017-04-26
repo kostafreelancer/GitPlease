@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
  <%@include file="../common/header.jsp" %>
 
-   
+
 
 </head>
 <body>
