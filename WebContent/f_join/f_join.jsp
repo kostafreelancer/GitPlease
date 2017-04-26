@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%--      <%@include file="../header.jsp" %> 
-<jsp:include page="../header.jsp"></jsp:include> --%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>회원가입</title>
 <link rel="stylesheet" href="f_join.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
+<title>회원가입</title>
 </head>
 <body>
-
+<%@include file="../common/header.jsp" %>
 
 
     <div  id="conainer">
@@ -118,7 +118,7 @@ $(function(){
                     <tbody>
                         <tr>
                             <td rowspan="5">
-                              	<img src="images/bg/join_photo.jpg" alt="사진" />
+                              	<img src="../images/bg/join_photo.jpg" alt="사진" />
 								<input type="file" name="fm_file1" onchange="PreView(this.value, 'IMG1', '132', '176');" style="width:130px;" />
                                 <!--<a href="#" class="photo_up">사진업로드</a>-->
                                 <span class="pho_txt">최적 해상도:132x176 pixel</span>
@@ -411,6 +411,6 @@ $(function(){
 </div>
 <!-- 아이디 중복확인 팝업 : E -->
 
-
+<%@include file="../common/footer.jsp" %>
 </body>
 </html>
