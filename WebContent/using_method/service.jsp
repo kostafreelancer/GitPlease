@@ -44,13 +44,8 @@
             	<h2>서비스 소개</h2>
                 <p class="tit_txt">기업 & 프리랜서가 함께하는 드림랜서<span>최적화된 매칭을 이뤄주는 드림랜서입니다.</span></p>
                 
-                <div class="market">
                 <br><br><br><br><br>
-				<p class="market_txt01">철저한 IT 인재 Marketplace만을 고집하는 드림랜서 1 to 1</p>
-				<p class="market_txt02">기업 / 프리랜서 매칭, IT프로젝트 중계 확실한 보장!</p>
-				<p class="market_txt03">최적화된 인재검색 시스템을 통한 서비스로 귀사에 맞춤형 인재를 추천함으로써<br />
-					성공적인 프로젝트를 약속합니다.</p>
-            </div>
+				
             
             <section class="p5-serviceIntroduction-partition">
             <h5 class="p5-serviceIntroduction-title service-Introduction-first-title">
