@@ -17,21 +17,14 @@
 						<img alt="center_img" src="/GitPlease/images/header_center_icon.jpg">
 						<a href="">고객 센터</a>
 					</li>
-					<li>
-						<img alt="join_img" src="/GitPlease/images/header_join_icon.jpg">
-						<a href="">회원가입</a>
-					</li>
-					<li>
-						<img alt="join_img" src="/GitPlease/images/header_join_icon.jpg">
-						<a href="/GitPlease/e_mypage/e_mypage.jsp">마이페이지</a>
-					</li>
+			
 					<li>
 						<img alt="log_img" src="/GitPlease/images/header_log_icon01.jpg">
-						<a href="">로그인</a>
+						<a href="/GitPlease/f_main/f_main.jsp">로그 아웃</a>
 					</li>
 					<li>
 						<img alt="home_img" src="/GitPlease/images/header_home_icon01.jpg">
-						<a href="/GitPlease/f_main/f_main.jsp">홈</a>
+						<a href="/GitPlease/c_main/c_main.jsp">홈</a>
 					</li>
 				</ul>
 					
@@ -67,7 +60,10 @@
 						<a href="">프리랜서 찾기</a>
 					</li>
 					<li>
-						<a href="">이용 방법</a>
+						<a href="/GitPlease/e_mypage/e_info.jsp">마이페이지</a>
+					</li>
+					<li>
+						<a href="/GitPlease/using_method/f_service.jsp">이용 방법</a>
 					</li>
 					
 				</ul>
