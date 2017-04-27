@@ -403,6 +403,9 @@
 	                    </tbody>
 	               </table>
 	            </div>
+	            <div>
+	            	<a href="" class="additional">추가모집</a>
+	            </div>
 	            <div class="num_box">
 	                <span class="btn_lef">
 	 					<a href="" class="first" alt="처음으로"></a>

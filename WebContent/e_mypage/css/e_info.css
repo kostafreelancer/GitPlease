@@ -27,6 +27,7 @@ h4{
 .padd{padding:0 3px}
 
 section{
+	width: 1000px;
 	margin-top: 50px;
 	margin-left: 300px;
 	margin-right: 50px;
@@ -120,7 +121,7 @@ section a{
     display: inline-block;
     width: 120px;
     height: 23px;
-    background-color: #F36A33;
+    background-color: #2257ad;
     color: #fff;
     padding: 8px 0 9px;
     text-align: center;
@@ -168,7 +169,7 @@ img, fieldset {
 }
 
 .btn_add {
-    background-color: #f36a33;
+    background-color: #2257ad;
     padding: 7px 15px;
     color: #fff;
     line-height: 15px;
