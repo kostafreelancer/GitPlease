@@ -13,12 +13,14 @@ body{
 }
 
 .header_top_menus{
+	
 	float: right;
 	margin: 0px;
 	text-align: right;
 	margin-top: 10px;
 }
 .header_top_menus>li{
+	
 	list-style: none;
 	float : right;
 	text-align: center;
@@ -40,10 +42,11 @@ body{
 	padding-left: 220px;
 }
 .header_menus{
+	font:bold 12px Arial, Helvetica, sans-serif;
 	list-style: none;
 	margin-top: 5px;
 	width: 900px;
-	padding-left: 80px;
+	padding-left: 110px;
 }
 .header_menus>li{
 	float: left;
@@ -56,6 +59,7 @@ body{
 	color: #ffffff;
 	font-size: 20px;
 	font-family: 'NanumGothic_b';
+	text-shadow:0 0 5px #00c6ff; 
 }
 
 
@@ -89,4 +93,31 @@ body{
 .header_sns .header_btn_i{
 	background-position: -102px 0;	
 }
+
+
+.clock {
+	top: 160px;
+	width : 230px;
+	right : 250px;
+	position : absolute;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#fff; 
+
+}
+#Date { 
+	font-size:20px; 
+	text-shadow:0 0 5px #00c6ff; 
+}
+.clock ul{
+	padding-left: 25px;
+}
+.clock ul li { 
+	
+	display:inline; 
+	font-size: 40px;
+	text-shadow:0 0 5px #00c6ff; 
+}
+
+
+
 

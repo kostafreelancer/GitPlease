@@ -10,15 +10,8 @@
 <link rel="stylesheet" href="chatting_chang.css" type="text/css" media="screen" />
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="chatting.js"></script>
-<!-- <script type="text/javascript">
-	$(function(){
-		$('.chatting').click(function(){
-			
-			$(this).load('chatting_chang.html');
-		});
-	});
 
-</script> -->
+
 </head>
 <body>
 	<div class="chatting">

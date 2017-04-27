@@ -6,14 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="header.css" type="text/css" media="screen" />
-<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript">
-	$(function(){
-		$('.header_top_menus img').click(function(){
-			
-		})
-	})
-</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="header.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -42,7 +36,18 @@
 				<a href="https://www.facebook.com/produce101" target="_blank" class="header_btn_f">fa</a>
 				<a href="https://www.twitter.com/mnetkr" target="_blank" class="header_btn_t">tw</a>
 				<a href="https://www.instagram.com/produce101_official" target="_blank" class="header_btn_i">in</a>
-			</div>		
+			</div>	
+			<div class="clock">
+				<div id="Date"></div>
+					<ul>
+						 <li id="hours"> </li>
+   						 <li id="point">:</li>
+   						 <li id="min"> </li>
+   						 <li id="point">:</li>
+   						 <li id="sec"> </li>
+					</ul>
+			</div>
+			
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
