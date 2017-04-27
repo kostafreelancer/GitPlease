@@ -38,7 +38,7 @@
 				<p class="market_txt03">최적화된 인재검색 시스템을 통한 서비스로 귀사에 맞춤형 인재를 추천함으로써<br />
 					성공적인 프로젝트를 약속합니다.</p>
             </div>
-            <!-- //market : e -->
+            <!-- //market : e --> 
        		<div class="table_tit">
             	<h3>프로젝트 등록의뢰</h3>
                 <div class="fr">
