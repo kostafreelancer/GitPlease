@@ -1,6 +1,13 @@
 a{
 	color: #333;
 }
+
+#nav{height:40px;background-color:#f7f4f0;}
+.nav_txt{width:1000px;margin:0 auto;padding-top:0px;color:#333;vertical-align:bottom;font-size: 13px;}
+.nav_txt a{color:#999; text-align:right; vertical-align:bottom}
+.nav_txt p{float:right}
+.padd{padding:0 3px}
+
 section
 {
     margin-top: 50px;

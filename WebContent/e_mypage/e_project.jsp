@@ -34,6 +34,16 @@
 		</div>
 	</nav>
 
+		<div id="nav">
+        	<div class="nav_txt">
+            	<p>
+                	<a href="/e_lan/index.php">Home</a>
+                    <span class="padd">&gt;</span>
+                	<span>프로젝트 상세</span>
+            	</p>
+            </div>
+        </div>
+
 	<section>
 		<ul id="tabs">
 			<li><a href="#" title="tab1">진행 중</a></li>

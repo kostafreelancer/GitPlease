@@ -7,8 +7,13 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/e_info.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/e_leftmenu.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/star.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
+
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="js/e_info_star.js"></script>
+<script type="text/javascript" src="../common/header.js"></script>
 
 </head>
 <body>
@@ -26,6 +31,16 @@
 		</ul>
 	</div>
 </nav>
+
+		<div id="nav">
+        	<div class="nav_txt">
+            	<p>
+                	<a href="/e_lan/index.php">Home</a>
+                    <span class="padd">&gt;</span>
+                	<span>프로젝트 상세</span>
+            	</p>
+            </div>
+        </div>
 
 <section>
 <div class="e_info_top">
@@ -61,9 +76,9 @@
 			<tr>
 				<th scope="row" class="ac">이메일</th>
 				<td colspan="3">
-					<input type="text" id="" name="" class="wid04">
+					<input type="text" id="" name="" class="wid04" value="wldnjf2000">
 					<span>@</span>
-					<input type="text" id="" name="" class="wid04">
+					<input type="text" id="" name="" class="wid04" value="naver.com">
 						<select class="wid04" name="" id="" onchange="">
 										<option value="">선택해주세요.</option>
 										<option value="etc">직접입력</option>
@@ -87,6 +102,19 @@
 										<option value="unitel.co.kr">unitel.co.kr</option>
 										<option value="yahoo.co.kr">yahoo.co.kr</option>
 	                </select>
+				</td>
+			</tr>
+			<tr>
+				<th>평점</th>
+				<td colspan="3">
+					<span class="star_rating">
+						<a class="on" href="">★</a>
+						<a class="on" href="">★</a>
+						<a class="on" href="">★</a>
+						<a href="">★</a>
+						<a href="">★</a>
+						 3.14
+					</span>
 				</td>
 			</tr>
 		</table>

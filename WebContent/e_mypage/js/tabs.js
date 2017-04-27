@@ -14,5 +14,5 @@ $(document).ready(function() {
         $("#tabs li").attr("id",""); //Reset id's
         $(this).parent().attr("id","current"); // Activate this
         $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
-    });
-})();
+   });
+});
