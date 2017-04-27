@@ -26,12 +26,10 @@
 					<input type="hidden" name="fm_str" value="" />
             	<table class="tb_st02">
                 	<caption>프리랜서 검색 : 개발분야, 디자인/퍼블리싱 분야, 기획/ 컨설턴트 분야, 전문분야/특별경험, 근무희망지역, 등급, 학력, 근무형태, 나이로 구성된 표</caption>
-<!--                     <colgroup>
-                    	<col style="width:19%" />
-                        <col style="width:35%" />
-                        <col style="width:17%" />
-                        <col style="width:30%" />
-                    </colgroup> -->
+                  <colgroup>
+                    	<col style="width:30%" />
+                        <col style="width:70%" />
+                    </colgroup> 
                     <tbody>
                     	<tr>
                         	<th scope="row"></span><label for="">개발분야</label></th>
@@ -94,7 +92,7 @@
                             </tr>
                     
 						<tr>
-                        	<th scope="row">디자인/퍼블리싱 분야</th>
+                        	<th scope="row" class="bg_ye">디자인/퍼블리싱 분야</th>
                             <td class="ct">
                             <div  class="che_top_pa">
                                 <ul class="che_list03">
@@ -122,7 +120,7 @@
                             </td>
                         </tr>
                         <tr>
-                        	<th scope="row">기획/컨설턴트 분야</th>
+                        	<th scope="row" class="bg_gy">기획/컨설턴트 분야</th>
                             <td  class="ct">
                             <div  class="che_top_pa">
                                 <ul class="che_list03">
@@ -143,70 +141,7 @@
 						                                </ul>
                             </div>
                             </td>
-                        </tr>
-                        <tr>
-                        	<th scope="row" class="bg_ye">근무희망지역</th>
-                            <td>
-                            	<ul class="add_box">
-							<li><input type="checkbox" name="fm_new_area[]" value="강북" > 강북</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="강동" > 강동</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="강남" > 강남</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="강서" > 강서</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="용인" > 용인</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="화성" > 화성</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="일산" > 일산</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="의정부" > 의정부</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="성남" > 성남</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="수원" > 수원</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="충북" > 충북</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="충남" > 충남</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="대전" > 대전</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="강원" > 강원</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="경북" > 경북</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="경남" > 경남</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="대구" > 대구</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="전북" > 전북</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="전남" > 전남</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="광주" > 광주</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="부산" > 부산</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="울산" > 울산</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="제주" > 제주</li>
-													<li><input type="checkbox" name="fm_new_area[]" value="해외" > 해외</li>
-						                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="bg_gy">학력</th>
-                            <td>
-                               <select class="wid07" name="fm_level1">
-									<option value="0" selected >전체</option>
-									<option value="100"  >고등학교</option>
-									<option value="200"  >대학(2,3년)</option>
-									<option value="300"  >대학교(4년)</option>
-									<option value="400"  >대학원(석사)</option>
-									<option value="500"  >대학원(박사)</option>
-                                </select>
-                                <span> ~ </span>
-                                <select class="wid07" name="fm_level2">
-									<option value="0" selected >전체</option>
-									<option value="100" >고등학교</option>
-									<option value="200" >대학(2,3년)</option>
-									<option value="300" >대학교(4년)</option>
-									<option value="400" >대학원(석사)</option>
-									<option value="500" >대학원(박사)</option>
-                                </select>
-                            </td>
-                        </tr>
-                         <tr>
-                            <th scope="row" class="bg_gy">나이</th>
-                            <td>
-                              <label for="agefrom" class="tx_skip"></label>
-                              <input type="text"name="agefrom" id="agefrom"  class="wid07" maxlength="2" value="" />
-                               <span> ~ </span>
-                               <label for="ageto" class="tx_skip"></label>
-                              <input type="text" name="ageto" id="ageto" class="wid07" maxlength="2" value=""/>
-                            </td>
-                        </tr>
+                        </tr> 
                     </tbody>
                 </table>
 				</form>
@@ -220,7 +155,7 @@
 	</div>
 			</form>
             <div class="tb_box" id="Member_list" style="float: left; width: 770px;">
-            	<p class="tb_tip"><span class="txt_or">TIP!</span> 이랜서검색은 <span class="txt_or">1.경력기술서 수정일</span> 2.업무가능일 3.최근접속일 4.회원정보수정일 순으로 노출 됩니다.</p>
+            	<p class="tb_tip"><span class="txt_or">TIP!</span> 드림랜서검색은 <span class="txt_or">1.경력기술서 수정일</span> 2.업무가능일 3.최근접속일 4.회원정보수정일 순으로 노출 됩니다.</p>
             	<table class="tb_st01 tb_st03" >
                 	<caption>프리랜서 검색 : 회원정보, 등급, 이력사항, 희망지역, 근무형태, 엠블럽으로 구성된 표</caption>
                     <colgroup>
@@ -233,8 +168,6 @@
                     	<tr>
                         	<th scope="col">회원정보</th>
                             <th scope="col">이력사항</th>
-
-
                         </tr> 
                     </thead>
 					<tbody>
@@ -250,7 +183,7 @@
                                 </div>
                             </td>
 							
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , ANDROID, ASP.NET, DELPHI, HTML, JAVA, POWER BUILDER, HTML5, 웹표준, 퍼블리싱, 포토샵편집, MIPLATFORM, MVC, OZREPORT, XPLATFORM, 웹접근성, 전자정부프레임워크, </p>
                                 <p class="txt_or">2년 10개월 / 대학(학사) 졸업</p>
                             </td>
@@ -268,7 +201,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, JAVA,ANDROID, </p>
                                 <p class="txt_or">11년 5개월 / 전문대(전문학사)  졸업</p>
                             </td>								
@@ -285,7 +218,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , ASP, DB, JAVA, JSP, PHP, </p>
                                 <p class="txt_or">16년 10개월 / 대학(학사) 졸업</p>
                             </td>
@@ -303,7 +236,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , DB, JSP, LINUX, PYTHON, WINDOWS, DW, HADOOP, 빅데이터, </p>
                                 <p class="txt_or">2년 10개월 / 전문대(전문학사)  졸업</p>
                             </td>
@@ -321,7 +254,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , .NET, ASP, ASP.NET, C#, ERP, MFC, </p>
                                 <p class="txt_or">6년 7개월 / 대학(학사) 졸업</p>
                             </td>
@@ -340,7 +273,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , JAVA, JS, JSP, AJAX, JEUS, JSTL, MIPLATFORM, MVC, STRUTS, WEBLOGIC, XPLATFORM, 웹접근성, 전자정부프레임워크, </p>
                                 <p class="txt_or">4년 1개월 / 대학(학사) 졸업</p>
                             </td>
@@ -358,7 +291,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , ASP, DB, HTML, JAVA, JS, JSP, LINUX, PM, AJAX, JEUS, MVC, 반응형웹, 웹접근성, 전자정부프레임워크, 프레젠테이션, </p>
                                 <p class="txt_or">20년  / 전문대(전문학사)  졸업</p>
                             </td>
@@ -376,7 +309,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , CSS, HTML, HTML5, 웹디자인, </p>
                                 <p class="txt_or">12년 3개월 / 대학(학사) 졸업</p>
                             </td>
@@ -394,7 +327,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , DB, BI, DW, </p>
                                 <p class="txt_or">5년  / 전문대(전문학사)  졸업</p>
                             </td>
@@ -412,7 +345,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , 그래픽디자인, 웹디자인, 파워포인트, 포토샵편집, PM, 기획, 모바일기획, 웹기획, </p>
                                 <p class="txt_or">10년 7개월 / 대학원(석사) 졸업</p>
                             </td>
@@ -430,7 +363,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">CSS, DB, HTML, JAVA, JS, JSP, LINUX, SERVER개발, AJAX, GIT, JSTL, SWING, WEBLOGIC, 카드, 하이브리드앱</p>
                                 <p class="txt_or">3년 2개월 / 대학(학사) 졸업</p>
                             </td>
@@ -448,7 +381,7 @@
 								</a>
                                 </div>
                             </td> 
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , .NET, C, C#, C++, DB, NETWORK, SERVER개발, VC++, WINDOWS, PM, PMO, 기획, MFC, 프레젠테이션, </p>
                                 <p class="txt_or">20년 8개월 / 대학(학사) 졸업</p>
                             </td>
@@ -466,7 +399,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">.NET, C#, DB</p>
                                 <p class="txt_or">10년  / 대학(학사) 졸업</p>
                             </td>
@@ -484,7 +417,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , DB, HTML, JAVA, JS, JSP, LINUX, WINDOWS, PM, 웹기획, EJB, ERP, JEUS, JSTL, MIPLATFORM, MVC, PLM, STRUTS, TRUSTFORM, WEBLOGIC, 전자정부프레임워크, 하이브리드앱, </p>
                                 <p class="txt_or">10년 2개월 / 전문대(전문학사)  졸업</p>
                             </td>
@@ -502,7 +435,7 @@
 								</a>
                                 </div>
                             </td>
-                            <td class="al">
+                            <td class="last">
                             	<p class="al txt12">, , ANDROID, C, C++, DB, IOS, JAVA, JS, JSP, LINUX, NETWORK, SERVER개발, 모바일, PM, SWING, 하이브리드앱, </p>
                                 <p class="txt_or">29년 3개월 / 대학원(석사) 졸업</p>
                             </td>
@@ -512,10 +445,10 @@
                </table>
             </div>
             <!-- //tb_box : e -->   
-<!--             <div class="num_box">
+            <div class="num_box">
                 <span class="btn_lef">
  <a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT0xJmluY3JlbWVudD0w#Member_list');" class="first" alt="처음으로"></a></span><a class="on">1</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT0yJmluY3JlbWVudD0w#Member_list');">2</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT0zJmluY3JlbWVudD0w#Member_list');">3</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT00JmluY3JlbWVudD0w#Member_list');">4</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT01JmluY3JlbWVudD0w#Member_list');">5</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT02JmluY3JlbWVudD0w#Member_list');">6</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT03JmluY3JlbWVudD0w#Member_list');">7</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT04JmluY3JlbWVudD0w#Member_list');">8</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT05JmluY3JlbWVudD0w#Member_list');">9</a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT0xMCZpbmNyZW1lbnQ9MA==#Member_list');">10</a><span class='btn_rit'><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT0xMSZpbmNyZW1lbnQ9MQ==#Member_list');" class="next" alt="다음 페이지"></a><a href="#" onclick="javascript:page_submit('/19_ESERCH/page/list.php?fm_str=cGFnZT0zMjMmaW5jcmVtZW50PTMy#Member_list');" class="last" alt="마지막으로"></a>                </span>
-            </div>      -->  
+            </div>      
         </div>
         <!-- //content : e  -->
 
