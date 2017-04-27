@@ -14,6 +14,8 @@
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script> 
 <script src="js/myInfo.js"></script>
+<script src="js/my.js"></script>
+
 </head>
 <body>
 
@@ -47,6 +49,40 @@
 
 <div id="content">
 <div id="tab1">
+
+<div class="tb_box">
+             	<h4>아이디 및 비밀번호</h4>
+                <table class="tb_st01">
+				<form name="MemberModifyFm" method="post" action="member_modify.php" enctype="multipart/form-data" onsubmit="return false;"></form>
+					<input type="hidden" name="EventUno" value="">
+					<input type="hidden" name="fm_keyword" value="">
+                    <caption></caption>
+                    <colgroup>
+                        <col style="width:16%">
+                        <col style="width:34%">
+                        <col style="width:16%">
+                        <col style="width:34%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="ac"><span class="txt_or">*</span> 회원아이디</th>
+                            <td colspan="3">
+                              nks000000                            </td>
+                        </tr>
+                        <tr>
+                             <th scope="row" class="ac"><label for="fm_passwd1"><span class="txt_or">*</span> 비밀번호</label></th>
+                            <td>
+                                <input type="password" id="fm_passwd1" name="fm_passwd1" class="wid02">
+                            </td>
+                             <th scope="row" class="ac"><label for="fm_passwd2"><span class="txt_or">*</span> 비밀번호 확인</label></th>
+                            <td>
+                                <input type="password" id="fm_passwd2" name="fm_passwd2" class="wid02">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
 <div class="tb_box">
              	<div class="ct overf">
                     <h4 class="fl">개인정보</h4>
@@ -194,6 +230,18 @@
                                     <input type="text" id="fm_address" name="fm_address" class="wid" value="서울 동작구 만양로 26 (상도동, 건영아파트) 102동 810호">
                                 </div>
                             </td>
+                        </tr>
+                        <tr>
+                        	<th><span class="txt_or">*</span> 내가 받은 평가</th>
+                        	<td colspan="4">
+                        		<p class="star_rating">
+   									<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+								</p>
+                        	</td>
                         </tr>
                     </tbody>
                 </table>
@@ -343,11 +391,10 @@
                     </tbody>
                </table>
             </div>
-            <div class="btn_box mb30">
-                <a href="javascript:MemberModifyIt();">수정하기</a>
-                <a href="javascript:MemberModifyFm.reset();" class="btn_check02">초기화</a>
-				
-            </div>
+            <div class="btn_box mb30 mb02">
+				<a href="javascript:MemberModifyIt();" class="btn_check06">수정하기</a>
+				<a href="javascript:MemberModifyFm.reset();" class="btn_check02">초기화</a>
+			</div>
 </div>
 
 <div id="tab2">
@@ -533,6 +580,17 @@
 		</table>
 		
 		
+</div>
+<div id="tab5">
+	<h4>내가 받은 평가</h4>
+
+	<p class="star_rating">
+   									<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+    								<a href="#" class="on">★</a>
+								</p>
 </div>
 </div>
 

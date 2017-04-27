@@ -504,11 +504,11 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .btn_box{text-align:center;/*margin-right:15px;*/}
 .btn_check01,.btn_check02,.btn_check03,.btn_check04,.btn_check05,.btn_check06,.btn_check07,.btn_zzim{width:95px;padding:17px 0 20px 0;display:inline-block;font-size:20px;text-align:left; line-height:20px}
 .btn_check01{ background:url(../../images/common/bg/bg_check01.jpg) no-repeat;color:#fff;padding-left:50px; }
-.btn_check02{ background:url(../../images/common/bg/bg_btn_ck02.jpg) no-repeat;color:#666;padding-left:60px; }
+.btn_check02{ background:url(../mypage_free_jsp/img/bg_btn_ck02.jpg) no-repeat;color:#666;padding-left:60px; }
 .btn_check03{ background:url(../../images/common/bg/bg_btn_search.jpg) no-repeat;color:#fff;padding-left:55px; }
 .btn_check04{ background:url(../../images/common/bg/bg_btn_ok.jpg) no-repeat;color:#fff;padding-left:50px; }
 .btn_check05{ background:url(../../images/common/bg/bg_btn_list.jpg) no-repeat;color:#666;padding-left:50px; }
-.btn_check06{ background:url(../../images/common/bg/btn_modify.jpg) no-repeat;color:#fff;padding-left:50px; }
+.btn_check06{ background:url(../mypage_free_jsp/img/btn_modify.jpg) no-repeat;color:#fff;padding-left:50px; }
 .btn_check07{ background:url(../../images/common/bg/btn_copy.jpg) no-repeat;color:#666;padding-left:50px; }
 .btn_check08{ background:url(../../images/common/bg/btn_card.jpg) no-repeat;color:#fff;width:110px;padding:20px 0 20px 50px;display:inline-block;font-size:20px;text-align:left;line-height:20px}
 .btn_inter{background:url(../../images/common/bg/bg_btn_inter.jpg) no-repeat;color:#666;padding-left:50px;width:170px;color:#fff;font-size:20px;line-height:18px}
@@ -1016,3 +1016,16 @@ th.th_bor0{border-bottom:0}
 	margin-top: 50px;
 	margin-left: 300px;
 }
+
+.star_rating {font-size:0; letter-spacing:-4px;}
+.star_rating a {
+    font-size:22px;
+    letter-spacing:0;
+    display:inline-block;
+    margin-left:5px;
+    color:#ccc;
+    text-decoration:none;
+}
+.star_rating a:first-child {margin-left:0;}
+.star_rating a.on {color:#ffff00;}
+

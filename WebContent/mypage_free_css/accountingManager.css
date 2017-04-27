@@ -19,7 +19,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		content: none; }
 	table {
 		border-collapse: collapse;
-		border-spacing: 0; }
+		border-spacing: 0;
+		font-size: 13px; }
 	table.pad td {
 	padding: 10px;
 	}
@@ -415,15 +416,18 @@ table {
 table th {
 	text-align: left;
 	border: 1px solid #d1d1d1;
-	padding: .4em .8em;
-	background: #ddd url(/wordpress/wp-content/themes/skeleton/images/gradient_small_trans.png) repeat-x 0 top;
+	/* padding: .4em .8em; */
+	padding: 5px;
+	background: #fff url(/wordpress/wp-content/themes/skeleton/images/gradient_small_trans.png) repeat-x 0 top;
 	font-weight: bold;
 }
-
+/* .right_text{
+	width: 300px;
+} */
 table td {
 	background-color: #fff;
 	border: 1px solid #d1d1d1;
-	padding: 10px;
+/* 	padding: 10px; */
 }
 
 /* @end */
@@ -715,6 +719,13 @@ a.more-link {
 		padding-right: 0 !important;
 		text-align: center; }
 
+	input[type="text"]{
+		font-size:12px;
+		margin-left:15px;
+	}
+	input[type="checkbox"]{
+		margin-left:15px;
+	}
 
 /* @end */
 
@@ -1944,4 +1955,14 @@ img.scale-with-grid {
 th{
 	color : blue;
 	background-color: aqua;
+}
+#bigo{
+	background-color : #ffffcc;
+	font-size: 13px;
+}
+.chart1 th{
+	width: 200px;
+}
+#ps{
+	width:125px;
 }
