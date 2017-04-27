@@ -39,14 +39,13 @@ body{
 .header_menu{
 	border-top: 1px solid #f1f1f1;
 	padding-top: 290px;
-	padding-left: 220px;
 }
 .header_menus{
 	font:bold 12px Arial, Helvetica, sans-serif;
 	list-style: none;
 	margin-top: 5px;
 	width: 1200px;
-	padding-left: 110px;
+	padding-left: 300px;
 }
 .header_menus>li{
 	float: left;
@@ -118,6 +117,24 @@ body{
 	text-shadow:0 0 5px #00c6ff; 
 }
 
-
-
+.header_menus_e{
+	font:bold 12px Arial, Helvetica, sans-serif;
+	list-style: none;
+	margin-top: 5px;
+	width: 1200px;
+	padding-left: 200px;
+}
+.header_menus_e>li{
+	float: left;
+	border-right: 1px solid #0000ff;
+	width: 200px;
+	text-align: center;
+}
+.header_menus_e>li>a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'NanumGothic_b';
+	text-shadow:0 0 5px #00c6ff; 
+}
 

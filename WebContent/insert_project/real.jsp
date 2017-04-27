@@ -8,10 +8,11 @@
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="real.css" type="text/css" media="screen" />
 <title>Insert title here</title>
-
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
-<%@include file="../common/header.jsp" %>
+<%@include file="../common/header_enterprise.jsp" %>
     <!-- //header_wrap : e -->
     <div  id="conainer">
     	<div id="nav">

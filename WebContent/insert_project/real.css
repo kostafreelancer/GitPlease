@@ -4,7 +4,7 @@ header, footer, section, article, aside, nav, hgroup, details, menu, figure, fig
 	display: block;
 }
 body, p, h1, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
-    color: #333;
+    /* color: #333; */
     margin: 0;
     padding: 0;
 }

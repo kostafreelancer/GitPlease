@@ -49,7 +49,7 @@
 			
 			
 			<div class="header_menu">
-				<ul class="header_menus">
+				<ul class="header_menus_e">
 					<li>
 						<a href="/GitPlease/insert_project/real.jsp">프로젝트 등록</a>
 					</li>
