@@ -19,7 +19,7 @@
             	<p>
                 	<a href="/index.php">Home</a>
                     <span class="padd">&gt;</span> 
-                	<span>마이페이지</span>
+                	<span>회원가입</span>
             	</p>
             </div>
         </div>

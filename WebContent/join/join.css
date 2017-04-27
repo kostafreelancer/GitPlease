@@ -295,7 +295,7 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .quick img,.quick02 img{margin-bottom:10px}
 /*  ---------------------------   sub  ---------------------------------*/
 
-#content{width:1000px; margin:0 auto; padding-bottom:120px; overflow:hidden;}
+#content{width:1015px; margin:0 auto; padding-bottom:120px; overflow:hidden;}
 .content02{width:1000px; margin:0 auto; padding-bottom:0px; overflow:hidden;}
 /* sub nav ê³µí†µ */
 #nav{height:40px;background-color:#f7f4f0;}
@@ -385,12 +385,12 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .table_tit p{color:#999}
 .btn_sam{ background:url(../../images/common/bg/bg_sam.jpg) no-repeat;color:#fff;padding:8px 15px 8px 40px;margin-left:20px;line-height:14px; font-size:14px; display:inline-block; font-family: 'NanumGothic_b';}
 .tb_box{margin-bottom:30px}
-.tb_box h4{color:#333;font-size:15px;font-family: 'NanumGothic_b';margin-bottom:15px}
+.tb_box h4{color:#333;font-size:15px;font-family: 'NanumGothic_b';margin-bottom:15px; padding-left: 30px;}
 
-.tb_st01{border-top:2px solid #d6d6d6; width:100%; margin-left: 10px;}
+.tb_st01{border-top:2px solid #d6d6d6; width:100%; margin-left: 30px;}
 .tb_st01 th{padding:15px 20px; border:1px solid #d6d6d6; border-width:0 1px 1px 0; font-size:14px; background-color:#f4f4f4; text-align:left;font-weight:normal; font-size:14px;}
 .tb_st01 th.last{ border-right:0}
-.tb_st01 td{padding:15px 13px;border-bottom:1px solid #d6d6d6;font-size:12px;}
+.tb_st01 td{padding:10px 10px 13px 5px;border-bottom:1px solid #d6d6d6;font-size:12px;}
 .tb_st01 td input[type="text"],.tb_st01 td input[type="password"],.tb_st01 td input[type="file"], input[type="text"], input[type="password"]{padding:7px 0;border:1px solid #d6d6d6; text-indent:10px;color:#666}
 .tb_st01 td input[type="radio"],.tb_st01 td input[type="checkbox"]{vertical-align:middle}
 .tb_st01 select{padding:5px 5px;border:1px solid #d6d6d6;}
@@ -457,8 +457,9 @@ th.tb_lef_bor,td.tb_lef_bor{ border-left:1px solid #d6d6d6}
 .tb_st02 td input[type="text"]{padding:7px 0;border:1px solid #ccc; text-indent:10px;color:#666}
 .tb_st02 td input[type="radio"],.tb_st02 td input[type="checkbox"]{vertical-align:middle}
 .tb_st02 select{padding:7px 5px;border:1px solid #ccc;}
-.che_top_pa{ padding-top:5px; clear:both; overflow:hidden}
-.che_top_pa li{width:130px; float:left;}
+.che_top_pa{ padding-top:5px; clear:both; overflow:hidden; font-size: 11px;}
+.che_top_pa #small{font-size: 10px;}
+.che_top_pa li{width:80px; float:left;}
 .che_list02{float:left;width:153px}
 .che_list02 li{ line-height:30px}
 /*.togglle{position:relative}*/
@@ -469,7 +470,7 @@ li.ma_bott0{ margin-bottom:0}
 th.bg_ye{ background-color:#f3a433}
 th.bg_gy{background-color:#666}
 
-.tb_tip{ font-size:14px; margin:0 0 10px 10px}
+.tb_tip{ font-size:14px; margin:0 0 10px 30px}
 .tb_st03{ border-top:1px solid #2257ad}
 .tb_st03 th,.tb_st03 td{ text-align:center; line-height:20px}
 .tb_st03 td{border-right:1px solid #d6d6d6}
@@ -483,7 +484,7 @@ th.bg_gy{background-color:#666}
 .name03{line-height:20px;padding-top:7px;}
 .rit_ma{margin-right:5px}
 
-.num_box{ text-align:center}
+.num_box{ text-align:center; clear: both;}
 .num_box a{width:25px;display:inline-block; text-align:center; vertical-align:middle}
 .num_box .on{color:#ef6c3e; text-decoration:underline; font-weight:bold}
 .btn_lef{margin-right:20px}
@@ -538,24 +539,24 @@ th.bg_gy{background-color:#666}
 .ball_list02{margin-bottom:15px;}
 .ball_list02{float:right}
 .ball_list02 li{float:left}
-.ball_list02 li{ background:url(../../images/sub/reside/ball02.png) no-repeat;width:69px;height:50px; margin-right:5px; text-align:center; color:#ee6230;padding-top:27px; font-size:13px;line-height:17px; font-weight:bold}
-li.ball01{background:url(../../images/sub/reside/ball01.png) no-repeat; color:#fff; padding-top:25px}
-li.ball02{background:url(../../images/sub/reside/ball03.png) no-repeat; color:#fff; padding-top:25px;}
-li.ball03{background:url(../../images/sub/reside/ball04.png) no-repeat; color:#fff; padding-top:25px}
-li.ball04{background:url(../../images/sub/reside/ball05.png) no-repeat; color:#fff; padding-top:25px}
-li.ball05{background:url(../../images/sub/reside/ball06.png) no-repeat; color:#fff; padding-top:25px}
-li.ball06{background:url(../../images/sub/reside/ball07.png) no-repeat; color:#fff; padding-top:25px}
+.ball_list02 li{ background:url(../images/bg/ball02.png) no-repeat;width:69px;height:50px; margin-right:5px; text-align:center; color:#ee6230;padding-top:27px; font-size:13px;line-height:17px; font-weight:bold}
+li.ball01{background:url(../images/bg/ball01.png) no-repeat; color:#fff; padding-top:25px}
+li.ball02{background:url(../images/bg/ball03.png) no-repeat; color:#fff; padding-top:25px;}
+li.ball03{background:url(../images/bg/ball04.png) no-repeat; color:#fff; padding-top:25px}
+li.ball04{background:url(../images/bg/ball05.png) no-repeat; color:#fff; padding-top:25px}
+li.ball05{background:url(../images/bg/ball06.png) no-repeat; color:#fff; padding-top:25px}
+li.ball06{background:url(../images/bg/ball07.png) no-repeat; color:#fff; padding-top:25px}
 .work_info{width:150px;line-height:23px;float:left;font-size:13px}
 
 .tb_ball01,.tb_ball02,.tb_ball03,.tb_ball04,.tb_ball05,.tb_ball06,.tb_ball_hold{color:#fff;width:69px;height:50px; margin-right:5px; text-align:center;padding-top:25px; font-size:13px;line-height:17px; font-weight:bold}
-.tb_ball01{background:url(../../images/sub/reside/ball01.png) no-repeat;padding-top:25px;}
+.tb_ball01{background:url(../images/bg/ball01.png) no-repeat;padding-top:25px;}
 .tb_ball01_2{padding-top:25px}
-.tb_ball02{background:url(../../images/sub/reside/ball03.png) no-repeat;padding-top:25px;}
-.tb_ball03{background:url(../../images/sub/reside/ball04.png) no-repeat;padding-top:25px;}
-.tb_ball04{background:url(../../images/sub/reside/ball05.png) no-repeat;padding-top:25px;}
-.tb_ball05{background:url(../../images/sub/reside/ball06.png) no-repeat;padding-top:25px;}
-.tb_ball06{background:url(../../images/sub/reside/ball07.png) no-repeat;padding-top:25px;}
-.tb_ball_hold{background:url(../../images/sub/reside/ball07.png) no-repeat;}
+.tb_ball02{background:url(../images/bg/ball03.png) no-repeat;padding-top:25px;}
+.tb_ball03{background:url(../images/bg/ball04.png) no-repeat;padding-top:25px;}
+.tb_ball04{background:url(../images/bg/ball05.png) no-repeat;padding-top:25px;}
+.tb_ball05{background:url(../images/bg/ball06.png) no-repeat;padding-top:25px;}
+.tb_ball06{background:url(../images/bg/ball07.png) no-repeat;padding-top:25px;}
+.tb_ball_hold{background:url(../images/bg/ball07.png) no-repeat;}
 li.day_txt strong{color:#f36a33; font-size:20px;}
 li.day_txt{font-size:12px; color:#333; line-height:17px;padding-top:20px}
 .top_cont01 > p,.top_cont02 > p{ font-size:16px; margin-bottom:5px; line-height:20px}
@@ -567,14 +568,13 @@ li.day_txt{font-size:12px; color:#333; line-height:17px;padding-top:20px}
 .day_money01{font-size:12px;color:#666; clear:both; overflow:hidden; vertical-align:middle}
 .day_money01 span{color:#4F4F4F; font-size:20px; font-family: 'NanumGothic_b';padding-top:4px;margin:0 5px}
 .day_money01 p{padding-top:2px;}
-.tb_top{margin-top:20px}
-.infor_txt a{color:#ff6c32;font-size:16px;font-weight:bold;line-height:23px;}
+.infor_txt a{color:#304870;font-size:16px;font-weight:bold;line-height:23px;}
 .gun_txt li{color:#ff6c32}
 .gun_txt span{margin-right:10px;color:#333}
-.finish strong{ font-size:20px; color:#f36a33}
+.finish strong{ font-size:20px; color:#f3a433}
 .finish span{ font-size:12px; font-weight:bold}
 .hold_txt{color:#999 !important}
-p.ell_hidd{max-height:57px;text-overflow: ellipsis;overflow: hidden;word-wrap: break-word;width:465px;font-size:13px;line-height:20px}
+p.ell_hidd{max-height:57px;text-overflow: ellipsis;overflow: hidden;word-wrap: break-word;width:350px;font-size:13px;line-height:20px}
 p.ell_hidd a{color:#7d7d7d;}
 .tb_box_font td{font-size:14px !important}
 /*  ìƒì£¼ í”„ë¡œì íŠ¸ ìƒì„¸ë³´ê¸° íŽ˜ì´ì§€*/
@@ -721,7 +721,8 @@ th.th_bor0{border-bottom:0}
 .mail_ma{margin-left:5px; color:#666}
 .btn_add{ background-color:#2257ad; padding:7px 15px;color:#fff; line-height:15px}
 .inp_cal{ background:url(../../images/sub/etc/bg_cal.jpg) right -2px no-repeat}
-.che_list03 li{float:left; margin-right:30px; line-height:27px; font-weight:bold}
+
+.che_list03 li{float:left; line-height:27px; font-weight:bold; margin-right: 10px;}
 .che_list03 li.last{ margin-right:0}
 
 .che_list011 td{font-weight:bold}
@@ -983,8 +984,9 @@ th.th_bor0{border-bottom:0}
 
 /*내가추가ㅎㅎ*/
 .project_list_filter{
-	width : 200px;
+	width : 220px;
 }
 .che_list03 li{
 background-color:#eee
 }
+.che_list03{display: inline;}

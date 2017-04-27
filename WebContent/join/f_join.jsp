@@ -306,7 +306,7 @@ $(function(){
 													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="PHP" > PHP</td>
 													</tr>
 													<tr>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="POWER BUILDER" > POWER BUILDER</td>
+													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="POWER BUILDER" > 파워빌더</td>
 													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="PYTHON" > PYTHON</td>
 													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="QA" > QA</td>
 													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="RUBY" > RUBY</td>
@@ -373,7 +373,7 @@ $(function(){
 									<col width="20%"/>
 								</colgroup>
 													<tr>
-													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="Oracle컨설턴트" > Oracle컨설턴트</td>
+													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="Oracle컨설턴트" > DB컨설턴트</td>
 													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="PM" > PM</td>
 													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="PMO" > PMO</td>
 													<td class="td_bor_bott"><input type="checkbox" name="fm_new_keyword[]" value="SAP컨설턴트" > SAP컨설턴트</td>
