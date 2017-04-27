@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="x.css" type="text/css" media="screen" />
+<script type="text/javascript" src="../common/header.js"></script>
 <title>프리랜서 목록</title>
 </head>
 <body>
