@@ -49,18 +49,18 @@
             
             <section class="p5-serviceIntroduction-partition">
             <h5 class="p5-serviceIntroduction-title service-Introduction-first-title">
-            <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">위시켓이란?
+            <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">드림랜서이란?
             </h5>
               <div class="p5-serviceIntroduction-breif-info">
                 <div class="p5-serviceIntroduction-breif-img"><img src="../images/intro_service.PNG"></div>
-                  <div class="p5-serviceIntroduction-breif-text"><p><b>위시켓(Wishket)</b>은<br>기업의 프로젝트와 개발회사 & 프리랜서를<br>이어주는<b>온라인 아웃소싱 플랫폼</b>입니다.</p>
+                  <div class="p5-serviceIntroduction-breif-text"><p><b>드림랜서(DreamLancer)</b>은<br>기업의 프로젝트와 개발회사 & 프리랜서를<br>이어주는<b>온라인 아웃소싱 플랫폼</b>입니다.</p>
                   </div>
                   </div>
             </section>
             
             <section class="p5-serviceIntroduction-partition">
             <h5 class="p5-serviceIntroduction-title">
-            <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">왜 위시켓인가?
+            <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">왜 드림랜서인가?
             </h5>
               <div class="p5-serviceIntroduction-list">
                 <div class="p5-serviceIntroduction-list-component">
@@ -101,7 +101,7 @@
               
               <section class="p5-serviceIntroduction-partition">
               <h5 class="p5-serviceIntroduction-title">
-              <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">위시켓 이용사례
+              <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">드림랜서 이용사례
               </h5>
               <div class="p5-serviceIntroduction-list">
                  <div class="p5-serviceIntroduction-list-component-right">
@@ -122,7 +122,7 @@
                    </div>
                    <div class="p5-serviceIntroduction-list-text">
                      <div class="p5-serviceIntroduction-list-text-wrapper">
-                     <h5 class="p5-serviceIntroduction-list-title">"위시켓의 대금보호 서비스가 정말 만족스러웠다.<br>미팅주선도 큰 도움이 되었다."
+                     <h5 class="p5-serviceIntroduction-list-title">"드림랜서의 회계관리 서비스가 정말 만족스러웠다.<br>미팅주선도 큰 도움이 되었다."
                      </h5>
                      <p>- 컨텐츠 크리에이터 그룹<b> 써클커넥션 </b>전해강 대표
                      </p>
