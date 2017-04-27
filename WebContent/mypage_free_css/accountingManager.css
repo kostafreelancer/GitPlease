@@ -418,7 +418,7 @@ table th {
 	border: 1px solid #d1d1d1;
 	/* padding: .4em .8em; */
 	padding: 5px;
-	background: #fff url(/wordpress/wp-content/themes/skeleton/images/gradient_small_trans.png) repeat-x 0 top;
+	background: #ccffff url(/wordpress/wp-content/themes/skeleton/images/gradient_small_trans.png) repeat-x 0 top;
 	font-weight: bold;
 }
 /* .right_text{

@@ -52,6 +52,7 @@
 #list{
 	margin-left:750px;
 	margin-right:100px;
+	width: 200px;
 }
 #list li{
 		list-style: none;

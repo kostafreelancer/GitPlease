@@ -8,11 +8,12 @@
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../mypage_free_css/myInfo.css" type="text/css" media="screen" />
 
-<title>Insert title here</title>
+<title>내 정보</title>
 
 <!-- <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script> 
+<script src="../common/header.js"></script>
 <script src="js/myInfo.js"></script>
 <script src="js/my.js"></script>
 
@@ -44,7 +45,6 @@
     <li><a href="#" title="tab2">이력 정보</a></li>
     <li><a href="#" title="tab3">지원내역</a></li>
     <li><a href="#" title="tab4">히스토리</a></li> 
-    <li><a href="#" title="tab5">내가 받은 평가</a></li> 
 </ul>
 
 <div id="content">
@@ -357,7 +357,7 @@
 						<!--img src="../img/sb_category.gif" width="87" height="18" align="absmiddle"-->
 						</td>
 					</tr>
-						<tr class="line_bottom">
+						<tr class="line_bottom" id="last_table">
                         	 <th scope="row" class="ac"><span class="txt_or">*</span>기획/컨설턴트</th>
  						<td colspan="5" style="border-bottom: solid 1px #dadada" bgcolor="#ffffff">
 
@@ -400,16 +400,16 @@
 <div id="tab2">
 <div class="tb_box">
 		<div class="ct overf">
-			<h4 class="fl">경력사항</h4>
-
+			<h4 class="fl myfl">경력사항</h4>
+			<button id="add" class="career_add">추가하기</button>
 		</div>
 		<table class="tb_st01 tb_st03">
 			<caption></caption>
 			<colgroup>
-				<col style="width: 20%">
-				<col style="width: 14%">
-				<col style="width: 14%">
-				<col style="width: *">
+				<col style="width: 15%">
+				<col style="width: 15%">
+				<col style="width: 15%">
+				<col style="width: 25%">
 				<col style="width: 15%">
 				<col style="width: 15%">
 			</colgroup>
@@ -426,12 +426,18 @@
 			<tbody>
 
 				<tr>
-					<td class="ac" colspan="6">등록된 경력사항 정보가 없습니다.</td>
+					<td>코스타 주식회사</td>
+					<td>회장님 비서실</td>
+					<td>비서실장</td>
+					<td>2000년 4월 27일 ~ 2010년 4월 26일</td>
+					<td>서울</td>
+					<td class="last"><input type="button" value="수정">&nbsp;&nbsp;<input type="button" value="삭제"></td>
+				
 				</tr>
 
 			</tbody>
 		</table>
-					<button id="add" class="career_add">추가하기</button><br>
+					
 		<div id="ResumePANNEL3"
 			style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; background: url(../../images/popup/bg_popup.png) repeat; text-align: center; z-index: 5; display: none;">
 			<form method="post" name="ResumeFrame3" style="display: inline;"
@@ -445,23 +451,21 @@
 	</div>
 	<div class="tb_box">
 		<div class="ct overf">
-			<h4 class="fl">학력사항</h4>
-
+			<h4 class="fl myfl">학력사항</h4>
+			<button id="add" class="school_add">추가하기</button>
 		</div>
 		<table class="tb_st01 tb_st03">
 			<caption></caption>
 			<colgroup>
-				<col style="width: 15%">
-				<col style="width: 15%">
-				<col style="width: 15%">
-				<col style="width: *%">
+				<col style="width: 20%">
+				<col style="width: 20%">
+				<col style="width: 25%">
 				<col style="width: 15%">
 				<col style="width: 15%">
 			</colgroup>
 			<thead>
 				<tr>
 					<th scope="col" class="ac">학교명</th>
-					<th scope="col" class="ac">전공계열</th>
 					<th scope="col" class="ac">전공</th>
 					<th scope="col" class="ac">기간</th>
 					<th scope="col" class="ac">소재지</th>
@@ -471,12 +475,16 @@
 			<tbody>
 
 				<tr>
-					<td class="ac" colspan="6">등록된 학력사항 정보가 없습니다.</td>
+					<td>코스타대학교</td>
+					<td>컴퓨터공학</td>
+					<td>2000년 4월 27일 ~ 2010년 4월 26일</td>
+					<td>서울</td>
+					<td class="last"><input type="button" value="수정">&nbsp;&nbsp;<input type="button" value="삭제"></td>
 				</tr>
 
 			</tbody>
 		</table>
-					<button id="add" class="school_add">추가하기</button><br>
+					
 		<div id="ResumePANNEL1"
 			style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; background: url(../../images/popup/bg_popup.png) repeat; text-align: center; z-index: 5; display: none;">
 			<form method="post" name="ResumeFrame1" onsubmit="return false;">
@@ -490,15 +498,15 @@
 
 	<div class="tb_box">
 		<div class="ct overf">
-			<h4 class="fl">자격증</h4>
-			
+			<h4 class="fl myfl">자격증</h4>
+			<button id="add" class="right_add">추가하기</button>
 		</div>
 		<table class="tb_st01 tb_st03">
 			<caption></caption>
 			<colgroup>
 				<col style="width: 40%">
 				<col style="width: 20%">
-				<col style="width: *">
+				<col style="width: 25%">
 				<col style="width: 15%">
 			</colgroup>
 			<thead>
@@ -512,12 +520,15 @@
 			<tbody>
 
 				<tr>
-					<td class="ac" colspan="4">등록된 자격증현황 정보가 없습니다.</td>
+					<td>정보처리기사</td>
+					<td>한국산업인력관리공단</td>
+					<td>2017년 4월 27일</td>
+					<td class="last"><input type="button" value="수정">&nbsp;&nbsp;<input type="button" value="삭제"></td>
 				</tr>
 
 			</tbody>
 		</table>
-		<button id="add" class="right_add">추가하기</button><br>
+		
 
 		<div id="ResumePANNEL5"
 			style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; background: url(../../images/popup/bg_popup.png) repeat; text-align: center; z-index: 5; display: none;">
@@ -530,24 +541,71 @@
 			</form>
 		</div>
 		<div>
-			<h3>포트폴리오</h3>
-			<form>
-				내용 입력<br>
-				<textarea rows="10" cols="60"></textarea><br>
-				첨부파일: <input type="file" name="addFile"><br>
-				<input type="submit" value="저장">
-				<input type="reset" value="초기화">
-			</form>
+			<div class="ct overf">
+				<h4 class="fl myfl">포트폴리오</h4>
+				<button id="add" class="portFolio_add">추가하기</button>
+			</div>
+			<table class="tb_st01 tb_st03">
+			<caption></caption>
+			<colgroup>
+				<col style="width: 60%">
+				<col style="width: 25%">
+				<col style="width: 15%">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col" class="ac">포트폴리오 내용</th>
+					<th scope="col" class="ac">첨부파일</th>
+					<th scope="col" class="ac">관리</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td>어쩌구저쩌구</td>
+					<td>file.zip</td>
+					<td class="last"><input type="button" value="수정">&nbsp;&nbsp;<input type="button" value="삭제"></td>
+				</tr>
+
+			</tbody>
+		</table>
 		</div>
 	</div>
 </div>
 
 <div id="tab3">
 	<h4>내가 지원한 프로젝트</h4>
-	<table border="1px solid" width="800px" height="200px" cellpadding="0" cellspacing="0"><tr><td>첫번째 지원한 프로젝트의 공고</td></tr></table><br><br><br>
-	<table border="1px solid" width="800px" height="200px" cellpadding="0" cellspacing="0"><tr><td>두번째 지원한 프로젝트의 공고</td></tr></table><br><br><br>
-	<table border="1px solid" width="800px" height="200px" cellpadding="0" cellspacing="0"><tr><td>세번째 지원한 프로젝트의 공고</td></tr></table><br><br><br>
-	
+	<table class="tb_st01 tb_st03">
+			<caption></caption>
+			<colgroup>
+	 			<col style="width: 40%">
+				<col style="width: 15%">
+				<col style="width: 15%">
+				<col style="width: 15%">
+				<col style="width: 15%">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col" class="ac">프로젝트 이름</th>
+					<th scope="col" class="ac">담당자 연락처</th>
+					<th scope="col" class="ac">신청일자</th>
+					<th scope="col" class="ac">기업 수락여부</th>
+					<th scope="col" class="ac">관리</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+
+				<tr>
+					<td>코스타 프로젝트</td>
+					<td>010-5914-8532</td>
+					<td>2017-04-27</td>
+					<td>확인 대기 중</td>
+					<td><input type="button" value="지원 취소"></td>
+				</tr>
+
+			</tbody>
+		</table>
 </div>
 
 <div id="tab4">
@@ -581,17 +639,7 @@
 		
 		
 </div>
-<div id="tab5">
-	<h4>내가 받은 평가</h4>
 
-	<p class="star_rating">
-   									<a href="#" class="on">★</a>
-    								<a href="#" class="on">★</a>
-    								<a href="#" class="on">★</a>
-    								<a href="#" class="on">★</a>
-    								<a href="#" class="on">★</a>
-								</p>
-</div>
 </div>
 
 
