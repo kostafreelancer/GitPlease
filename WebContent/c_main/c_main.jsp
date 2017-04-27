@@ -5,21 +5,36 @@
 <html>
 <head>
 
+<link rel="stylesheet" type="text/css" href="../common/header.css">
+<link rel="stylesheet" type="text/css" href="slide.css">
 <link rel="stylesheet" type="text/css" href="news.css">
 <link rel="stylesheet" type="text/css" href="info.css">
 <link rel="stylesheet" type="text/css" href="sponsor.css">
+<link rel="stylesheet" type="text/css" href="../common/footer.css">
 
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="../common/header.js"></script>
+<script type="text/javascript" src="slide.js"></script>
 <script type="text/javascript" src="info.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
+<jsp:include page="../common/header.jsp"></jsp:include>
 
-<section id="news">
-
+<section id="slide">
+	<div class="sp-slideshow">
+	<div class="main_slide">
+		<div class="slideshow_images">			
+			<a href = "#" class="slide"><img src="img/company1.jpg" alt="" width="1911" height="432"></a>
+			<a href = "#" class="slide"><img src="img/company2.jpg" alt="" width="1911" height="432"></a>
+			<a href = "#" class="slide"><img src="img/company3.jpg" alt="" width="1911" height="432"></a>
+		</div>
+	</div>
 </section>
 
-<section id="info">
+ <section id="info">
    <div class="tab">
      <button class="tablinks" onclick="openbtn(event, 'FreeLancer')">프리랜서</button>
      <button class="tablinks" onclick="openbtn(event, 'Project')">프로젝트</button>
@@ -30,7 +45,7 @@
      <h3>프리랜서</h3>
      <p>현재 활동 중인 프리랜서 : 000,000명</p>
      
-     <ul>
+     <ul class="c_main_content_ul">
      
      <li class="icon1">
         <a href=''><img src="img/cont04_icon01.png"></a><br>
@@ -52,7 +67,7 @@
      <div class="content">
      <h3>프로젝트</h3>
      <p>현재 등록된 프로젝트 : 000,000개</p> 
-     <ul>
+     <ul class="c_main_content_ul">
      
      <li class="icon4">
         <a href=''><img src="img/icon01_off.png"></a><br>
@@ -91,7 +106,9 @@
 <section id="sponsor">
 	<h3>주요 고객사</h3>
 	<img src="img/company_img.png">
-</section>
+</section> 
+
+<jsp:include page="../common/footer.jsp"></jsp:include>
 
 </body>
 </html>
