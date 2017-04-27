@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <title>프리랜서 목록</title>
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
 <%@include file="../common/header.jsp" %>
@@ -18,14 +20,14 @@
             	<p>
                 	<a href="/index.php">Home</a>
                     <span class="padd">&gt;</span>
-                	<span>프리랜서 검색</span>
+                	<span>프리랜서 목록</span>
             	</p>
             </div>
         </div>
         <!-- //nav : e -->
         <div id="content">
         	<div class="tit_box">
-            	<h2>프리랜서 검색</h2>
+            	<h2>프리랜서 목록</h2>
                 <p class="tit_txt">인성과 실력이 검증된 프리랜서를 찾고 계신가요?<span>검증된 IT 인재, 드림랜서에서 찾아보세요.</span></p>
             </div>
             <!-- //tit_box : e -->

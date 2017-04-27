@@ -15,7 +15,7 @@
 				<ul	class="header_top_menus">
 					<li>
 						<img alt="center_img" src="/GitPlease/images/header_center_icon.jpg">
-						<a href="">고객 센터</a>
+						<a href="/GitPlease/member_center/member_centerMain.jsp">고객 센터</a>
 					</li>
 			
 					<li>
@@ -54,16 +54,16 @@
 						<a href="/GitPlease/insert_project/real.jsp">프로젝트 등록</a>
 					</li>
 					<li>
-						<a href="">프로젝트 찾기</a>
+						<a href="/GitPlease/list/project_list.jsp">프로젝트 목록</a>
 					</li>
 					<li>
-						<a href="">프리랜서 찾기</a>
+						<a href="/GitPlease/list/f_list.jsp">프리랜서 목록</a>
 					</li>
 					<li>
 						<a href="/GitPlease/e_mypage/e_info.jsp">마이페이지</a>
 					</li>
 					<li>
-						<a href="/GitPlease/using_method/f_service.jsp">이용 방법</a>
+						<a href="/GitPlease/using_method/e_service.jsp">이용 방법</a>
 					</li>
 					
 				</ul>

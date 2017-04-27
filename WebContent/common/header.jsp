@@ -51,10 +51,10 @@
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
-						<a href="">프로젝트 찾기</a>
+						<a href="/GitPlease/list/project_list.jsp">프로젝트 목록</a>
 					</li>
 					<li>
-						<a href="">프리랜서 목록</a>
+						<a href="/GitPlease/list/f_list.jsp">프리랜서 목록</a>
 					</li>
 					<li>
 						<a href="/GitPlease/mypage_free_jsp/myInfo.jsp">마이페이지</a>

@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <title>프로젝트 목록</title>
+<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
 <%@include file="../common/header.jsp" %>
@@ -26,7 +28,7 @@
         <!-- //nav : e -->
         <div id="content">
         	<div class="tit_box">
-            	<h2>프로젝트 검색</h2>
+            	<h2>프로젝트 목록</h2>
                 <p class="tit_txt">프로젝트를 찾고 계신가요?<span>드림랜서가 엄선한 다양한 프로젝트를 만나보세요!</span></p>
             </div>
             <!-- //tit_box : e -->

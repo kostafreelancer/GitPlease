@@ -1527,13 +1527,15 @@ a.read_more {
 .nav_txt p {
 	float: right
 }
-.nav_txt span{
+.nav_txt span:LAST-CHILD{
 	color: black;
 }
 .padd {
 	padding: 0 3px
 }
-
+.left_menu{
+	padding-top: 40px;
+}
 .login_cont {
 	width: 880px;
 	margin: 0 auto;
