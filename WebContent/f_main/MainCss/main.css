@@ -60,10 +60,10 @@
 }
 
 .left_news{
-		/* border : 1px solid; */
-		height: 200px;
-		width : 735px;
-		overflow: hidden;
+		border : 1px solid;
+		height: 400px;
+		width : 672.5px;
+	 	overflow: hidden;
 		position: relative;
 		float: left;	
 	/* 	background-color: gray; */
@@ -71,12 +71,13 @@
 }
 
 #chart_div{ /* 차트 */
-		/* border: 1px solid; */
+		
 		height: 300px;
-		width: 760px;
+		width: 672.5px;
 		overflow: hidden;
 		position: relative;
-		margin-left: 500px;
+	/* 	margin-left: 500px; */
+		margin-bottom: 500px;
 		
 		
 }
