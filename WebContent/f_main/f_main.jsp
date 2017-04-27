@@ -11,7 +11,7 @@
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script src="js/f_main.js"></script>
-
+<script src="../common/header.js"></script>
 <!-- <script src="js/vendor/modernizr.custom.min.js"></script>
 <script src="js/vendor/jquery-1.10.2.min.js"></script>
 <script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
