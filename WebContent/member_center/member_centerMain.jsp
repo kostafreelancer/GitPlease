@@ -42,8 +42,8 @@
 		</div>
 		<div id="active_inf">
 	<ul id="tabs">
-    <li><a href="#" title="tab1">프리랜서</a></li>
-    <li><a href="#" title="tab2">프로젝트</a></li>
+    <li><a href="#" title="tab1">FAQ</a></li>
+    <li><a href="#" title="tab2">E-mail 문의</a></li>
    
 </ul>
 
@@ -149,9 +149,9 @@
 	
 	</div>
 	</div>
-<%-- 	<div>
+ 	<div>
 		<%@ include file="../common/footer.jsp"%>
-	</div> --%>
+	</div> 
 	</section>
 	
 </body>
