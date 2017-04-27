@@ -5,9 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/GitPlease/common/commom_css/header.css" type="text/css" media="screen" />
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-<script type="text/javascript" src="header.js"></script>
+<script type="text/javascript" src="/GitPlease/common/common_js/header.js"></script>
 </head>
 <body>
 	<div class="header">

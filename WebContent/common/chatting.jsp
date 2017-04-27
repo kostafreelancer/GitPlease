@@ -6,10 +6,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="chatting.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="chatting_chang.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/GitPlease/common/commom_css/chatting.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/GitPlease/common/commom_css/chatting_chang.css" type="text/css" media="screen" />
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="chatting.js"></script>
+<script type="text/javascript" src="/GitPlease/common/common_js/chatting.js"></script>
 
 
 </head>
