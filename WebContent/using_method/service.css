@@ -2,7 +2,7 @@
 *::before, *::after {
     box-sizing: border-box;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article, aside, details, figcaption, figure, footer, hgroup, main, nav, section, summary {
     display: block;
 }
 .p5-clientUsage-title-img {
@@ -266,9 +266,9 @@ section{
     margin-top: 0;
 }
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 body {
     color: #555;
     font-family: "Nanum Gothic","Apple SD Gothic Neo","맑은 고딕","Malgun Gothic","AppleGothic","돋움",Dotum,Helvetica,Arial,sans-serif;
