@@ -453,12 +453,12 @@ th.tb_lef_bor,td.tb_lef_bor{ border-left:1px solid #d6d6d6}
 /* tb_st_02 */
 .tb_st02{width:100%}
 .tb_st02 th{padding:20px 5px; border-bottom:7px solid #fff;font-size:14px; background-color:#2257ad; text-align:left;font-weight:normal; font-size:18px;color:#fff; text-align:center; vertical-align:top; line-height:25px}
-.tb_st02 td{padding:20px 20px;border-bottom:7px solid #fff;font-size:14px; background-color:#eee}
+.tb_st02 td{padding-top:100px; padding:20px 20px;border-bottom:7px solid #fff;font-size:14px; background-color:#eee}
 .tb_st02 td input[type="text"]{padding:7px 0;border:1px solid #ccc; text-indent:10px;color:#666}
 .tb_st02 td input[type="radio"],.tb_st02 td input[type="checkbox"]{vertical-align:middle}
 .tb_st02 select{padding:7px 5px;border:1px solid #ccc;}
 .che_top_pa{padding-top:5px; clear:both; overflow:hidden}
-.che_top_pa li{width:153px; float:left;}
+.che_top_pa li{width:130px; float:left;}
 .che_list02{float:left;width:153px}
 .che_list02 li{ line-height:30px}
 /*.togglle{position:relative}*/
