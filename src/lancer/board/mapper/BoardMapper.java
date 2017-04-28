@@ -1,4 +1,4 @@
-package lancer.mapper.board;
+package lancer.board.mapper;
 
 public class BoardMapper {
 

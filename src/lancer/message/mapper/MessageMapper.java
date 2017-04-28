@@ -1,4 +1,4 @@
-package lancer.mapper.message;
+package lancer.message.mapper;
 
 public class MessageMapper {
 

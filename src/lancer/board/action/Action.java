@@ -1,4 +1,4 @@
-package lancer.action.board;
+package lancer.board.action;
 
 public interface Action {
 

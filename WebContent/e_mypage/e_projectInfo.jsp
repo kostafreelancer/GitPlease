@@ -15,7 +15,7 @@
 
 </head>
 <body>
-<%@include file="../common/header_enterprise.jsp" %>
+<%@include file="../c_common/header_enterprise.jsp" %>
 
 <nav class="left_menu">
 		<div class="left_menu_title">
@@ -469,6 +469,6 @@
     </div>
     </div>
 
-<%@include file="../common/footer.jsp" %>
+<%@include file="../c_common/footer.jsp" %>
 </body>
 </html>

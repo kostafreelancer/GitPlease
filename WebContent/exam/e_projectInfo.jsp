@@ -20,8 +20,8 @@
 
 </head>
 <body>
-<%@include file="../common/header_enterprise.jsp" %>
-<%@include file="../common/chatting.jsp" %>
+<%@include file="../c_common/header_enterprise.jsp" %>
+<%@include file="../c_common/chatting.jsp" %>
 <nav class="left_menu">
 		<div class="left_menu_title">
 			<h2>마이 페이지</h2>
@@ -465,6 +465,6 @@
 <!-- 프리랜서 목록 끝 -->
     </div>
 </div>
-<%@include file="../common/footer.jsp" %>
+<%@include file="../c_common/footer.jsp" %>
 </body>
 </html>
