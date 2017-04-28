@@ -4,14 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="MainCss/main.css">
-<link rel="stylesheet" href="../common/header.css">
-<link rel="stylesheet" href="../common/footer.css">
+<link rel="stylesheet" href="f_main_css/main.css">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script src="js/f_main.js"></script>
-<script src="../common/header.js"></script>
+<script src="f_main_js/f_main.js"></script>
 <!-- <script src="js/vendor/modernizr.custom.min.js"></script>
 <script src="js/vendor/jquery-1.10.2.min.js"></script>
 <script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>

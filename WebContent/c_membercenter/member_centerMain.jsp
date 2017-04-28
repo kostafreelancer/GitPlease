@@ -5,16 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="center_css/center_css.css">
-<link rel="stylesheet" href="../common/header.css">
-<link rel="stylesheet" href="../common/footer.css">
 <link rel="stylesheet"
 	href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="center_js/center_js.js"></script>
+<script src="membercenter_js/center_js.js"></script>
 
 <title>Insert title here</title>
 
