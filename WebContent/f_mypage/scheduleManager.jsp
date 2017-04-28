@@ -6,9 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>일정관리</title>
 
-<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../mypage_free_css/scheduleManager.css" type="text/css" media="screen" />
+<!-- <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" /> -->
+<link rel="stylesheet" href="f_mypage_css/scheduleManager.css" type="text/css" media="screen" />
 </head>
 <body>
 

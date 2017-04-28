@@ -4,18 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../mypage_free_css/myInfo.css" type="text/css" media="screen" />
+<!-- <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" /> -->
+<link rel="stylesheet" href="f_mypage_css/myInfo.css" type="text/css" media="screen" />
 
 <title>내 정보</title>
 
-<!-- <script type="text/javascript"
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
+
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script> 
-<script src="../common/header.js"></script>
-<script src="js/myInfo.js"></script>
-<script src="js/my.js"></script>
+<!-- <script src="../common/header.js"></script> -->
+<script src="f_mypage_js/myInfo.js"></script>
+<script src="f_mypage_js/my.js"></script>
 
 </head>
 <body>
@@ -53,9 +52,9 @@
 <div class="tb_box">
              	<h4>아이디 및 비밀번호</h4>
                 <table class="tb_st01">
-				<form name="MemberModifyFm" method="post" action="member_modify.php" enctype="multipart/form-data" onsubmit="return false;"></form>
+				<!-- <form name="MemberModifyFm" method="post" action="member_modify.php" enctype="multipart/form-data" onsubmit="return false;"></form>
 					<input type="hidden" name="EventUno" value="">
-					<input type="hidden" name="fm_keyword" value="">
+					<input type="hidden" name="fm_keyword" value=""> -->
                     <caption></caption>
                     <colgroup>
                         <col style="width:16%">

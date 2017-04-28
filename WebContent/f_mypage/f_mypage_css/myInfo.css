@@ -376,7 +376,7 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .quick img,.quick02 img{margin-bottom:10px}
 /*  ---------------------------   sub  ---------------------------------*/
 
-#content{width:1000px; margin:0 auto; padding-bottom:120px; overflow:hidden;}
+#content{width:1000px; margin:0 auto; padding-bottom:120px; overflow:hidden; margin-right:200px;}
 .content02{width:1000px; margin:0 auto; padding-bottom:0px; overflow:hidden;}
 /* sub nav ê³µí†µ */
 #nav{height:40px;background-color:#f7f4f0;}
@@ -465,7 +465,7 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .table_tit h3{ font-size:18px;color:#f05922; float:left; font-family: 'NanumGothic_b'; line-height:20px}
 .table_tit p{color:#999}
 .btn_sam{ background:url(../../images/common/bg/bg_sam.jpg) no-repeat;color:#fff;padding:8px 15px 8px 40px;margin-left:20px;line-height:14px; font-size:14px; display:inline-block; font-family: 'NanumGothic_b';}
-.tb_box{margin-bottom:30px}
+.tb_box{margin-bottom:30px;}
 .tb_box h4{color:#333;font-size:15px;font-family: 'NanumGothic_b';margin-bottom:15px}
 
 .tb_st01{border-top:2px solid #2257ad; width:100%}
@@ -504,11 +504,11 @@ a.read_more{float:right;font-size:11px; margin-top:10px;color:#666;font-family: 
 .btn_box{text-align:center;/*margin-right:15px;*/}
 .btn_check01,.btn_check02,.btn_check03,.btn_check04,.btn_check05,.btn_check06,.btn_check07,.btn_zzim{width:95px;padding:17px 0 20px 0;display:inline-block;font-size:20px;text-align:left; line-height:20px}
 .btn_check01{ background:url(../../images/common/bg/bg_check01.jpg) no-repeat;color:#fff;padding-left:50px; }
-.btn_check02{ background:url(../mypage_free_jsp/img/bg_btn_ck02.jpg) no-repeat;color:#666;padding-left:60px; }
+.btn_check02{ background:url(../f_mypage_img/bg_btn_ck02.jpg) no-repeat;color:#666;padding-left:60px; }
 .btn_check03{ background:url(../../images/common/bg/bg_btn_search.jpg) no-repeat;color:#fff;padding-left:55px; }
 .btn_check04{ background:url(../../images/common/bg/bg_btn_ok.jpg) no-repeat;color:#fff;padding-left:50px; }
 .btn_check05{ background:url(../../images/common/bg/bg_btn_list.jpg) no-repeat;color:#666;padding-left:50px; }
-.btn_check06{ background:url(../mypage_free_jsp/img/btn_modify.jpg) no-repeat;color:#fff;padding-left:50px; }
+.btn_check06{ background:url(../f_mypage_img/btn_modify.jpg) no-repeat;color:#fff;padding-left:50px; }
 .btn_check07{ background:url(../../images/common/bg/btn_copy.jpg) no-repeat;color:#666;padding-left:50px; }
 .btn_check08{ background:url(../../images/common/bg/btn_card.jpg) no-repeat;color:#fff;width:110px;padding:20px 0 20px 50px;display:inline-block;font-size:20px;text-align:left;line-height:20px}
 .btn_inter{background:url(../../images/common/bg/bg_btn_inter.jpg) no-repeat;color:#666;padding-left:50px;width:170px;color:#fff;font-size:20px;line-height:18px}

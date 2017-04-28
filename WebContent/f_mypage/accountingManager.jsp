@@ -5,16 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>회계관리</title>
-<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../mypage_free_css/accountingManager.css" type="text/css" media="screen" />
-<script src="js/jquery-1.3.2.js"></script> 
+<!-- <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" /> -->
+<link rel="stylesheet" href="f_mypage_css/accountingManager.css" type="text/css" media="screen" />
+<script src="f_mypage_js/jquery-1.3.2.js"></script> 
 
-<script src="js/accountingManager.js"></script>
-<!-- <script src="js/comma.js"></script> -->
-<script src="js/add.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/comment.js"></script>
+<script src="f_mypage_js/accountingManager.js"></script>
+<script src="f_mypage_js/add.js"></script>
+<script src="f_mypage_js/superfish.js"></script>
+<script src="f_mypage_js/comment.js"></script>
 
 
 </head>
