@@ -6,14 +6,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../insert_project/real.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="service.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../e_insertproject/e_insertproject_css/e_insertproject.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="c_using_css/service.css" type="text/css" media="screen" />
 <title>Insert title here</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
-<%@include file="../common/header_enterprise.jsp" %>
+<%@include file="../c_common/header_enterprise.jsp" %>
 <div class="left_menu">
 	<div class="left_menu_title">
 		<h2>이용방법</h2>
@@ -53,43 +53,43 @@
                   <div class="p5-clientUsage-hover-one"></div>
                 </a>
                   <div>
-                  <img src="../images/service/client_process_one_none.png">
-                  <img src="../images/service/partners_intro_arrow.png">
+                  <img src="c_using_img/client_process_one_none.png">
+                  <img src="c_using_img/partners_intro_arrow.png">
                   </div>
                   <a href="#p5-clientUsage-step-2">
                     <div class="p5-clientUsage-hover-two"></div>
                   </a>
                     <div>
-                    <img src="../images/service/client_process_two_none.png">
-                    <img src="../images/service/partners_intro_arrow.png">
+                    <img src="c_using_img/client_process_two_none.png">
+                    <img src="c_using_img/partners_intro_arrow.png">
                     </div>
                     <a href="#p5-clientUsage-step-3">
                     <div class="p5-clientUsage-hover-three"></div>
                     </a>
                     <div>
-                    <img src="../images/service/client_process_three_none.png">
-                    <img src="../images/service/partners_intro_arrow.png">
+                    <img src="c_using_img/client_process_three_none.png">
+                    <img src="c_using_img/partners_intro_arrow.png">
                     </div>
                     <a href="#p5-clientUsage-step-4">
                     <div class="p5-clientUsage-hover-four"></div>
                     </a>
                     <div>
-                    <img src="../images/service/client_process_four_none.png">
-                    <img src="../images/service/partners_intro_arrow.png">
+                    <img src="c_using_img/client_process_four_none.png">
+                    <img src="c_using_img/partners_intro_arrow.png">
                     </div>
                     <a href="#p5-clientUsage-step-5">
                     <div class="p5-clientUsage-hover-five"></div>
                     </a>
-                    <img src="../images/service/client_process_five_none.png">
+                    <img src="c_using_img/client_process_five_none.png">
                     </div>
                     </section>
                     
                     <section class="p5-clientUsage-partition">
                       <div id="p5-clientUsage-step-1" class="p5-clientUsage-step">
                       <h5 class="p5-clientUsage-step-title">
-                      <img src="../images/service/intro_one.png">
+                      <img src="c_using_img/intro_one.png">
                       <span class="p5-clientUsage-step-title-text" style="margin-left:23px;">프로젝트 등록</span>
-                      <img src="../images/slash_blue.png">
+                      <img src="c_using_img/slash_blue.png">
                       </h5>
                         <div class="p5-clientUsage-step-content">
                           <div class="p5-clientUsage-step-mainText">
@@ -102,7 +102,7 @@
                           <div class="p5-clientUsage-step-img">
 
                             <!-- 여기에 우리 사진 들어가야함! -->
-                              <img src="../images/intro_usecase_one.PNG">
+                              <img src="c_using_img/intro_usecase_one.PNG">
 
                           </div>
                           <div class="p5-clientUsage-step-info">
@@ -134,9 +134,9 @@
                       <section class="p5-clientUsage-partition">
                       <div id="p5-clientUsage-step-2" class="p5-clientUsage-step">
                       <h5 class="p5-clientUsage-step-title">
-                      <img src="../images/service/intro_two.png">
+                      <img src="c_using_img/intro_two.png">
                       <span class="p5-clientUsage-step-title-text" style="margin-left:10px;">지원자 비교, 선택</span>
-                      <img src="../images/slash_blue.png">
+                      <img src="c_using_img/slash_blue.png">
                       </h5>
                         <div class="p5-clientUsage-step-content">
                           <div class="p5-clientUsage-step-mainText">다양한 지원자들의 견적과 포트폴리오, 지원 내역 등을 한눈에 비교할 수 있습니다.</div>
@@ -147,7 +147,7 @@
                             </div>
                             <div class="p5-clientUsage-step-img">
                             <!-- 여기에 우리 사진 들어가야함! -->
-                            <img src="../images/intro_usecase_one.PNG">
+                            <img src="c_using_img/intro_usecase_one.PNG">
                             </div>
                             <div class="p5-clientUsage-step-info">
                             <div class="p5-clientUsage-step-info-line">- 각종 필터와 숨기기 기능을 통해 지원자를 효율적으로 비교할 수 있습니다.</div>
@@ -162,9 +162,9 @@
                          <section class="p5-clientUsage-partition">
                          <div id="p5-clientUsage-step-3" class="p5-clientUsage-step">
                          <h5 class="p5-clientUsage-step-title">
-                         <img src="../images/service/intro_three.png">
+                         <img src="c_using_img/intro_three.png">
                          <span class="p5-clientUsage-step-title-text" style="margin-left:10px;">미팅 및 계약</span>
-                         <img src="../images/slash_blue.png">
+                         <img src="c_using_img/slash_blue.png">
                          </h5>
                            <div class="p5-clientUsage-step-content">
                              <div class="p5-clientUsage-step-mainText">
@@ -177,7 +177,7 @@
                               </div>
                               <div class="p5-clientUsage-step-img">
                               <!-- 여기에 우리 사진 들어가야함! -->
-                              <img src="../images/intro_usecase_one.PNG">
+                              <img src="c_using_img/intro_usecase_one.PNG">
                               </div>
                               <div class="p5-clientUsage-step-info">
                               <div class="p5-clientUsage-step-info-line">- 미팅은 온라인 미팅(skype, 카카오톡 등) / 오프라인 대면 미팅이 가능합니다.</div>
@@ -191,9 +191,9 @@
                           <section class="p5-clientUsage-partition">
                           <div id="p5-clientUsage-step-4" class="p5-clientUsage-step">
                           <h5 class="p5-clientUsage-step-title">
-                          <img src="../images/service/intro_four.png">
+                          <img src="c_using_img/intro_four.png">
                           <span class="p5-clientUsage-step-title-text" style="margin-left:10px;">프로젝트 진행</span>
-                          <img src="../images/slash_blue.png">
+                          <img src="c_using_img/slash_blue.png">
                           </h5>
                             <div class="p5-clientUsage-step-content">
                               <div class="p5-clientUsage-step-mainText">프로젝트 진행 중에도 위시켓이 함께합니다.</div>
@@ -204,7 +204,7 @@
                                 </div>
                                 <div class="p5-clientUsage-step-img">
                                 <!-- 여기에 우리 사진 들어가야함! -->
-                                <img src="../images/intro_usecase_one.PNG">
+                                <img src="c_using_img/intro_usecase_one.PNG">
                                 </div>
                                 <div class="p5-clientUsage-step-info">
                                 <div class="p5-clientUsage-step-info-line">- 프로젝트 대금을 입금 해주시면 프로젝트가 시작됩니다.</div>
@@ -223,15 +223,15 @@
                           <section class="p5-clientUsage-partition last-child-ie7">
                           <div id="p5-clientUsage-step-5" class="p5-clientUsage-step">
                           <h5 class="p5-clientUsage-step-title">
-                          <img src="../images/service/intro_five.png">
+                          <img src="c_using_img/intro_five.png">
                           <span class="p5-clientUsage-step-title-text" style="margin-left:11px;">프로젝트 완료</span>
-                          <img src="../images/slash_blue.png">
+                          <img src="c_using_img/slash_blue.png">
                           </h5>
                             <div class="p5-clientUsage-step-content">
                               <div class="p5-clientUsage-step-mainText">클라이언트와 파트너의 승인 후에 프로젝트가 완료되며, 상호간의 만족도 평가를 합니다.</div>
                               <div class="p5-clientUsage-step-img">
                               <!-- 여기에 우리 사진 들어가야함! -->
-                              <img src="../images/intro_usecase_one.PNG">
+                              <img src="c_using_img/intro_usecase_one.PNG">
                               </div>
                               <div class="p5-clientUsage-step-info">
                               <div class="p5-clientUsage-step-info-line">- 프로젝트 완료 후에, 프로젝트 대금이 파트너에게 전달됩니다.</div>
@@ -249,6 +249,6 @@
                             </section>
                           </div>
 
-<%@include file="../common/footer.jsp" %>
+<%@include file="../c_common/footer.jsp" %>
 </body>
 </html>

@@ -6,12 +6,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../insert_project/real.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="service.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../e_insertproject/e_insertproject_css/e_insertproject.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="c_using_css/service.css" type="text/css" media="screen" />
 <title>Insert title here</title>
 </head>
 <body>
-<%@include file="../common/header.jsp" %>
+<%@include file="../c_common/header.jsp" %>
 
 <div class="left_menu">
 	<div class="left_menu_title">
@@ -49,10 +49,10 @@
             
             <section class="p5-serviceIntroduction-partition">
             <h5 class="p5-serviceIntroduction-title service-Introduction-first-title">
-            <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">드림랜서이란?
+            <img class="p5-serviceIntroduction-title-img" src="c_using_img/bookmark.png">드림랜서이란?
             </h5>
               <div class="p5-serviceIntroduction-breif-info">
-                <div class="p5-serviceIntroduction-breif-img"><img src="../images/intro_service.PNG"></div>
+                <div class="p5-serviceIntroduction-breif-img"><img src="c_using_img/intro_service.PNG"></div>
                   <div class="p5-serviceIntroduction-breif-text"><p><b>드림랜서(DreamLancer)</b>은<br>기업의 프로젝트와 개발회사 & 프리랜서를<br>이어주는<b>온라인 아웃소싱 플랫폼</b>입니다.</p>
                   </div>
                   </div>
@@ -60,40 +60,40 @@
             
             <section class="p5-serviceIntroduction-partition">
             <h5 class="p5-serviceIntroduction-title">
-            <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">왜 드림랜서인가?
+            <img class="p5-serviceIntroduction-title-img" src="c_using_img/bookmark.png">왜 드림랜서인가?
             </h5>
               <div class="p5-serviceIntroduction-list">
                 <div class="p5-serviceIntroduction-list-component">
                   <div class="p5-serviceIntroduction-list-text">
-                  <h5 class="p5-serviceIntroduction-list-title">빠르다<img class="p5-slash" src="../images/slash_blue.png">
+                  <h5 class="p5-serviceIntroduction-list-title">빠르다<img class="p5-slash" src="c_using_img/slash_blue.png">
                   </h5>
                   <p>크라우딩 방식의 비공개 지원 시스템을 통해 빠른 지원자 모집이 가능합니다.<br>2시간내에 첫 지원자를 만나볼 수 있고, 24시간 내에 평균 5명의 지원자가<br>발생합니다.
                   </p>
                   </div>
                   <div class="p5-serviceIntroduction-list-img">
-                  <img src="../images/intro_good_one.png">
+                  <img src="c_using_img/intro_good_one.png">
                   </div>
                 </div>
                 <div class="p5-serviceIntroduction-list-component">
                   <div class="p5-serviceIntroduction-list-text">
-                  <h5 class="p5-serviceIntroduction-list-title">믿을 수 있다<img class="p5-slash" src="../images/slash_blue.png">
+                  <h5 class="p5-serviceIntroduction-list-title">믿을 수 있다<img class="p5-slash" src="c_using_img/slash_blue.png">
                   </h5>
                   <p>지원자들의 견적, 프로필과 포트폴리오를 한 눈에 비교할 수 있습니다<br>지원자들이 실제로 진행했던 프로젝트 기록과 다른 클라이언트들이 남긴<br>평가를 확인 할 수 있습니다.
                   </p>
                   </div>
                   <div class="p5-serviceIntroduction-list-img">
-                  <img src="../images/intro_good_two.png">
+                  <img src="c_using_img/intro_good_two.png">
                   </div>
                 </div>
                 <div class="p5-serviceIntroduction-list-component">
                   <div class="p5-serviceIntroduction-list-text">
-                  <h5 class="p5-serviceIntroduction-list-title">안전하다<img class="p5-slash" src="../images/slash_blue.png">
+                  <h5 class="p5-serviceIntroduction-list-title">안전하다<img class="p5-slash" src="c_using_img/slash_blue.png">
                   </h5>
                   <p>에스크로 형태의 대금보호 시스템을 통해 프로젝트 대금을 안전하게<br>보호합니다. 프로젝트 진행 중 작업자와의 커뮤니케이션을 도우며,<br>대한상사중재원을 통해 분쟁을 해결해 드립니다.
                   </p>
                   </div>
                   <div class="p5-serviceIntroduction-list-img">
-                  <img src="../images/intro_good_three.png">
+                  <img src="c_using_img/intro_good_three.png">
                   </div>
                 </div>
               </div>
@@ -101,12 +101,12 @@
               
               <section class="p5-serviceIntroduction-partition">
               <h5 class="p5-serviceIntroduction-title">
-              <img class="p5-serviceIntroduction-title-img" src="../images/bookmark.png">드림랜서 이용사례
+              <img class="p5-serviceIntroduction-title-img" src="c_using_img/bookmark.png">드림랜서 이용사례
               </h5>
               <div class="p5-serviceIntroduction-list">
                  <div class="p5-serviceIntroduction-list-component-right">
                    <div class="p5-serviceIntroduction-list-img">
-                   <img src="../images/intro_usecase_one.PNG">
+                   <img src="c_using_img/intro_usecase_one.PNG">
                    </div>
                    <div class="p5-serviceIntroduction-list-text">
                      <div class="p5-serviceIntroduction-list-text-wrapper">
@@ -118,7 +118,7 @@
                  </div>
                  <div class="p5-serviceIntroduction-list-component-right">
                    <div class="p5-serviceIntroduction-list-img">
-                   <img src="../images/intro_usecase_two.PNG">
+                   <img src="c_using_img/intro_usecase_two.PNG">
                    </div>
                    <div class="p5-serviceIntroduction-list-text">
                      <div class="p5-serviceIntroduction-list-text-wrapper">
@@ -131,7 +131,7 @@
                  </div>
                  <div class="p5-serviceIntroduction-list-component-right">
                    <div class="p5-serviceIntroduction-list-img">
-                   <img src="../images/intro_usecase_three.PNG">
+                   <img src="c_using_img/intro_usecase_three.PNG">
                    </div>
                    <div class="p5-serviceIntroduction-list-text">
                      <div class="p5-serviceIntroduction-list-text-wrapper">
@@ -152,6 +152,6 @@
 
 
 
-<%@include file="../common/footer.jsp" %>
+<%@include file="../c_common/footer.jsp" %>
 </body>
 </html>
