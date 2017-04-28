@@ -5,15 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="css/e_info.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/e_leftmenu.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/star.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" /> 
+<link rel="stylesheet" href="e_mypage_css/e_info.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="e_mypage_css/e_leftmenu.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="e_mypage_css/star.css" type="text/css" media="screen" />
 
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="js/e_info_star.js"></script>
-<!-- <script type="text/javascript" src="../common/header.js"></script> -->
+<script type="text/javascript" src="e_mypage_js/e_info_star.js"></script>
 
 </head>
 <body>
@@ -136,7 +133,7 @@
 	    </colgroup>
 		<tr>
         	<td rowspan="5">
-	            <img name="IMG1" id="IMG1" src="img/item_noimage.gif">
+	            <img name="IMG1" id="IMG1" src="e_mypage_img/item_noimage.gif">
 				<div class="filebutton">
 					<span>사진업로드</span>
 					<input type="file" name="fm_file1" onchange="readURL(this);" class="searchfile" title="파일 찾기" style="width:820px;">

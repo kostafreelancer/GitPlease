@@ -6,15 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
-<link rel="stylesheet" href="css/e_project.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/e_leftmenu.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-
- 
+<link rel="stylesheet" href="e_mypage_css/e_project.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="e_mypage_css/e_leftmenu.css" type="text/css" media="screen" /> 
  
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="e_mypage_js/tabs.js"></script>
 
 </head>
 <body>

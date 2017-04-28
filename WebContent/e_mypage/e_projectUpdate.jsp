@@ -6,11 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 										<!-- 	프로젝트인포 css 사용함    -->
-<link rel="stylesheet" href="css/e_projectInfo.css" type="text/css" media="screen" />
-
-<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/e_leftmenu.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="e_mypage_css/e_projectInfo.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="e_mypage_css/e_leftmenu.css" type="text/css" media="screen" />
 
 
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>

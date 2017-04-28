@@ -192,7 +192,7 @@ img, fieldset {
 }
 
 .btn_check02 {
-    background: url(../img/bg_btn_ck02.jpg) no-repeat;
+    background: url(../e_mypage_img/bg_btn_ck02.jpg) no-repeat;
     color: #666;
     width: 95px;
     padding: 17px 0 20px 60px;
@@ -204,7 +204,7 @@ img, fieldset {
 }
 
 .btn_check06 {
-    background: url(../img/btn_modify.jpg) no-repeat;
+    background: url(../e_mypage_img/btn_modify.jpg) no-repeat;
     color: #fff;
     width: 95px;
     padding: 17px 0 20px 50px;

@@ -188,7 +188,7 @@ section td{
 }
 
 .first {
-    background: #fff url(../img/bg_first.jpg) center 10px no-repeat;
+    background: #fff url(../e_mypage_img/bg_first.jpg) center 10px no-repeat;
     text-indent: -9999px;
     overflow: hidden;
     border: 1px solid #999;
@@ -196,7 +196,7 @@ section td{
 }
 
 .num_box .last {
-    background: #fff url(../img/bg_last.jpg) center 10px no-repeat;
+    background: #fff url(../e_mypage_img/bg_last.jpg) center 10px no-repeat;
     text-indent: -9999px;
     overflow: hidden;
     border: 1px solid #999;
