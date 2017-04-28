@@ -11,10 +11,10 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import kosta.mapper.BoardMapper;
 
-public class BoardDao {
-	private static BoardDao dao = new BoardDao();
+public class MypageDao {
+	private static MypageDao dao = new MypageDao();
 
-	public static BoardDao getInstance() {
+	public static MypageDao getInstance() {
 		return dao;
 	}
 

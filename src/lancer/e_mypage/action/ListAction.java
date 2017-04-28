@@ -13,7 +13,7 @@ public class ListAction implements Action {
 
 	@Override
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		BoardDao dao = BoardDao.getInstance();
+		MypageDao dao = MypageDao.getInstance();
 		
 		Search search = new Search();
 		search.setArea(request.getParameterValues("area"));

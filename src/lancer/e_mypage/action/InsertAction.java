@@ -10,7 +10,7 @@ public class InsertAction implements Action {
 
 	@Override
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception{
-		BoardDao dao = BoardDao.getInstance();
+		MypageDao dao = MypageDao.getInstance();
 		Board board = new Board();
 		
 		request.setCharacterEncoding("utf-8");

@@ -1,4 +1,4 @@
-package lancer.controller;
+package lancer.e_mypage.controller;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

@@ -20,7 +20,7 @@ public class DetailAction implements Action {
 			System.out.println("글번호 " + seq );
 		}
 		
-		BoardDao dao = BoardDao.getInstance();
+		MypageDao dao = MypageDao.getInstance();
 		Board board = dao.detailBoard(seq);
 		
 		request.setCharacterEncoding("utf-8");
