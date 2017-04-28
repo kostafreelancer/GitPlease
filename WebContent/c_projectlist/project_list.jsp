@@ -4,31 +4,32 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="../join/join.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../join/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../c_join/c_join_css/join.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../c_join/c_join_css/reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<title>프리랜서 목록</title>
+<title>프로젝트 목록</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
-<%@include file="../common/header.jsp" %>
-    <div  id="conainer">
+<%@include file="../c_common/header.jsp" %>
+
+	<div  id="conainer">
     	<div id="nav">
         	<div class="nav_txt">
             	<p>
                 	<a href="/index.php">Home</a>
                     <span class="padd">&gt;</span>
-                	<span>프리랜서 목록</span>
+                	<span>프로젝트 목록</span>
             	</p>
             </div>
         </div>
         <!-- //nav : e -->
         <div id="content">
         	<div class="tit_box">
-            	<h2>프리랜서 목록</h2>
-                <p class="tit_txt">인성과 실력이 검증된 프리랜서를 찾고 계신가요?<span>검증된 IT 인재, 드림랜서에서 찾아보세요.</span></p>
+            	<h2>프로젝트 목록</h2>
+                <p class="tit_txt">프로젝트를 찾고 계신가요?<span>드림랜서가 엄선한 다양한 프로젝트를 만나보세요!</span></p>
             </div>
             <!-- //tit_box : e -->
 	<div class="project_list_filter" style="float:left">
@@ -168,257 +169,362 @@
             </div>
 	</div>
 			</form>
-            <div class="tb_box" id="Member_list" style="float: left; width: 770px;">
-            	<p class="tb_tip"><span class="txt_or">TIP!</span> 드림랜서검색은 <span class="txt_or">1.경력기술서 수정일</span> 2.업무가능일 3.최근접속일 4.회원정보수정일 순으로 노출 됩니다.</p>
-            	<table class="tb_st01 tb_st03" >
-                	<caption>프리랜서 검색 : 회원정보, 등급, 이력사항, 희망지역, 근무형태, 엠블럽으로 구성된 표</caption>
-                    <colgroup>
-                    	<col style="width:25%" />
-                        <col style="width:*" />
-                    </colgroup>
-                    <thead>
-                    	<tr>
-                        	<th scope="col">회원정보</th>
-                            <th scope="col">이력사항</th>
-                        </tr> 
-                    </thead>
-					<tbody>
-			<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1MTA5Mg==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1MTA5Mg==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1MTA5Mg==">
-                                <strong>yks*****</strong>.
-                                <p>("손OO","30세")</p>
-								</a>
-                                </div>
-                            </td>
-							
-                            <td class="last">
-                            	<p class="al txt12">, , ANDROID, ASP.NET, DELPHI, HTML, JAVA, POWER BUILDER, HTML5, 웹표준, 퍼블리싱, 포토샵편집, MIPLATFORM, MVC, OZREPORT, XPLATFORM, 웹접근성, 전자정부프레임워크, </p>
-                                <p class="txt_or">2년 10개월 / 대학(학사) 졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0MzY3OQ==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0MzY3OQ==');" class="tooltip" data-tooltip="Silver">
-                            <img src="/n_images/Silver.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0MzY3OQ==">
-                                <strong>seg*****</strong>.
-                                <p>("최OO","35세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, JAVA,ANDROID, </p>
-                                <p class="txt_or">11년 5개월 / 전문대(전문학사)  졸업</p>
-                            </td>								
-                        </tr>
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEyMzgwMw==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEyMzgwMw==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEyMzgwMw==">
-                                <strong>asp**</strong>.
-                                <p>("박OO","42세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , ASP, DB, JAVA, JSP, PHP, </p>
-                                <p class="txt_or">16년 10개월 / 대학(학사) 졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1NjU4OA==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1NjU4OA==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1NjU4OA==">
-                                <strong>qmd*****</strong>.
-                                <p>("진OO","30세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , DB, JSP, LINUX, PYTHON, WINDOWS, DW, HADOOP, 빅데이터, </p>
-                                <p class="txt_or">2년 10개월 / 전문대(전문학사)  졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1MDU4MA==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1MDU4MA==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1MDU4MA==">
-                                <strong>mir***</strong>.
-                                <p>("배OO","29세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , .NET, ASP, ASP.NET, C#, ERP, MFC, </p>
-                                <p class="txt_or">6년 7개월 / 대학(학사) 졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0NDgwMA==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0NDgwMA==');" class="tooltip" data-tooltip="Orange">
-                            <img src="/n_images/Orange.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0NDgwMA==">
-                                <strong>pju*******</strong>.
-                                <p>("박OO","34세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , JAVA, JS, JSP, AJAX, JEUS, JSTL, MIPLATFORM, MVC, STRUTS, WEBLOGIC, XPLATFORM, 웹접근성, 전자정부프레임워크, </p>
-                                <p class="txt_or">4년 1개월 / 대학(학사) 졸업</p>
-                            </td>
- </tr>
+            <div class="tb_box tb_top" style="float: left; width: 770px;">
+			<table class="tb_st01 tb_st03 tb_box_font">
+				<caption>전체 : 전문분야, 등급, 프로젝트정보, 근무조건, 마감일자, 상태로 구성된 표</caption>
+				<colgroup>
+					<col style="width:*" />
+					<col style="width:10%" />
+					<col style="width:10% " />
+					<col style="width:11%" />
+					<col style="width:10%" />
+					<col style="width:11%" />
+				</colgroup>
+				<thead>
+				<th scope="col">프로젝트</th>
+				<th scope="col">모집분야</th>
+				<th scope="col">계약기간</th>
+				<th scope="col">근무지</th>
+				<th scope="col">예상금액</th>
+				<th scope="col" class="last">마감일</th>
+				</thead>
+				<tbody>
+
+											<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1FMTBJOTYwJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[등급무관/Unity 3D/선릉/7개월] <br> Unity 기반 시뮬레이션용 3D 그래픽 데이터를 생성</a>																			</p>
+
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1FMTBJOTYwJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">   등급무관/Unity D/선릉/개월 Unity 기반 시뮬레이션용 D 그래픽 데이터를 생성
+
+ 담당업무 
+ Unity 기반 시뮬레이션용 D 그래픽 데이터를 생성하는 일입니다 
+ Unity 엔진으로 만든 시뮬레이션용 가상현실에 들어갈 요소를 DS MAX를 이
+   용하여 모델링 하는 작업
+ DS Max를 사용하는 캐릭터 배경 모델러 맵핑을 구...</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball04">UNITY</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>7개월</td>
+								<td>서울<br> 강남구</td>
+								<td>가격제안</td>
+								<td class="last finish">
+									<strong>3</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1CODZBMDQyJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[무관/기타/3개월/청담동] <br>SasS 기반 웹서비스 개발</a>																			</p>
+									
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1CODZBMDQyJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">
+ SaaS 기반 웹서비스의 Front 혹은 Backend 를 개발해 주시면 됩니다
+  저희 내부 개발자 분과 협업하여 진행하게 되며 협의와 경험경력에 따라 front 혹은 Backend 를 요청하
+  겠습니다
+ 실시간 서비스도 일부 포함 되어 있기 때문에 이를 만족시키기 위한 언어 및 서버 환경이 필요합니다nodejs
+ nodejs expre...</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball05">REACT.JS</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>3.0개월</td>
+								<td>서울 <br>강남구</td>
+								<td>비공개</td>
+								<td class="last finish">
+									<strong>8</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1JNjFLNzc1JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[중급~고급/C#/5개월/화성] <br>수율분석시스템(YMS)</a>																			</p>
+								
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1JNjFLNzc1JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">   중급고급/C/개월/화성 수율분석시스템YMS
  
+  현재 개발 진행사항 
+  총 투입인력  
+  현재 설계 개발 상태 
  
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEzMTU5Mw==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEzMTU5Mw==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEzMTU5Mw==">
-                                <strong>fut******</strong>.
-                                <p>("김OO","46세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , ASP, DB, HTML, JAVA, JS, JSP, LINUX, PM, AJAX, JEUS, MVC, 반응형웹, 웹접근성, 전자정부프레임워크, 프레젠테이션, </p>
-                                <p class="txt_or">20년  / 전문대(전문학사)  졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1OTI3MQ==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1OTI3MQ==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE1OTI3MQ==">
-                                <strong>jik*****</strong>.
-                                <p>("강OO","39세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , CSS, HTML, HTML5, 웹디자인, </p>
-                                <p class="txt_or">12년 3개월 / 대학(학사) 졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDU3MA==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDU3MA==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDU3MA==">
-                                <strong>rbd***</strong>.
-                                <p>("이OO","33세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , DB, BI, DW, </p>
-                                <p class="txt_or">5년  / 전문대(전문학사)  졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEzODU5NA==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEzODU5NA==');" class="tooltip" data-tooltip="Orange">
-                            <img src="/n_images/Orange.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTEzODU5NA==">
-                                <strong>fre****</strong>.
-                                <p>("이OO","40세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">, , 그래픽디자인, 웹디자인, 파워포인트, 포토샵편집, PM, 기획, 모바일기획, 웹기획, </p>
-                                <p class="txt_or">10년 7개월 / 대학원(석사) 졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDU0Mg==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDU0Mg==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDU0Mg==">
-                                <strong>Ran***</strong>.
-                                <p>("윤OO","28세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">CSS, DB, HTML, JAVA, JS, JSP, LINUX, SERVER개발, AJAX, GIT, JSTL, SWING, WEBLOGIC, 카드, 하이브리드앱</p>
-                                <p class="txt_or">3년 2개월 / 대학(학사) 졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0MzI0MA==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0MzI0MA==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE0MzI0MA==">
-                                <strong>ggu******</strong>.
-                                <p>("유OO","48세")</p>
-								</a>
-                                </div>
-                            </td> 
-                            <td class="last">
-                            	<p class="al txt12">, , .NET, C, C#, C++, DB, NETWORK, SERVER개발, VC++, WINDOWS, PM, PMO, 기획, MFC, 프레젠테이션, </p>
-                                <p class="txt_or">20년 8개월 / 대학(학사) 졸업</p>
-                            </td>
-                        </tr>
-                        
-                        
-<tr onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDUzMw==');" style="cursor:pointer;">
-                        	<td class="img_box">
-							<a href="#none" onclick="javascript:getDetail('cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDUzMw==');" class="tooltip" data-tooltip="Basic">
-                            <img src="/n_images/Basic.jpg"  class="fl" width="50px"/></a>
-                           		<div class="name">
-								<a href="view.php?fm_str=cGFnZT0xJmluY3JlbWVudD0wJnVzZXJfbm89MTE2MDUzMw==">
-                                <strong>toy****</strong>.
-                                <p>("신OO","38세")</p>
-								</a>
-                                </div>
-                            </td>
-                            <td class="last">
-                            	<p class="al txt12">.NET, C#, DB</p>
-                                <p class="txt_or">10년  / 대학(학사) 졸업</p>
-                            </td>
-                        </tr>
+  담당업무 
+  개발
+  
+ 
+     SI
+ 
+  전달사항 또는 개발 우대사항 
+  근면성실하신 분 
+  대인 커뮤니케이션 능력이 우수하고 책임감이 있으신 분 
+  Third Party   TeeC...</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball06">C#</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>5개월</td>
+								<td>경기 <br>화성시</td>
+								<td>가격제안</td>
+								<td class="last finish">
+									<strong>15</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1KMTlFMTU4JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[고급/PM/5개월/서울역] <br>공공기관 LMS 구축 프로젝트</a>																			</p>
+									
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1KMTlFMTU4JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">   고급/PM/개월/서울역 공공기관 LMS 구축 프로젝트
+ 
+  현재 개발 진행사항 
+  총 투입인력  
+  현재 설계 개발 상태 
+ 
+  담당업무 
+  PM
+  
+ 
+     PM
+ 
+  전달사항 또는 개발 우대사항 
+  근면성실하신 분 
+  대인 커뮤니케이션 능력이 우수하고 책임감이 있으신 분 
+  공공기관 경력자
+  ...</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball03">PM</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>4.5개월</td>
+								<td>서울<br>용산구</td>
+								<td>협의가능</td>
+								<td class="last finish">
+									<strong>22</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1QNDVDOTczJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[무관/MFC,C++/1개월/가산]<br>멀티미디어 플레이어에 FFMPEG HW accelator 적용</a>																			</p>
+									
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1QNDVDOTczJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">
+ FFMPEG S/W decoding을 H/W accelator를 사용한 성능 개선
+
+  
+ FFMPEG 성능 향상을 위한 제반 사항
 
 
-                    </tbody>
+  
+
+
+ 
+
+  
+ FFMPEG 유경험자
+ MFC
+ H/W Accelator 적용 가능자
+
+   가산 디지털 단지역 근처
+
+</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball06">C</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>1개월</td>
+								<td>서울<br>금천구</td>
+								<td>비공개</td>
+								<td class="last finish">
+									<strong>15</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1TNDFOMTc2JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[초급/퍼블리싱/용산/3개월]<br> 쇼핑몰 백오피스 퍼블리싱</a>																			</p>
+									
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1TNDFOMTc2JnBhZ2U9MSZpbmNyZW1lbnQ9MA=="> 
+ 백오피스 퍼블리싱  
+ 상품 전시관리
+ 파트너 관리
+ 카테고리관리
+ 상품관리
+ 주문관리
+ 협력사 SCM  협력사의 관리 화면 
+ Admin 메인화면/로그인 통계
+ CS관리
+ 매출통계관리
+ 공통모듈 
+
+    년차년차 
+
+ 개발자 필요 Spec 
+ 퍼블리싱
+ 쇼핑몰 경험자 우대
+
+      서울 용산구 
+
+ </a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball02">퍼블리싱</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>3개월</td>
+								<td>서울<br>용산구</td>
+								<td>930 만원</td>
+								<td class="last finish">
+									<strong>10</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1YMjZMMjc3JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[무관/JAVA/3개월/논현동/2명] <br>해외 B2B 커머스(쇼핑몰) 웹 구축</a>																			</p>
+
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1YMjZMMjc3JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">
+구축 개발
+
+   커머스쇼핑몰 사이트웹 구축개발
+
+  
+ Thymeleaf 유경험자
+
+ 
+
+  
+ Thymeleaf서버 템플릿 엔진 유경험자
+ Java  Git형상관리Spring
+ 담당 분야의 DB 설계 필요예 게시판을 맡고 있으면 관련 설계 필요
+ AWS 운영 경험자instance Elb s route우대 
+
+   강남구...</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball05">JAVA</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>3개월</td>
+								<td>서울<br>강남구</td>
+								<td>비공개</td>
+								<td class="last finish">
+									<strong>13</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1aNTRVMTM5JnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[초중급/퍼블리싱/3개월/여의도]<br> 금융권 웹페이지 퍼블리싱</a>																			</p>
+								
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1aNTRVMTM5JnBhZ2U9MSZpbmNyZW1lbnQ9MA=="> 초중급/퍼블리싱/개월/여의도 금융권 웹페이지 퍼블리싱
+
+ 현재 개발 진행사항 
+ 총 투입인력 
+ 현재 설계 개발 상태 
+
+ 담당업무 
+ 금융권 프로젝트이며 전체 사이트가 아닌 중고차 판매 카테고리에 대해서만 업무 진행
+ 프론트페이지 본이내
+   퍼블리싱은 고객 가이드 준수 별도 교육 또는 소스 설명 받은 후 진행
+
+    퍼블리싱
+...</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball04">자바스크립트</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>3개월</td>
+								<td>서울<br>영등포구</td>
+								<td>협의가능</td>
+								<td class="last finish">
+									<strong>1</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1XNzRWMzcwJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[중급이상/JAVA,JSP/모바일웹/잠실역/4개월/3명] <br>모바일웹 개발</a>																			</p>
+								
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1XNzRWMzcwJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">
+모바일웹 개발
+
+  
+  모바일웹 개발
+
+  
+
+
+  
+
+  
+JAVA JSP모바일웹 경험
+
+
+   잠실
+
+</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball05">JAVA</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>4개월</td>
+								<td>서울<br>송파구</td>
+								<td>비공개</td>
+								<td class="last finish">
+									<strong>3</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								<td class="al">
+																		<p class="infor_txt" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+										<a href="view.php?fm_str=cHJvamVjdGtleT1JOTVSNTAyJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">[등급무관/디자인/삼성동/1개월] <br>KEK eSports 모바일앱 디자인 리뉴얼</a>																			</p>
+									
+									<p class="ell_hidd"> <a href="view.php?fm_str=cHJvamVjdGtleT1JOTVSNTAyJnBhZ2U9MSZpbmNyZW1lbnQ9MA==">
+ 모바일앱의 UI/UX 디자인
+ 기존의 디자인 구조를 유지하면서 퀄리티를 높이는 작업
+
+   모바일앱 웹사이트 디자인 기타 서비스 홍보관련 이미지 작업  BI 수정작업 
+
+  
+ 이스포츠eSports에 대한 이해도가 있으신 분
+ 이스포츠eSports을 즐기시는 Fan 우대
+
+ 
+
+  
+ 모바일앱 UI/UX 작업 경력필수
+ 상용...</a></p>
+								</td>
+								<td class="ac">
+									<div class="tb_ball02">모바일</div>
+								</td>
+								<!-- 2017.02.03 수정
+								<td></td>
+								-->
+								<td>1개월</td>
+								<td>서울<br>강남구</td>
+								<td>400 만원</td>
+								<td class="last finish">
+									<strong>3</strong><span>일후</span>								</td>
+							</tr>
+														<tr>
+								
+							</tr>
+											</tbody>
                </table>
             </div>
             <!-- //tb_box : e -->   
@@ -657,6 +763,6 @@
 a[href*=view]:after{font-size: 13px;}
 </style>
 
-<%@include file="../common/footer.jsp" %>
+<%@include file="../c_common/footer.jsp" %>
 </body>
 </html>

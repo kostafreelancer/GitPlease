@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="../join/join.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../join/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../c_join/c_join_css/join.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../c_join/c_join_css/reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <title>로그인</title>
@@ -14,7 +14,7 @@
 </head>
 
 <body onload = 'document.MemberLoginFm.fm_id.focus();'>
-<%@include file="../common/header.jsp" %>
+<%@include file="../c_common/header.jsp" %>
     <div  id="conainer">
     	<div id="nav">
         	<div class="nav_txt">
@@ -71,6 +71,6 @@
   
 </div>
 <!-- //wrap : e -->
-<%@include file="../common/footer.jsp" %>
+<%@include file="../c_common/footer.jsp" %>
 </body>
 </html>
