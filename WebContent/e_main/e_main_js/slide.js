@@ -94,7 +94,7 @@ $(function(){
 		timer = setInterval(function() {
 			var nextIndex = (currentIndex + 1) % slideCount;
 			goToSlide(nextIndex);
-		}, 2000);			
+		}, 5000);			
 	}
 	
 	//타이머 중지함수

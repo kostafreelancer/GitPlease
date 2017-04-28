@@ -11,9 +11,11 @@
 	background-color: inherit;
 	border:1px solid lightgray;
 	float:left;
-	padding: 15px;
+	padding: 0;
 	width: 50%;
+	
 }
+
 
 .tab button.active {
     background-color: #ccc;
@@ -34,7 +36,7 @@
 	margin-left:150px;
 }
 
-.c_main_content_ul li{
+.e_main_content_ul li{
 	display: inline-block;
 	list-style-type:none;
 	padding: 15px;
