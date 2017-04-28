@@ -47,7 +47,7 @@ function drawMultSeries() {
    </script>
 </head>
 <body>
-	<%@ include file="../common/header.jsp" %>
+	<%@ include file="../c_common/header.jsp" %>
 	<section id="slides">
 	<div class="main_slide">
 		<div class="slideshow_images">			
@@ -131,7 +131,7 @@ function drawMultSeries() {
 		</div>
 	</div>
 	</section>
-	<%@ include file="../common/footer.jsp" %>
+	<%@ include file="../c_common/footer.jsp" %>
 
 </body>
 </html>

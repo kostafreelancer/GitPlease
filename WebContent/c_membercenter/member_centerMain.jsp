@@ -17,7 +17,7 @@
 
 </head>
 <body>
-	<%@include file="../common/header.jsp"%>
+	<%@include file="../c_common/header.jsp"%>
 
 	<section>
 
@@ -147,7 +147,7 @@
 	</div>
 	</div>
  	<div>
-		<%@ include file="../common/footer.jsp"%>
+		<%@ include file="../c_common/footer.jsp"%>
 	</div> 
 	</section>
 	
