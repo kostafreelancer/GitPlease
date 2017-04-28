@@ -5,25 +5,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="/GitPlease/common/commom_css/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/GitPlease/c_common/c_common_css/header.css" type="text/css" media="screen" />
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-<script type="text/javascript" src="/GitPlease/common/common_js/header.js"></script>
+<script type="text/javascript" src="/GitPlease/c_common/c_common_js/header.js"></script>
 </head>
 <body>
 	<div class="header">
 		<div class="header_top_menu">
 				<ul	class="header_top_menus">
 					<li>
-						<img alt="center_img" src="/GitPlease/images/header_center_icon.jpg">
+						<img alt="center_img" src="/GitPlease/c_common/c_common_img/header_center_icon.jpg">
 						<a href="/GitPlease/member_center/member_centerMain.jsp">고객 센터</a>
 					</li>
 			
 					<li>
-						<img alt="log_img" src="/GitPlease/images/header_log_icon01.jpg">
+						<img alt="log_img" src="/GitPlease/c_common/c_common_img/header_log_icon01.jpg">
 						<a href="/GitPlease/f_main/f_main.jsp">로그 아웃</a>
 					</li>
 					<li>
-						<img alt="home_img" src="/GitPlease/images/header_home_icon01.jpg">
+						<img alt="home_img" src="/GitPlease/c_common/c_common_img/header_home_icon01.jpg">
 						<a href="/GitPlease/c_main/c_main.jsp">홈</a>
 					</li>
 				</ul>

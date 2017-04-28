@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<link rel="stylesheet" href="/GitPlease/common/commom_css/footer.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/GitPlease/c_common/c_common_css/footer.css" type="text/css" media="screen" />
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -50,7 +50,7 @@
 			</ul>
 			
 			<div class="footer_icon">
-				<img alt="footer_icon" src="/GitPlease/images/footer_icon.jpg">
+				<img alt="footer_icon" src="/GitPlease/c_common/c_common_img/footer_icon.jpg">
 			</div>			
 		</div>	<!--footer_content 끝 -->
 		

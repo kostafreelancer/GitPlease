@@ -6,17 +6,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="/GitPlease/common/commom_css/chatting.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="/GitPlease/common/commom_css/chatting_chang.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/GitPlease/c_common/c_common_css/chatting.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/GitPlease/c_common/c_common_css/chatting_chang.css" type="text/css" media="screen" />
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="/GitPlease/common/common_js/chatting.js"></script>
+<script type="text/javascript" src="/GitPlease/c_common/c_common_js/chatting.js"></script>
 
 
 </head>
 <body>
 	<div class="chatting">
 		<div class="chatting_Detail">
-			<img class ="chatting_img" alt="catting_open" src="/GitPlease/images/chatting.PNG">
+			<img class ="chatting_img" alt="catting_open" src="/GitPlease/c_common/c_common_img/chatting.PNG">
 			<p>채팅 문의</p>
 		</div>
 	</div>
